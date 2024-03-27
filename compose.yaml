@@ -1,0 +1,29 @@
+version: "latest"
+
+services:
+  szeyuan:
+    build:
+      context: ./
+      platforms:
+        - "linux/arm64"
+      dockerfile: "Dockerfile"
+    image: "szeyuan/humble/ela2.0"
+    command: /bin/bash
+    # stdin_open: true
+    stdin_open: true # docker run -i
+    tty: true
+    environment:
+      DISPLAY: $DISPLAY
+    network_mode: "host"
+    user: "ros"
+    volumes:
+      - ./ros/ros_ws:/home/ros/ros_ws
+    # devices:
+    #   - /dev/bus/usb/001/006:/dev/ttyUSB0
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [gpu]
