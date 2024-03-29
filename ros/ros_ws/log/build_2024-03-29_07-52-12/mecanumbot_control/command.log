@@ -1,0 +1,6 @@
+Invoking command in '/home/ros/ros_ws/build/mecanumbot_control': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ros/ros_ws/src/ros2-mecanum-bot/mecanumbot_control -DCMAKE_INSTALL_PREFIX=/home/ros/ros_ws/install/mecanumbot_control
+Invoked command in '/home/ros/ros_ws/build/mecanumbot_control' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ros/ros_ws/src/ros2-mecanum-bot/mecanumbot_control -DCMAKE_INSTALL_PREFIX=/home/ros/ros_ws/install/mecanumbot_control
+Invoking command in '/home/ros/ros_ws/build/mecanumbot_control': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ros/ros_ws/build/mecanumbot_control -- -j4 -l4
+Invoked command in '/home/ros/ros_ws/build/mecanumbot_control' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ros/ros_ws/build/mecanumbot_control -- -j4 -l4
+Invoking command in '/home/ros/ros_ws/build/mecanumbot_control': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ros/ros_ws/build/mecanumbot_control
+Invoked command in '/home/ros/ros_ws/build/mecanumbot_control' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ros/ros_ws/build/mecanumbot_control

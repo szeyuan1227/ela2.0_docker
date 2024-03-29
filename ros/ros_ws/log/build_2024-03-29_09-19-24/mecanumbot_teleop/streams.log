@@ -1,0 +1,24 @@
+[0.352s] Invoking command in '/home/ros/ros_ws/build/mecanumbot_teleop': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ros/ros_ws/build/mecanumbot_teleop -- -j4 -l4
+[0.614s] [100%] Built target mecanumbot_teleop
+[0.652s] Invoked command in '/home/ros/ros_ws/build/mecanumbot_teleop' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ros/ros_ws/build/mecanumbot_teleop -- -j4 -l4
+[0.753s] Invoking command in '/home/ros/ros_ws/build/mecanumbot_teleop': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ros/ros_ws/build/mecanumbot_teleop
+[0.801s] -- Install configuration: ""
+[0.802s] -- Up-to-date: /home/ros/ros_ws/install/mecanumbot_teleop/share/mecanumbot_teleop/config
+[0.803s] -- Up-to-date: /home/ros/ros_ws/install/mecanumbot_teleop/share/mecanumbot_teleop/config/teleop_config.yaml
+[0.803s] -- Up-to-date: /home/ros/ros_ws/install/mecanumbot_teleop/lib/mecanumbot_teleop/mecanumbot_teleop
+[0.804s] -- Up-to-date: /home/ros/ros_ws/install/mecanumbot_teleop/share/ament_index/resource_index/package_run_dependencies/mecanumbot_teleop
+[0.805s] -- Up-to-date: /home/ros/ros_ws/install/mecanumbot_teleop/share/ament_index/resource_index/parent_prefix_path/mecanumbot_teleop
+[0.806s] -- Up-to-date: /home/ros/ros_ws/install/mecanumbot_teleop/share/mecanumbot_teleop/environment/ament_prefix_path.sh
+[0.807s] -- Up-to-date: /home/ros/ros_ws/install/mecanumbot_teleop/share/mecanumbot_teleop/environment/ament_prefix_path.dsv
+[0.809s] -- Up-to-date: /home/ros/ros_ws/install/mecanumbot_teleop/share/mecanumbot_teleop/environment/path.sh
+[0.810s] -- Up-to-date: /home/ros/ros_ws/install/mecanumbot_teleop/share/mecanumbot_teleop/environment/path.dsv
+[0.811s] -- Up-to-date: /home/ros/ros_ws/install/mecanumbot_teleop/share/mecanumbot_teleop/local_setup.bash
+[0.811s] -- Up-to-date: /home/ros/ros_ws/install/mecanumbot_teleop/share/mecanumbot_teleop/local_setup.sh
+[0.812s] -- Up-to-date: /home/ros/ros_ws/install/mecanumbot_teleop/share/mecanumbot_teleop/local_setup.zsh
+[0.814s] -- Up-to-date: /home/ros/ros_ws/install/mecanumbot_teleop/share/mecanumbot_teleop/local_setup.dsv
+[0.815s] -- Installing: /home/ros/ros_ws/install/mecanumbot_teleop/share/mecanumbot_teleop/package.dsv
+[0.816s] -- Up-to-date: /home/ros/ros_ws/install/mecanumbot_teleop/share/ament_index/resource_index/packages/mecanumbot_teleop
+[0.816s] -- Up-to-date: /home/ros/ros_ws/install/mecanumbot_teleop/share/mecanumbot_teleop/cmake/mecanumbot_teleopConfig.cmake
+[0.817s] -- Up-to-date: /home/ros/ros_ws/install/mecanumbot_teleop/share/mecanumbot_teleop/cmake/mecanumbot_teleopConfig-version.cmake
+[0.818s] -- Up-to-date: /home/ros/ros_ws/install/mecanumbot_teleop/share/mecanumbot_teleop/package.xml
+[0.844s] Invoked command in '/home/ros/ros_ws/build/mecanumbot_teleop' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ros/ros_ws/build/mecanumbot_teleop

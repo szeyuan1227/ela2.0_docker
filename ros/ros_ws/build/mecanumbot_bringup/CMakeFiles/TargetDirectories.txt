@@ -1,0 +1,9 @@
+/home/ros/ros_ws/build/mecanumbot_bringup/CMakeFiles/uninstall.dir
+/home/ros/ros_ws/build/mecanumbot_bringup/CMakeFiles/mecanumbot_bringup_uninstall.dir
+/home/ros/ros_ws/build/mecanumbot_bringup/CMakeFiles/test.dir
+/home/ros/ros_ws/build/mecanumbot_bringup/CMakeFiles/edit_cache.dir
+/home/ros/ros_ws/build/mecanumbot_bringup/CMakeFiles/rebuild_cache.dir
+/home/ros/ros_ws/build/mecanumbot_bringup/CMakeFiles/list_install_components.dir
+/home/ros/ros_ws/build/mecanumbot_bringup/CMakeFiles/install.dir
+/home/ros/ros_ws/build/mecanumbot_bringup/CMakeFiles/install/local.dir
+/home/ros/ros_ws/build/mecanumbot_bringup/CMakeFiles/install/strip.dir

@@ -15,7 +15,7 @@ services:
     environment:
       DISPLAY: $DISPLAY
     network_mode: "host"
-    user: "ros"
+    user: "syt"
     volumes:
       - ./ros/ros_ws:/home/ros/ros_ws
     # devices:
