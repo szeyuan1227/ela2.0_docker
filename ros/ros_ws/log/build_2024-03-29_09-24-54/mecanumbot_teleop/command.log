@@ -1,4 +1,0 @@
-Invoking command in '/home/ros/ros_ws/build/mecanumbot_teleop': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ros/ros_ws/build/mecanumbot_teleop -- -j4 -l4
-Invoked command in '/home/ros/ros_ws/build/mecanumbot_teleop' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ros/ros_ws/build/mecanumbot_teleop -- -j4 -l4
-Invoking command in '/home/ros/ros_ws/build/mecanumbot_teleop': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ros/ros_ws/build/mecanumbot_teleop
-Invoked command in '/home/ros/ros_ws/build/mecanumbot_teleop' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ros/ros_ws/build/mecanumbot_teleop

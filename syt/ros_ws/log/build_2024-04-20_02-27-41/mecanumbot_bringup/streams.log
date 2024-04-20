@@ -1,0 +1,44 @@
+[0.046s] Invoking command in '/home/syt/ros_ws/build/mecanumbot_bringup': CMAKE_PREFIX_PATH=/home/syt/ros_ws/install/mecanumbot_description:/home/syt/ros_ws/install/v4l2_camera:/home/syt/ros_ws/install/usb_cam:/home/syt/ros_ws/install/mecanumbot_teleop:/home/syt/ros_ws/install/mecanumbot_hardware:/home/syt/ros_ws/install/mecanumbot_bringup:/home/syt/ros_ws/install/mecanumbot_controller:/home/syt/ros_ws/install/mecanumbot_control:/opt/ros/humble /usr/bin/cmake /home/syt/ros_ws/src/ros2-mecanum-bot/mecanumbot_bringup -DCMAKE_INSTALL_PREFIX=/home/syt/ros_ws/install/mecanumbot_bringup
+[0.276s] -- The C compiler identification is GNU 11.3.0
+[0.508s] -- The CXX compiler identification is GNU 11.3.0
+[0.534s] -- Detecting C compiler ABI info
+[0.792s] -- Detecting C compiler ABI info - done
+[0.826s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.827s] -- Detecting C compile features
+[0.829s] -- Detecting C compile features - done
+[0.842s] -- Detecting CXX compiler ABI info
+[1.149s] -- Detecting CXX compiler ABI info - done
+[1.184s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.185s] -- Detecting CXX compile features
+[1.187s] -- Detecting CXX compile features - done
+[1.208s] -- Found ament_cmake: 1.3.4 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.151s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[4.051s] -- Configuring done
+[4.064s] -- Generating done
+[4.068s] -- Build files have been written to: /home/syt/ros_ws/build/mecanumbot_bringup
+[4.083s] Invoked command in '/home/syt/ros_ws/build/mecanumbot_bringup' returned '0': CMAKE_PREFIX_PATH=/home/syt/ros_ws/install/mecanumbot_description:/home/syt/ros_ws/install/v4l2_camera:/home/syt/ros_ws/install/usb_cam:/home/syt/ros_ws/install/mecanumbot_teleop:/home/syt/ros_ws/install/mecanumbot_hardware:/home/syt/ros_ws/install/mecanumbot_bringup:/home/syt/ros_ws/install/mecanumbot_controller:/home/syt/ros_ws/install/mecanumbot_control:/opt/ros/humble /usr/bin/cmake /home/syt/ros_ws/src/ros2-mecanum-bot/mecanumbot_bringup -DCMAKE_INSTALL_PREFIX=/home/syt/ros_ws/install/mecanumbot_bringup
+[4.089s] Invoking command in '/home/syt/ros_ws/build/mecanumbot_bringup': CMAKE_PREFIX_PATH=/home/syt/ros_ws/install/mecanumbot_description:/home/syt/ros_ws/install/v4l2_camera:/home/syt/ros_ws/install/usb_cam:/home/syt/ros_ws/install/mecanumbot_teleop:/home/syt/ros_ws/install/mecanumbot_hardware:/home/syt/ros_ws/install/mecanumbot_bringup:/home/syt/ros_ws/install/mecanumbot_controller:/home/syt/ros_ws/install/mecanumbot_control:/opt/ros/humble /usr/bin/cmake --build /home/syt/ros_ws/build/mecanumbot_bringup -- -j4 -l4
+[4.227s] Invoked command in '/home/syt/ros_ws/build/mecanumbot_bringup' returned '0': CMAKE_PREFIX_PATH=/home/syt/ros_ws/install/mecanumbot_description:/home/syt/ros_ws/install/v4l2_camera:/home/syt/ros_ws/install/usb_cam:/home/syt/ros_ws/install/mecanumbot_teleop:/home/syt/ros_ws/install/mecanumbot_hardware:/home/syt/ros_ws/install/mecanumbot_bringup:/home/syt/ros_ws/install/mecanumbot_controller:/home/syt/ros_ws/install/mecanumbot_control:/opt/ros/humble /usr/bin/cmake --build /home/syt/ros_ws/build/mecanumbot_bringup -- -j4 -l4
+[4.302s] Invoking command in '/home/syt/ros_ws/build/mecanumbot_bringup': CMAKE_PREFIX_PATH=/home/syt/ros_ws/install/mecanumbot_description:/home/syt/ros_ws/install/v4l2_camera:/home/syt/ros_ws/install/usb_cam:/home/syt/ros_ws/install/mecanumbot_teleop:/home/syt/ros_ws/install/mecanumbot_hardware:/home/syt/ros_ws/install/mecanumbot_bringup:/home/syt/ros_ws/install/mecanumbot_controller:/home/syt/ros_ws/install/mecanumbot_control:/opt/ros/humble /usr/bin/cmake --install /home/syt/ros_ws/build/mecanumbot_bringup
+[4.330s] -- Install configuration: ""
+[4.331s] -- Installing: /home/syt/ros_ws/install/mecanumbot_bringup/share/mecanumbot_bringup/launch
+[4.332s] -- Installing: /home/syt/ros_ws/install/mecanumbot_bringup/share/mecanumbot_bringup/launch/mecanumbot_teleop.py
+[4.332s] -- Installing: /home/syt/ros_ws/install/mecanumbot_bringup/share/mecanumbot_bringup/launch/rviz2.py
+[4.335s] -- Installing: /home/syt/ros_ws/install/mecanumbot_bringup/share/mecanumbot_bringup/launch/mecanumbot_hardware.py
+[4.336s] -- Installing: /home/syt/ros_ws/install/mecanumbot_bringup/share/mecanumbot_bringup/launch/mecanumbot_state_publisher.py
+[4.337s] -- Installing: /home/syt/ros_ws/install/mecanumbot_bringup/share/ament_index/resource_index/package_run_dependencies/mecanumbot_bringup
+[4.337s] -- Installing: /home/syt/ros_ws/install/mecanumbot_bringup/share/ament_index/resource_index/parent_prefix_path/mecanumbot_bringup
+[4.338s] -- Installing: /home/syt/ros_ws/install/mecanumbot_bringup/share/mecanumbot_bringup/environment/ament_prefix_path.sh
+[4.339s] -- Installing: /home/syt/ros_ws/install/mecanumbot_bringup/share/mecanumbot_bringup/environment/ament_prefix_path.dsv
+[4.339s] -- Installing: /home/syt/ros_ws/install/mecanumbot_bringup/share/mecanumbot_bringup/environment/path.sh
+[4.340s] -- Installing: /home/syt/ros_ws/install/mecanumbot_bringup/share/mecanumbot_bringup/environment/path.dsv
+[4.341s] -- Installing: /home/syt/ros_ws/install/mecanumbot_bringup/share/mecanumbot_bringup/local_setup.bash
+[4.342s] -- Installing: /home/syt/ros_ws/install/mecanumbot_bringup/share/mecanumbot_bringup/local_setup.sh
+[4.342s] -- Installing: /home/syt/ros_ws/install/mecanumbot_bringup/share/mecanumbot_bringup/local_setup.zsh
+[4.343s] -- Installing: /home/syt/ros_ws/install/mecanumbot_bringup/share/mecanumbot_bringup/local_setup.dsv
+[4.344s] -- Installing: /home/syt/ros_ws/install/mecanumbot_bringup/share/mecanumbot_bringup/package.dsv
+[4.345s] -- Installing: /home/syt/ros_ws/install/mecanumbot_bringup/share/ament_index/resource_index/packages/mecanumbot_bringup
+[4.346s] -- Installing: /home/syt/ros_ws/install/mecanumbot_bringup/share/mecanumbot_bringup/cmake/mecanumbot_bringupConfig.cmake
+[4.346s] -- Installing: /home/syt/ros_ws/install/mecanumbot_bringup/share/mecanumbot_bringup/cmake/mecanumbot_bringupConfig-version.cmake
+[4.347s] -- Installing: /home/syt/ros_ws/install/mecanumbot_bringup/share/mecanumbot_bringup/package.xml
+[4.361s] Invoked command in '/home/syt/ros_ws/build/mecanumbot_bringup' returned '0': CMAKE_PREFIX_PATH=/home/syt/ros_ws/install/mecanumbot_description:/home/syt/ros_ws/install/v4l2_camera:/home/syt/ros_ws/install/usb_cam:/home/syt/ros_ws/install/mecanumbot_teleop:/home/syt/ros_ws/install/mecanumbot_hardware:/home/syt/ros_ws/install/mecanumbot_bringup:/home/syt/ros_ws/install/mecanumbot_controller:/home/syt/ros_ws/install/mecanumbot_control:/opt/ros/humble /usr/bin/cmake --install /home/syt/ros_ws/build/mecanumbot_bringup

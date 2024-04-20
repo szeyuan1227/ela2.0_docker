@@ -1,0 +1,52 @@
+[0.032s] Invoking command in '/home/ros/ros_ws/build/mecanumbot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ros/ros_ws/src/ros2-mecanum-bot/mecanumbot_description -DCMAKE_INSTALL_PREFIX=/home/ros/ros_ws/install/mecanumbot_description
+[0.280s] -- The C compiler identification is GNU 11.3.0
+[0.571s] -- The CXX compiler identification is GNU 11.3.0
+[0.599s] -- Detecting C compiler ABI info
+[0.842s] -- Detecting C compiler ABI info - done
+[0.877s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.878s] -- Detecting C compile features
+[0.880s] -- Detecting C compile features - done
+[0.892s] -- Detecting CXX compiler ABI info
+[1.169s] -- Detecting CXX compiler ABI info - done
+[1.206s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.207s] -- Detecting CXX compile features
+[1.209s] -- Detecting CXX compile features - done
+[1.226s] -- Found ament_cmake: 1.3.4 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.027s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[3.520s] -- Found urdf: 2.6.0 (/opt/ros/humble/share/urdf/cmake)
+[3.889s] -- Found xacro: 2.0.8 (/opt/ros/humble/share/xacro/cmake)
+[4.216s] -- Configuring done
+[4.232s] -- Generating done
+[4.236s] -- Build files have been written to: /home/ros/ros_ws/build/mecanumbot_description
+[4.258s] Invoked command in '/home/ros/ros_ws/build/mecanumbot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ros/ros_ws/src/ros2-mecanum-bot/mecanumbot_description -DCMAKE_INSTALL_PREFIX=/home/ros/ros_ws/install/mecanumbot_description
+[4.263s] Invoking command in '/home/ros/ros_ws/build/mecanumbot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ros/ros_ws/build/mecanumbot_description -- -j4 -l4
+[4.381s] Invoked command in '/home/ros/ros_ws/build/mecanumbot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ros/ros_ws/build/mecanumbot_description -- -j4 -l4
+[4.452s] Invoking command in '/home/ros/ros_ws/build/mecanumbot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ros/ros_ws/build/mecanumbot_description
+[4.474s] -- Install configuration: ""
+[4.475s] -- Installing: /home/ros/ros_ws/install/mecanumbot_description/share/mecanumbot_description/urdf
+[4.475s] -- Installing: /home/ros/ros_ws/install/mecanumbot_description/share/mecanumbot_description/urdf/mecanumbot.urdf
+[4.476s] -- Installing: /home/ros/ros_ws/install/mecanumbot_description/share/mecanumbot_description/rviz
+[4.477s] -- Installing: /home/ros/ros_ws/install/mecanumbot_description/share/mecanumbot_description/rviz/model.rviz
+[4.477s] -- Installing: /home/ros/ros_ws/install/mecanumbot_description/share/mecanumbot_description/meshes
+[4.478s] -- Installing: /home/ros/ros_ws/install/mecanumbot_description/share/mecanumbot_description/meshes/fr_wheel_link.STL
+[4.484s] -- Installing: /home/ros/ros_ws/install/mecanumbot_description/share/mecanumbot_description/meshes/fl_wheel_link.STL
+[4.491s] -- Installing: /home/ros/ros_ws/install/mecanumbot_description/share/mecanumbot_description/meshes/rl_wheel_link.STL
+[4.498s] -- Installing: /home/ros/ros_ws/install/mecanumbot_description/share/mecanumbot_description/meshes/rr_wheel_link.STL
+[4.504s] -- Installing: /home/ros/ros_ws/install/mecanumbot_description/share/mecanumbot_description/config
+[4.505s] -- Installing: /home/ros/ros_ws/install/mecanumbot_description/share/mecanumbot_description/config/robot_controller_config.yaml
+[4.507s] -- Installing: /home/ros/ros_ws/install/mecanumbot_description/share/ament_index/resource_index/package_run_dependencies/mecanumbot_description
+[4.507s] -- Installing: /home/ros/ros_ws/install/mecanumbot_description/share/ament_index/resource_index/parent_prefix_path/mecanumbot_description
+[4.508s] -- Installing: /home/ros/ros_ws/install/mecanumbot_description/share/mecanumbot_description/environment/ament_prefix_path.sh
+[4.509s] -- Installing: /home/ros/ros_ws/install/mecanumbot_description/share/mecanumbot_description/environment/ament_prefix_path.dsv
+[4.510s] -- Installing: /home/ros/ros_ws/install/mecanumbot_description/share/mecanumbot_description/environment/path.sh
+[4.510s] -- Installing: /home/ros/ros_ws/install/mecanumbot_description/share/mecanumbot_description/environment/path.dsv
+[4.511s] -- Installing: /home/ros/ros_ws/install/mecanumbot_description/share/mecanumbot_description/local_setup.bash
+[4.512s] -- Installing: /home/ros/ros_ws/install/mecanumbot_description/share/mecanumbot_description/local_setup.sh
+[4.513s] -- Installing: /home/ros/ros_ws/install/mecanumbot_description/share/mecanumbot_description/local_setup.zsh
+[4.514s] -- Installing: /home/ros/ros_ws/install/mecanumbot_description/share/mecanumbot_description/local_setup.dsv
+[4.515s] -- Installing: /home/ros/ros_ws/install/mecanumbot_description/share/mecanumbot_description/package.dsv
+[4.516s] -- Installing: /home/ros/ros_ws/install/mecanumbot_description/share/ament_index/resource_index/packages/mecanumbot_description
+[4.517s] -- Installing: /home/ros/ros_ws/install/mecanumbot_description/share/mecanumbot_description/cmake/mecanumbot_descriptionConfig.cmake
+[4.517s] -- Installing: /home/ros/ros_ws/install/mecanumbot_description/share/mecanumbot_description/cmake/mecanumbot_descriptionConfig-version.cmake
+[4.518s] -- Installing: /home/ros/ros_ws/install/mecanumbot_description/share/mecanumbot_description/package.xml
+[4.534s] Invoked command in '/home/ros/ros_ws/build/mecanumbot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ros/ros_ws/build/mecanumbot_description

@@ -1,0 +1,44 @@
+[0.058s] Invoking command in '/home/ros/ros_ws/build/mecanumbot_bringup': AMENT_PREFIX_PATH=/home/ros/ros_ws/install/mecanumbot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros/ros_ws/install/mecanumbot_description:/opt/ros/humble /usr/bin/cmake /home/ros/ros_ws/src/ros2-mecanum-bot/mecanumbot_bringup -DCMAKE_INSTALL_PREFIX=/home/ros/ros_ws/install/mecanumbot_bringup
+[0.341s] -- The C compiler identification is GNU 11.3.0
+[0.558s] -- The CXX compiler identification is GNU 11.3.0
+[0.586s] -- Detecting C compiler ABI info
+[0.835s] -- Detecting C compiler ABI info - done
+[0.871s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.873s] -- Detecting C compile features
+[0.876s] -- Detecting C compile features - done
+[0.889s] -- Detecting CXX compiler ABI info
+[1.175s] -- Detecting CXX compiler ABI info - done
+[1.208s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.209s] -- Detecting CXX compile features
+[1.211s] -- Detecting CXX compile features - done
+[1.228s] -- Found ament_cmake: 1.3.4 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.099s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[3.917s] -- Configuring done
+[3.930s] -- Generating done
+[3.934s] -- Build files have been written to: /home/ros/ros_ws/build/mecanumbot_bringup
+[3.950s] Invoked command in '/home/ros/ros_ws/build/mecanumbot_bringup' returned '0': AMENT_PREFIX_PATH=/home/ros/ros_ws/install/mecanumbot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros/ros_ws/install/mecanumbot_description:/opt/ros/humble /usr/bin/cmake /home/ros/ros_ws/src/ros2-mecanum-bot/mecanumbot_bringup -DCMAKE_INSTALL_PREFIX=/home/ros/ros_ws/install/mecanumbot_bringup
+[3.955s] Invoking command in '/home/ros/ros_ws/build/mecanumbot_bringup': AMENT_PREFIX_PATH=/home/ros/ros_ws/install/mecanumbot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros/ros_ws/install/mecanumbot_description:/opt/ros/humble /usr/bin/cmake --build /home/ros/ros_ws/build/mecanumbot_bringup -- -j4 -l4
+[4.072s] Invoked command in '/home/ros/ros_ws/build/mecanumbot_bringup' returned '0': AMENT_PREFIX_PATH=/home/ros/ros_ws/install/mecanumbot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros/ros_ws/install/mecanumbot_description:/opt/ros/humble /usr/bin/cmake --build /home/ros/ros_ws/build/mecanumbot_bringup -- -j4 -l4
+[4.133s] Invoking command in '/home/ros/ros_ws/build/mecanumbot_bringup': AMENT_PREFIX_PATH=/home/ros/ros_ws/install/mecanumbot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros/ros_ws/install/mecanumbot_description:/opt/ros/humble /usr/bin/cmake --install /home/ros/ros_ws/build/mecanumbot_bringup
+[4.158s] -- Install configuration: ""
+[4.159s] -- Installing: /home/ros/ros_ws/install/mecanumbot_bringup/share/mecanumbot_bringup/launch
+[4.160s] -- Installing: /home/ros/ros_ws/install/mecanumbot_bringup/share/mecanumbot_bringup/launch/mecanumbot_teleop.py
+[4.161s] -- Installing: /home/ros/ros_ws/install/mecanumbot_bringup/share/mecanumbot_bringup/launch/rviz2.py
+[4.162s] -- Installing: /home/ros/ros_ws/install/mecanumbot_bringup/share/mecanumbot_bringup/launch/mecanumbot_hardware.py
+[4.162s] -- Installing: /home/ros/ros_ws/install/mecanumbot_bringup/share/mecanumbot_bringup/launch/mecanumbot_state_publisher.py
+[4.164s] -- Installing: /home/ros/ros_ws/install/mecanumbot_bringup/share/ament_index/resource_index/package_run_dependencies/mecanumbot_bringup
+[4.165s] -- Installing: /home/ros/ros_ws/install/mecanumbot_bringup/share/ament_index/resource_index/parent_prefix_path/mecanumbot_bringup
+[4.166s] -- Installing: /home/ros/ros_ws/install/mecanumbot_bringup/share/mecanumbot_bringup/environment/ament_prefix_path.sh
+[4.167s] -- Installing: /home/ros/ros_ws/install/mecanumbot_bringup/share/mecanumbot_bringup/environment/ament_prefix_path.dsv
+[4.168s] -- Installing: /home/ros/ros_ws/install/mecanumbot_bringup/share/mecanumbot_bringup/environment/path.sh
+[4.169s] -- Installing: /home/ros/ros_ws/install/mecanumbot_bringup/share/mecanumbot_bringup/environment/path.dsv
+[4.170s] -- Installing: /home/ros/ros_ws/install/mecanumbot_bringup/share/mecanumbot_bringup/local_setup.bash
+[4.171s] -- Installing: /home/ros/ros_ws/install/mecanumbot_bringup/share/mecanumbot_bringup/local_setup.sh
+[4.172s] -- Installing: /home/ros/ros_ws/install/mecanumbot_bringup/share/mecanumbot_bringup/local_setup.zsh
+[4.172s] -- Installing: /home/ros/ros_ws/install/mecanumbot_bringup/share/mecanumbot_bringup/local_setup.dsv
+[4.178s] -- Installing: /home/ros/ros_ws/install/mecanumbot_bringup/share/mecanumbot_bringup/package.dsv
+[4.179s] -- Installing: /home/ros/ros_ws/install/mecanumbot_bringup/share/ament_index/resource_index/packages/mecanumbot_bringup
+[4.179s] -- Installing: /home/ros/ros_ws/install/mecanumbot_bringup/share/mecanumbot_bringup/cmake/mecanumbot_bringupConfig.cmake
+[4.180s] -- Installing: /home/ros/ros_ws/install/mecanumbot_bringup/share/mecanumbot_bringup/cmake/mecanumbot_bringupConfig-version.cmake
+[4.180s] -- Installing: /home/ros/ros_ws/install/mecanumbot_bringup/share/mecanumbot_bringup/package.xml
+[4.190s] Invoked command in '/home/ros/ros_ws/build/mecanumbot_bringup' returned '0': AMENT_PREFIX_PATH=/home/ros/ros_ws/install/mecanumbot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros/ros_ws/install/mecanumbot_description:/opt/ros/humble /usr/bin/cmake --install /home/ros/ros_ws/build/mecanumbot_bringup

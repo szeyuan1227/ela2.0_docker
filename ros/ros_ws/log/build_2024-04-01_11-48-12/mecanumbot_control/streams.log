@@ -1,0 +1,60 @@
+[0.055s] Invoking command in '/home/ros/ros_ws/build/mecanumbot_control': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ros/ros_ws/src/ros2-mecanum-bot/mecanumbot_control -DCMAKE_INSTALL_PREFIX=/home/ros/ros_ws/install/mecanumbot_control
+[0.455s] -- The C compiler identification is GNU 11.3.0
+[0.764s] -- The CXX compiler identification is GNU 11.3.0
+[0.794s] -- Detecting C compiler ABI info
+[1.054s] -- Detecting C compiler ABI info - done
+[1.087s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.088s] -- Detecting C compile features
+[1.090s] -- Detecting C compile features - done
+[1.103s] -- Detecting CXX compiler ABI info
+[1.390s] -- Detecting CXX compiler ABI info - done
+[1.424s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.425s] -- Detecting CXX compile features
+[1.430s] -- Detecting CXX compile features - done
+[1.447s] -- Found ament_cmake: 1.3.4 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.238s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[3.739s] -- Found controller_manager: 2.26.0 (/opt/ros/humble/share/controller_manager/cmake)
+[4.068s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[4.101s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[4.155s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[4.231s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.343s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[7.762s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[7.782s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[8.261s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[8.429s] -- Found FastRTPS: /opt/ros/humble/include  
+[8.725s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[8.791s] -- Looking for pthread.h
+[9.091s] -- Looking for pthread.h - found
+[9.091s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[9.362s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[9.370s] -- Found Threads: TRUE  
+[13.569s] -- Configuring done
+[13.811s] -- Generating done
+[13.819s] -- Build files have been written to: /home/ros/ros_ws/build/mecanumbot_control
+[13.871s] Invoked command in '/home/ros/ros_ws/build/mecanumbot_control' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ros/ros_ws/src/ros2-mecanum-bot/mecanumbot_control -DCMAKE_INSTALL_PREFIX=/home/ros/ros_ws/install/mecanumbot_control
+[13.874s] Invoking command in '/home/ros/ros_ws/build/mecanumbot_control': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ros/ros_ws/build/mecanumbot_control -- -j4 -l4
+[14.041s] [ 50%] [32mBuilding CXX object CMakeFiles/mecanumbot_control_node.dir/src/mecanumbot_control_node.cpp.o[0m
+[33.353s] [100%] [32m[1mLinking CXX executable mecanumbot_control_node[0m
+[34.257s] [100%] Built target mecanumbot_control_node
+[34.295s] Invoked command in '/home/ros/ros_ws/build/mecanumbot_control' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ros/ros_ws/build/mecanumbot_control -- -j4 -l4
+[34.395s] Invoking command in '/home/ros/ros_ws/build/mecanumbot_control': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ros/ros_ws/build/mecanumbot_control
+[34.417s] -- Install configuration: ""
+[34.419s] -- Installing: /home/ros/ros_ws/install/mecanumbot_control/lib/mecanumbot_control/mecanumbot_control_node
+[34.422s] -- Set runtime path of "/home/ros/ros_ws/install/mecanumbot_control/lib/mecanumbot_control/mecanumbot_control_node" to ""
+[34.423s] -- Installing: /home/ros/ros_ws/install/mecanumbot_control/share/ament_index/resource_index/package_run_dependencies/mecanumbot_control
+[34.424s] -- Installing: /home/ros/ros_ws/install/mecanumbot_control/share/ament_index/resource_index/parent_prefix_path/mecanumbot_control
+[34.425s] -- Installing: /home/ros/ros_ws/install/mecanumbot_control/share/mecanumbot_control/environment/ament_prefix_path.sh
+[34.426s] -- Installing: /home/ros/ros_ws/install/mecanumbot_control/share/mecanumbot_control/environment/ament_prefix_path.dsv
+[34.426s] -- Installing: /home/ros/ros_ws/install/mecanumbot_control/share/mecanumbot_control/environment/path.sh
+[34.427s] -- Installing: /home/ros/ros_ws/install/mecanumbot_control/share/mecanumbot_control/environment/path.dsv
+[34.428s] -- Installing: /home/ros/ros_ws/install/mecanumbot_control/share/mecanumbot_control/local_setup.bash
+[34.428s] -- Installing: /home/ros/ros_ws/install/mecanumbot_control/share/mecanumbot_control/local_setup.sh
+[34.429s] -- Installing: /home/ros/ros_ws/install/mecanumbot_control/share/mecanumbot_control/local_setup.zsh
+[34.430s] -- Installing: /home/ros/ros_ws/install/mecanumbot_control/share/mecanumbot_control/local_setup.dsv
+[34.431s] -- Installing: /home/ros/ros_ws/install/mecanumbot_control/share/mecanumbot_control/package.dsv
+[34.432s] -- Installing: /home/ros/ros_ws/install/mecanumbot_control/share/ament_index/resource_index/packages/mecanumbot_control
+[34.432s] -- Installing: /home/ros/ros_ws/install/mecanumbot_control/share/mecanumbot_control/cmake/mecanumbot_controlConfig.cmake
+[34.433s] -- Installing: /home/ros/ros_ws/install/mecanumbot_control/share/mecanumbot_control/cmake/mecanumbot_controlConfig-version.cmake
+[34.434s] -- Installing: /home/ros/ros_ws/install/mecanumbot_control/share/mecanumbot_control/package.xml
+[34.444s] Invoked command in '/home/ros/ros_ws/build/mecanumbot_control' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ros/ros_ws/build/mecanumbot_control

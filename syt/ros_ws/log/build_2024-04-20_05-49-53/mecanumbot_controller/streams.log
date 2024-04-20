@@ -1,0 +1,35 @@
+[0.181s] Invoking command in '/home/syt/ros_ws/build/mecanumbot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/syt/ros_ws/build/mecanumbot_controller -- -j4 -l4
+[0.625s] [35m[1mConsolidate compiler generated dependencies of target mecanumbot_controller[0m
+[0.799s] [100%] Built target mecanumbot_controller
+[0.953s] Invoked command in '/home/syt/ros_ws/build/mecanumbot_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/syt/ros_ws/build/mecanumbot_controller -- -j4 -l4
+[1.207s] Invoking command in '/home/syt/ros_ws/build/mecanumbot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/syt/ros_ws/build/mecanumbot_controller
+[1.304s] -- Install configuration: ""
+[1.305s] -- Up-to-date: /home/syt/ros_ws/install/mecanumbot_controller/share/mecanumbot_controller/mecanumbot_controller.xml
+[1.306s] -- Up-to-date: /home/syt/ros_ws/install/mecanumbot_controller/lib/libmecanumbot_controller.so
+[1.307s] -- Up-to-date: /home/syt/ros_ws/install/mecanumbot_controller/include/include
+[1.307s] -- Up-to-date: /home/syt/ros_ws/install/mecanumbot_controller/include/include/mecanumbot_controller
+[1.308s] -- Up-to-date: /home/syt/ros_ws/install/mecanumbot_controller/include/include/mecanumbot_controller/mecanumbot_controller_compiler.h
+[1.310s] -- Up-to-date: /home/syt/ros_ws/install/mecanumbot_controller/include/include/mecanumbot_controller/mecanumbot_wheel.hpp
+[1.310s] -- Up-to-date: /home/syt/ros_ws/install/mecanumbot_controller/include/include/mecanumbot_controller/mecanumbot_drive_controller.hpp
+[1.311s] -- Up-to-date: /home/syt/ros_ws/install/mecanumbot_controller/share/mecanumbot_controller/environment/library_path.sh
+[1.311s] -- Up-to-date: /home/syt/ros_ws/install/mecanumbot_controller/share/mecanumbot_controller/environment/library_path.dsv
+[1.312s] -- Up-to-date: /home/syt/ros_ws/install/mecanumbot_controller/share/ament_index/resource_index/package_run_dependencies/mecanumbot_controller
+[1.313s] -- Up-to-date: /home/syt/ros_ws/install/mecanumbot_controller/share/ament_index/resource_index/parent_prefix_path/mecanumbot_controller
+[1.314s] -- Up-to-date: /home/syt/ros_ws/install/mecanumbot_controller/share/mecanumbot_controller/environment/ament_prefix_path.sh
+[1.314s] -- Up-to-date: /home/syt/ros_ws/install/mecanumbot_controller/share/mecanumbot_controller/environment/ament_prefix_path.dsv
+[1.315s] -- Up-to-date: /home/syt/ros_ws/install/mecanumbot_controller/share/mecanumbot_controller/environment/path.sh
+[1.315s] -- Up-to-date: /home/syt/ros_ws/install/mecanumbot_controller/share/mecanumbot_controller/environment/path.dsv
+[1.316s] -- Up-to-date: /home/syt/ros_ws/install/mecanumbot_controller/share/mecanumbot_controller/local_setup.bash
+[1.317s] -- Up-to-date: /home/syt/ros_ws/install/mecanumbot_controller/share/mecanumbot_controller/local_setup.sh
+[1.318s] -- Up-to-date: /home/syt/ros_ws/install/mecanumbot_controller/share/mecanumbot_controller/local_setup.zsh
+[1.319s] -- Up-to-date: /home/syt/ros_ws/install/mecanumbot_controller/share/mecanumbot_controller/local_setup.dsv
+[1.320s] -- Installing: /home/syt/ros_ws/install/mecanumbot_controller/share/mecanumbot_controller/package.dsv
+[1.321s] -- Up-to-date: /home/syt/ros_ws/install/mecanumbot_controller/share/ament_index/resource_index/packages/mecanumbot_controller
+[1.322s] -- Up-to-date: /home/syt/ros_ws/install/mecanumbot_controller/share/ament_index/resource_index/controller_interface__pluginlib__plugin/mecanumbot_controller
+[1.323s] -- Up-to-date: /home/syt/ros_ws/install/mecanumbot_controller/share/mecanumbot_controller/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.325s] -- Up-to-date: /home/syt/ros_ws/install/mecanumbot_controller/share/mecanumbot_controller/cmake/ament_cmake_export_libraries-extras.cmake
+[1.326s] -- Up-to-date: /home/syt/ros_ws/install/mecanumbot_controller/share/mecanumbot_controller/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.328s] -- Up-to-date: /home/syt/ros_ws/install/mecanumbot_controller/share/mecanumbot_controller/cmake/mecanumbot_controllerConfig.cmake
+[1.329s] -- Up-to-date: /home/syt/ros_ws/install/mecanumbot_controller/share/mecanumbot_controller/cmake/mecanumbot_controllerConfig-version.cmake
+[1.329s] -- Up-to-date: /home/syt/ros_ws/install/mecanumbot_controller/share/mecanumbot_controller/package.xml
+[1.359s] Invoked command in '/home/syt/ros_ws/build/mecanumbot_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/syt/ros_ws/build/mecanumbot_controller

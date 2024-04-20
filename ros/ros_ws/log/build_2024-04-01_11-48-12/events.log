@@ -1,0 +1,2255 @@
+[0.000000] (-) TimerEvent: {}
+[0.000431] (mecanumbot_control) JobQueued: {'identifier': 'mecanumbot_control', 'dependencies': OrderedDict()}
+[0.000582] (mecanumbot_controller) JobQueued: {'identifier': 'mecanumbot_controller', 'dependencies': OrderedDict()}
+[0.000701] (mecanumbot_description) JobQueued: {'identifier': 'mecanumbot_description', 'dependencies': OrderedDict()}
+[0.000823] (mecanumbot_hardware) JobQueued: {'identifier': 'mecanumbot_hardware', 'dependencies': OrderedDict()}
+[0.000989] (mecanumbot_teleop) JobQueued: {'identifier': 'mecanumbot_teleop', 'dependencies': OrderedDict()}
+[0.001196] (mecanumbot_bringup) JobQueued: {'identifier': 'mecanumbot_bringup', 'dependencies': OrderedDict([('mecanumbot_description', '/home/ros/ros_ws/install/mecanumbot_description')])}
+[0.003715] (mecanumbot_control) JobStarted: {'identifier': 'mecanumbot_control'}
+[0.056232] (mecanumbot_control) JobProgress: {'identifier': 'mecanumbot_control', 'progress': 'cmake'}
+[0.057275] (mecanumbot_control) Command: {'cmd': ['/usr/bin/cmake', '/home/ros/ros_ws/src/ros2-mecanum-bot/mecanumbot_control', '-DCMAKE_INSTALL_PREFIX=/home/ros/ros_ws/install/mecanumbot_control'], 'cwd': '/home/ros/ros_ws/build/mecanumbot_control', 'env': OrderedDict([('SUDO_GID', '1000'), ('MAIL', '/var/mail/root'), ('USER', 'root'), ('HOSTNAME', 'szeyuan-desktop'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib'), ('HOME', '/root'), ('AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS', '1'), ('ROS_PYTHON_VERSION', '3'), ('COLORTERM', 'truecolor'), ('SUDO_UID', '1000'), ('ROS_DISTRO', 'humble'), ('COLCON_PREFIX_PATH', '/opt/ros/humble'), ('LOGNAME', 'root'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('PATH', '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'), ('DISPLAY', ':0'), ('LANG', 'en_GB.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SUDO_COMMAND', '/usr/bin/colcon build --executor sequential'), ('DEBIAN_FRONTEND', ''), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('OPENCV_VERSION', '4.7.0'), ('SUDO_USER', 'ros'), ('LC_ALL', 'en_GB.UTF-8'), ('PWD', '/home/ros/ros_ws/build/mecanumbot_control'), ('PYTHONPATH', ':/usr/lib/python3/dist-packages/cv2/python-3.10/:/opt/bgslibrary/build/lib.linux-x86_64-cpython-310:/opt/bgslibrary/build/lib.linux-aarch64-cpython-310:/opt/sky360lib/build/lib:/opt/ros/humble/lib/python3.10/site-packages'), ('TZ', 'Europe/London'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.096327] (-) TimerEvent: {}
+[0.197077] (-) TimerEvent: {}
+[0.297716] (-) TimerEvent: {}
+[0.401369] (-) TimerEvent: {}
+[0.458414] (mecanumbot_control) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.3.0\n'}
+[0.501589] (-) TimerEvent: {}
+[0.602319] (-) TimerEvent: {}
+[0.703146] (-) TimerEvent: {}
+[0.767211] (mecanumbot_control) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.3.0\n'}
+[0.797641] (mecanumbot_control) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.803346] (-) TimerEvent: {}
+[0.904053] (-) TimerEvent: {}
+[1.004837] (-) TimerEvent: {}
+[1.057225] (mecanumbot_control) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.089981] (mecanumbot_control) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.091918] (mecanumbot_control) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.093851] (mecanumbot_control) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.104988] (-) TimerEvent: {}
+[1.106677] (mecanumbot_control) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.205232] (-) TimerEvent: {}
+[1.305891] (-) TimerEvent: {}
+[1.393381] (mecanumbot_control) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.406035] (-) TimerEvent: {}
+[1.427614] (mecanumbot_control) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.428641] (mecanumbot_control) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.430793] (mecanumbot_control) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.450222] (mecanumbot_control) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.4 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.506274] (-) TimerEvent: {}
+[1.607321] (-) TimerEvent: {}
+[1.707963] (-) TimerEvent: {}
+[1.808587] (-) TimerEvent: {}
+[1.909351] (-) TimerEvent: {}
+[2.010014] (-) TimerEvent: {}
+[2.111616] (-) TimerEvent: {}
+[2.212302] (-) TimerEvent: {}
+[2.312901] (-) TimerEvent: {}
+[2.413590] (-) TimerEvent: {}
+[2.514193] (-) TimerEvent: {}
+[2.614903] (-) TimerEvent: {}
+[2.715623] (-) TimerEvent: {}
+[2.816332] (-) TimerEvent: {}
+[2.917146] (-) TimerEvent: {}
+[3.017819] (-) TimerEvent: {}
+[3.118454] (-) TimerEvent: {}
+[3.219102] (-) TimerEvent: {}
+[3.241424] (mecanumbot_control) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter \n'}
+[3.319322] (-) TimerEvent: {}
+[3.420002] (-) TimerEvent: {}
+[3.520711] (-) TimerEvent: {}
+[3.621414] (-) TimerEvent: {}
+[3.722101] (-) TimerEvent: {}
+[3.742682] (mecanumbot_control) StdoutLine: {'line': b'-- Found controller_manager: 2.26.0 (/opt/ros/humble/share/controller_manager/cmake)\n'}
+[3.822357] (-) TimerEvent: {}
+[3.923986] (-) TimerEvent: {}
+[4.024688] (-) TimerEvent: {}
+[4.071342] (mecanumbot_control) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[4.104500] (mecanumbot_control) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[4.124896] (-) TimerEvent: {}
+[4.158004] (mecanumbot_control) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[4.225218] (-) TimerEvent: {}
+[4.234147] (mecanumbot_control) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.325386] (-) TimerEvent: {}
+[4.346588] (mecanumbot_control) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.425615] (-) TimerEvent: {}
+[4.526243] (-) TimerEvent: {}
+[4.626928] (-) TimerEvent: {}
+[4.727657] (-) TimerEvent: {}
+[4.829122] (-) TimerEvent: {}
+[4.929855] (-) TimerEvent: {}
+[5.030525] (-) TimerEvent: {}
+[5.131244] (-) TimerEvent: {}
+[5.231894] (-) TimerEvent: {}
+[5.332573] (-) TimerEvent: {}
+[5.433285] (-) TimerEvent: {}
+[5.533926] (-) TimerEvent: {}
+[5.634608] (-) TimerEvent: {}
+[5.735348] (-) TimerEvent: {}
+[5.836035] (-) TimerEvent: {}
+[5.936683] (-) TimerEvent: {}
+[6.037452] (-) TimerEvent: {}
+[6.138134] (-) TimerEvent: {}
+[6.238852] (-) TimerEvent: {}
+[6.339534] (-) TimerEvent: {}
+[6.440224] (-) TimerEvent: {}
+[6.541081] (-) TimerEvent: {}
+[6.641786] (-) TimerEvent: {}
+[6.742428] (-) TimerEvent: {}
+[6.843173] (-) TimerEvent: {}
+[6.943866] (-) TimerEvent: {}
+[7.044560] (-) TimerEvent: {}
+[7.145243] (-) TimerEvent: {}
+[7.245941] (-) TimerEvent: {}
+[7.346634] (-) TimerEvent: {}
+[7.447301] (-) TimerEvent: {}
+[7.548030] (-) TimerEvent: {}
+[7.648667] (-) TimerEvent: {}
+[7.749402] (-) TimerEvent: {}
+[7.765712] (mecanumbot_control) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[7.785227] (mecanumbot_control) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[7.849576] (-) TimerEvent: {}
+[7.950257] (-) TimerEvent: {}
+[8.050948] (-) TimerEvent: {}
+[8.151646] (-) TimerEvent: {}
+[8.252363] (-) TimerEvent: {}
+[8.264299] (mecanumbot_control) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[8.352587] (-) TimerEvent: {}
+[8.432090] (mecanumbot_control) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[8.452842] (-) TimerEvent: {}
+[8.553575] (-) TimerEvent: {}
+[8.654278] (-) TimerEvent: {}
+[8.728300] (mecanumbot_control) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[8.754457] (-) TimerEvent: {}
+[8.794774] (mecanumbot_control) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[8.854634] (-) TimerEvent: {}
+[8.955354] (-) TimerEvent: {}
+[9.056028] (-) TimerEvent: {}
+[9.094063] (mecanumbot_control) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[9.094913] (mecanumbot_control) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[9.156271] (-) TimerEvent: {}
+[9.257081] (-) TimerEvent: {}
+[9.357777] (-) TimerEvent: {}
+[9.365010] (mecanumbot_control) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[9.372944] (mecanumbot_control) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[9.457989] (-) TimerEvent: {}
+[9.558679] (-) TimerEvent: {}
+[9.659376] (-) TimerEvent: {}
+[9.760025] (-) TimerEvent: {}
+[9.861615] (-) TimerEvent: {}
+[9.963210] (-) TimerEvent: {}
+[10.064014] (-) TimerEvent: {}
+[10.164847] (-) TimerEvent: {}
+[10.265655] (-) TimerEvent: {}
+[10.366359] (-) TimerEvent: {}
+[10.467060] (-) TimerEvent: {}
+[10.567772] (-) TimerEvent: {}
+[10.668476] (-) TimerEvent: {}
+[10.769167] (-) TimerEvent: {}
+[10.870121] (-) TimerEvent: {}
+[10.971494] (-) TimerEvent: {}
+[11.072361] (-) TimerEvent: {}
+[11.173105] (-) TimerEvent: {}
+[11.273776] (-) TimerEvent: {}
+[11.374473] (-) TimerEvent: {}
+[11.475170] (-) TimerEvent: {}
+[11.575854] (-) TimerEvent: {}
+[11.676534] (-) TimerEvent: {}
+[11.777405] (-) TimerEvent: {}
+[11.878081] (-) TimerEvent: {}
+[11.979507] (-) TimerEvent: {}
+[12.080218] (-) TimerEvent: {}
+[12.180919] (-) TimerEvent: {}
+[12.281644] (-) TimerEvent: {}
+[12.382334] (-) TimerEvent: {}
+[12.483022] (-) TimerEvent: {}
+[12.583713] (-) TimerEvent: {}
+[12.684399] (-) TimerEvent: {}
+[12.785156] (-) TimerEvent: {}
+[12.885795] (-) TimerEvent: {}
+[12.987213] (-) TimerEvent: {}
+[13.087906] (-) TimerEvent: {}
+[13.188638] (-) TimerEvent: {}
+[13.289288] (-) TimerEvent: {}
+[13.389986] (-) TimerEvent: {}
+[13.490584] (-) TimerEvent: {}
+[13.572095] (mecanumbot_control) StdoutLine: {'line': b'-- Configuring done\n'}
+[13.590836] (-) TimerEvent: {}
+[13.691498] (-) TimerEvent: {}
+[13.792154] (-) TimerEvent: {}
+[13.814251] (mecanumbot_control) StdoutLine: {'line': b'-- Generating done\n'}
+[13.822375] (mecanumbot_control) StdoutLine: {'line': b'-- Build files have been written to: /home/ros/ros_ws/build/mecanumbot_control\n'}
+[13.872605] (mecanumbot_control) CommandEnded: {'returncode': 0}
+[13.875438] (mecanumbot_control) JobProgress: {'identifier': 'mecanumbot_control', 'progress': 'build'}
+[13.875703] (mecanumbot_control) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ros/ros_ws/build/mecanumbot_control', '--', '-j4', '-l4'], 'cwd': '/home/ros/ros_ws/build/mecanumbot_control', 'env': OrderedDict([('SUDO_GID', '1000'), ('MAIL', '/var/mail/root'), ('USER', 'root'), ('HOSTNAME', 'szeyuan-desktop'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib'), ('HOME', '/root'), ('AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS', '1'), ('ROS_PYTHON_VERSION', '3'), ('COLORTERM', 'truecolor'), ('SUDO_UID', '1000'), ('ROS_DISTRO', 'humble'), ('COLCON_PREFIX_PATH', '/opt/ros/humble'), ('LOGNAME', 'root'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('PATH', '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'), ('DISPLAY', ':0'), ('LANG', 'en_GB.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SUDO_COMMAND', '/usr/bin/colcon build --executor sequential'), ('DEBIAN_FRONTEND', ''), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('OPENCV_VERSION', '4.7.0'), ('SUDO_USER', 'ros'), ('LC_ALL', 'en_GB.UTF-8'), ('PWD', '/home/ros/ros_ws/build/mecanumbot_control'), ('PYTHONPATH', ':/usr/lib/python3/dist-packages/cv2/python-3.10/:/opt/bgslibrary/build/lib.linux-x86_64-cpython-310:/opt/bgslibrary/build/lib.linux-aarch64-cpython-310:/opt/sky360lib/build/lib:/opt/ros/humble/lib/python3.10/site-packages'), ('TZ', 'Europe/London'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[13.892457] (-) TimerEvent: {}
+[13.993370] (-) TimerEvent: {}
+[14.044250] (mecanumbot_control) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/mecanumbot_control_node.dir/src/mecanumbot_control_node.cpp.o\x1b[0m\n'}
+[14.093638] (-) TimerEvent: {}
+[14.194279] (-) TimerEvent: {}
+[14.295050] (-) TimerEvent: {}
+[14.395742] (-) TimerEvent: {}
+[14.496445] (-) TimerEvent: {}
+[14.597148] (-) TimerEvent: {}
+[14.697850] (-) TimerEvent: {}
+[14.798513] (-) TimerEvent: {}
+[14.899240] (-) TimerEvent: {}
+[14.999852] (-) TimerEvent: {}
+[15.100485] (-) TimerEvent: {}
+[15.201193] (-) TimerEvent: {}
+[15.301865] (-) TimerEvent: {}
+[15.402557] (-) TimerEvent: {}
+[15.503241] (-) TimerEvent: {}
+[15.603948] (-) TimerEvent: {}
+[15.704757] (-) TimerEvent: {}
+[15.805593] (-) TimerEvent: {}
+[15.906282] (-) TimerEvent: {}
+[16.007000] (-) TimerEvent: {}
+[16.107720] (-) TimerEvent: {}
+[16.208438] (-) TimerEvent: {}
+[16.309162] (-) TimerEvent: {}
+[16.409885] (-) TimerEvent: {}
+[16.510642] (-) TimerEvent: {}
+[16.611413] (-) TimerEvent: {}
+[16.712184] (-) TimerEvent: {}
+[16.813206] (-) TimerEvent: {}
+[16.913893] (-) TimerEvent: {}
+[17.015359] (-) TimerEvent: {}
+[17.116647] (-) TimerEvent: {}
+[17.217378] (-) TimerEvent: {}
+[17.318040] (-) TimerEvent: {}
+[17.418694] (-) TimerEvent: {}
+[17.519354] (-) TimerEvent: {}
+[17.620079] (-) TimerEvent: {}
+[17.720773] (-) TimerEvent: {}
+[17.821587] (-) TimerEvent: {}
+[17.922279] (-) TimerEvent: {}
+[18.023746] (-) TimerEvent: {}
+[18.124707] (-) TimerEvent: {}
+[18.225436] (-) TimerEvent: {}
+[18.326108] (-) TimerEvent: {}
+[18.426899] (-) TimerEvent: {}
+[18.527612] (-) TimerEvent: {}
+[18.628326] (-) TimerEvent: {}
+[18.728984] (-) TimerEvent: {}
+[18.829666] (-) TimerEvent: {}
+[18.930595] (-) TimerEvent: {}
+[19.031308] (-) TimerEvent: {}
+[19.132037] (-) TimerEvent: {}
+[19.232936] (-) TimerEvent: {}
+[19.333637] (-) TimerEvent: {}
+[19.434375] (-) TimerEvent: {}
+[19.535112] (-) TimerEvent: {}
+[19.635833] (-) TimerEvent: {}
+[19.736549] (-) TimerEvent: {}
+[19.837330] (-) TimerEvent: {}
+[19.938028] (-) TimerEvent: {}
+[20.038755] (-) TimerEvent: {}
+[20.139444] (-) TimerEvent: {}
+[20.240287] (-) TimerEvent: {}
+[20.341076] (-) TimerEvent: {}
+[20.441877] (-) TimerEvent: {}
+[20.542681] (-) TimerEvent: {}
+[20.643404] (-) TimerEvent: {}
+[20.744099] (-) TimerEvent: {}
+[20.844812] (-) TimerEvent: {}
+[20.945582] (-) TimerEvent: {}
+[21.046548] (-) TimerEvent: {}
+[21.147523] (-) TimerEvent: {}
+[21.248307] (-) TimerEvent: {}
+[21.348961] (-) TimerEvent: {}
+[21.450528] (-) TimerEvent: {}
+[21.552055] (-) TimerEvent: {}
+[21.652776] (-) TimerEvent: {}
+[21.753527] (-) TimerEvent: {}
+[21.854242] (-) TimerEvent: {}
+[21.954943] (-) TimerEvent: {}
+[22.056389] (-) TimerEvent: {}
+[22.157153] (-) TimerEvent: {}
+[22.257868] (-) TimerEvent: {}
+[22.358517] (-) TimerEvent: {}
+[22.459225] (-) TimerEvent: {}
+[22.560062] (-) TimerEvent: {}
+[22.660766] (-) TimerEvent: {}
+[22.761497] (-) TimerEvent: {}
+[22.862151] (-) TimerEvent: {}
+[22.962861] (-) TimerEvent: {}
+[23.063825] (-) TimerEvent: {}
+[23.164540] (-) TimerEvent: {}
+[23.265269] (-) TimerEvent: {}
+[23.365900] (-) TimerEvent: {}
+[23.466543] (-) TimerEvent: {}
+[23.567255] (-) TimerEvent: {}
+[23.667970] (-) TimerEvent: {}
+[23.768628] (-) TimerEvent: {}
+[23.869408] (-) TimerEvent: {}
+[23.970060] (-) TimerEvent: {}
+[24.071443] (-) TimerEvent: {}
+[24.172195] (-) TimerEvent: {}
+[24.272935] (-) TimerEvent: {}
+[24.373652] (-) TimerEvent: {}
+[24.474310] (-) TimerEvent: {}
+[24.574957] (-) TimerEvent: {}
+[24.675742] (-) TimerEvent: {}
+[24.776466] (-) TimerEvent: {}
+[24.877191] (-) TimerEvent: {}
+[24.977883] (-) TimerEvent: {}
+[25.078607] (-) TimerEvent: {}
+[25.179346] (-) TimerEvent: {}
+[25.280151] (-) TimerEvent: {}
+[25.380871] (-) TimerEvent: {}
+[25.481670] (-) TimerEvent: {}
+[25.582331] (-) TimerEvent: {}
+[25.683059] (-) TimerEvent: {}
+[25.783775] (-) TimerEvent: {}
+[25.884488] (-) TimerEvent: {}
+[25.985251] (-) TimerEvent: {}
+[26.085954] (-) TimerEvent: {}
+[26.186605] (-) TimerEvent: {}
+[26.287325] (-) TimerEvent: {}
+[26.388054] (-) TimerEvent: {}
+[26.488827] (-) TimerEvent: {}
+[26.589834] (-) TimerEvent: {}
+[26.690555] (-) TimerEvent: {}
+[26.791204] (-) TimerEvent: {}
+[26.891905] (-) TimerEvent: {}
+[26.992604] (-) TimerEvent: {}
+[27.093330] (-) TimerEvent: {}
+[27.193988] (-) TimerEvent: {}
+[27.294754] (-) TimerEvent: {}
+[27.395466] (-) TimerEvent: {}
+[27.496211] (-) TimerEvent: {}
+[27.596934] (-) TimerEvent: {}
+[27.697702] (-) TimerEvent: {}
+[27.798367] (-) TimerEvent: {}
+[27.899129] (-) TimerEvent: {}
+[28.000028] (-) TimerEvent: {}
+[28.101574] (-) TimerEvent: {}
+[28.202230] (-) TimerEvent: {}
+[28.302941] (-) TimerEvent: {}
+[28.403651] (-) TimerEvent: {}
+[28.504422] (-) TimerEvent: {}
+[28.605160] (-) TimerEvent: {}
+[28.705831] (-) TimerEvent: {}
+[28.806598] (-) TimerEvent: {}
+[28.907313] (-) TimerEvent: {}
+[29.008036] (-) TimerEvent: {}
+[29.109138] (-) TimerEvent: {}
+[29.209855] (-) TimerEvent: {}
+[29.310574] (-) TimerEvent: {}
+[29.411291] (-) TimerEvent: {}
+[29.512023] (-) TimerEvent: {}
+[29.612756] (-) TimerEvent: {}
+[29.713451] (-) TimerEvent: {}
+[29.814192] (-) TimerEvent: {}
+[29.914921] (-) TimerEvent: {}
+[30.015632] (-) TimerEvent: {}
+[30.117110] (-) TimerEvent: {}
+[30.217928] (-) TimerEvent: {}
+[30.318779] (-) TimerEvent: {}
+[30.419447] (-) TimerEvent: {}
+[30.520242] (-) TimerEvent: {}
+[30.620962] (-) TimerEvent: {}
+[30.721750] (-) TimerEvent: {}
+[30.822711] (-) TimerEvent: {}
+[30.923486] (-) TimerEvent: {}
+[31.024226] (-) TimerEvent: {}
+[31.125830] (-) TimerEvent: {}
+[31.226559] (-) TimerEvent: {}
+[31.327348] (-) TimerEvent: {}
+[31.428080] (-) TimerEvent: {}
+[31.528799] (-) TimerEvent: {}
+[31.629610] (-) TimerEvent: {}
+[31.730327] (-) TimerEvent: {}
+[31.831060] (-) TimerEvent: {}
+[31.931824] (-) TimerEvent: {}
+[32.032590] (-) TimerEvent: {}
+[32.135082] (-) TimerEvent: {}
+[32.235742] (-) TimerEvent: {}
+[32.336415] (-) TimerEvent: {}
+[32.437125] (-) TimerEvent: {}
+[32.537870] (-) TimerEvent: {}
+[32.638538] (-) TimerEvent: {}
+[32.740154] (-) TimerEvent: {}
+[32.840938] (-) TimerEvent: {}
+[32.941752] (-) TimerEvent: {}
+[33.042393] (-) TimerEvent: {}
+[33.143049] (-) TimerEvent: {}
+[33.243830] (-) TimerEvent: {}
+[33.344583] (-) TimerEvent: {}
+[33.356202] (mecanumbot_control) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable mecanumbot_control_node\x1b[0m\n'}
+[33.444870] (-) TimerEvent: {}
+[33.545640] (-) TimerEvent: {}
+[33.646367] (-) TimerEvent: {}
+[33.747098] (-) TimerEvent: {}
+[33.847835] (-) TimerEvent: {}
+[33.948598] (-) TimerEvent: {}
+[34.049413] (-) TimerEvent: {}
+[34.150157] (-) TimerEvent: {}
+[34.250984] (-) TimerEvent: {}
+[34.260101] (mecanumbot_control) StdoutLine: {'line': b'[100%] Built target mecanumbot_control_node\n'}
+[34.298593] (mecanumbot_control) CommandEnded: {'returncode': 0}
+[34.351202] (-) TimerEvent: {}
+[34.369197] (mecanumbot_control) JobProgress: {'identifier': 'mecanumbot_control', 'progress': 'install'}
+[34.396391] (mecanumbot_control) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ros/ros_ws/build/mecanumbot_control'], 'cwd': '/home/ros/ros_ws/build/mecanumbot_control', 'env': OrderedDict([('SUDO_GID', '1000'), ('MAIL', '/var/mail/root'), ('USER', 'root'), ('HOSTNAME', 'szeyuan-desktop'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib'), ('HOME', '/root'), ('AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS', '1'), ('ROS_PYTHON_VERSION', '3'), ('COLORTERM', 'truecolor'), ('SUDO_UID', '1000'), ('ROS_DISTRO', 'humble'), ('COLCON_PREFIX_PATH', '/opt/ros/humble'), ('LOGNAME', 'root'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('PATH', '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'), ('DISPLAY', ':0'), ('LANG', 'en_GB.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SUDO_COMMAND', '/usr/bin/colcon build --executor sequential'), ('DEBIAN_FRONTEND', ''), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('OPENCV_VERSION', '4.7.0'), ('SUDO_USER', 'ros'), ('LC_ALL', 'en_GB.UTF-8'), ('PWD', '/home/ros/ros_ws/build/mecanumbot_control'), ('PYTHONPATH', ':/usr/lib/python3/dist-packages/cv2/python-3.10/:/opt/bgslibrary/build/lib.linux-x86_64-cpython-310:/opt/bgslibrary/build/lib.linux-aarch64-cpython-310:/opt/sky360lib/build/lib:/opt/ros/humble/lib/python3.10/site-packages'), ('TZ', 'Europe/London'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[34.420710] (mecanumbot_control) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[34.422301] (mecanumbot_control) StdoutLine: {'line': b'-- Installing: /home/ros/ros_ws/install/mecanumbot_control/lib/mecanumbot_control/mecanumbot_control_node\n'}
+[34.425887] (mecanumbot_control) StdoutLine: {'line': b'-- Set runtime path of "/home/ros/ros_ws/install/mecanumbot_control/lib/mecanumbot_control/mecanumbot_control_node" to ""\n'}
+[34.426546] (mecanumbot_control) StdoutLine: {'line': b'-- Installing: /home/ros/ros_ws/install/mecanumbot_control/share/ament_index/resource_index/package_run_dependencies/mecanumbot_control\n'}
+[34.427465] (mecanumbot_control) StdoutLine: {'line': b'-- Installing: /home/ros/ros_ws/install/mecanumbot_control/share/ament_index/resource_index/parent_prefix_path/mecanumbot_control\n'}
+[34.428419] (mecanumbot_control) StdoutLine: {'line': b'-- Installing: /home/ros/ros_ws/install/mecanumbot_control/share/mecanumbot_control/environment/ament_prefix_path.sh\n'}
+[34.429360] (mecanumbot_control) StdoutLine: {'line': b'-- Installing: /home/ros/ros_ws/install/mecanumbot_control/share/mecanumbot_control/environment/ament_prefix_path.dsv\n'}
+[34.430028] (mecanumbot_control) StdoutLine: {'line': b'-- Installing: /home/ros/ros_ws/install/mecanumbot_control/share/mecanumbot_control/environment/path.sh\n'}
+[34.430797] (mecanumbot_control) StdoutLine: {'line': b'-- Installing: /home/ros/ros_ws/install/mecanumbot_control/share/mecanumbot_control/environment/path.dsv\n'}
+[34.431394] (mecanumbot_control) StdoutLine: {'line': b'-- Installing: /home/ros/ros_ws/install/mecanumbot_control/share/mecanumbot_control/local_setup.bash\n'}
+[34.432090] (mecanumbot_control) StdoutLine: {'line': b'-- Installing: /home/ros/ros_ws/install/mecanumbot_control/share/mecanumbot_control/local_setup.sh\n'}
+[34.432781] (mecanumbot_control) StdoutLine: {'line': b'-- Installing: /home/ros/ros_ws/install/mecanumbot_control/share/mecanumbot_control/local_setup.zsh\n'}
+[34.433583] (mecanumbot_control) StdoutLine: {'line': b'-- Installing: /home/ros/ros_ws/install/mecanumbot_control/share/mecanumbot_control/local_setup.dsv\n'}
+[34.434272] (mecanumbot_control) StdoutLine: {'line': b'-- Installing: /home/ros/ros_ws/install/mecanumbot_control/share/mecanumbot_control/package.dsv\n'}
+[34.435201] (mecanumbot_control) StdoutLine: {'line': b'-- Installing: /home/ros/ros_ws/install/mecanumbot_control/share/ament_index/resource_index/packages/mecanumbot_control\n'}
+[34.436039] (mecanumbot_control) StdoutLine: {'line': b'-- Installing: /home/ros/ros_ws/install/mecanumbot_control/share/mecanumbot_control/cmake/mecanumbot_controlConfig.cmake\n'}
+[34.436617] (mecanumbot_control) StdoutLine: {'line': b'-- Installing: /home/ros/ros_ws/install/mecanumbot_control/share/mecanumbot_control/cmake/mecanumbot_controlConfig-version.cmake\n'}
+[34.437687] (mecanumbot_control) StdoutLine: {'line': b'-- Installing: /home/ros/ros_ws/install/mecanumbot_control/share/mecanumbot_control/package.xml\n'}
+[34.443548] (mecanumbot_control) CommandEnded: {'returncode': 0}
+[34.452295] (-) TimerEvent: {}
+[34.553475] (-) TimerEvent: {}
+[34.646195] (mecanumbot_control) JobEnded: {'identifier': 'mecanumbot_control', 'rc': 0}
+[34.674026] (-) TimerEvent: {}
+[34.677795] (mecanumbot_controller) JobStarted: {'identifier': 'mecanumbot_controller'}
+[34.688916] (mecanumbot_controller) JobProgress: {'identifier': 'mecanumbot_controller', 'progress': 'cmake'}
+[34.690338] (mecanumbot_controller) Command: {'cmd': ['/usr/bin/cmake', '/home/ros/ros_ws/src/ros2-mecanum-bot/mecanumbot_controller', '-DCMAKE_INSTALL_PREFIX=/home/ros/ros_ws/install/mecanumbot_controller'], 'cwd': '/home/ros/ros_ws/build/mecanumbot_controller', 'env': OrderedDict([('SUDO_GID', '1000'), ('MAIL', '/var/mail/root'), ('USER', 'root'), ('HOSTNAME', 'szeyuan-desktop'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib'), ('HOME', '/root'), ('AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS', '1'), ('ROS_PYTHON_VERSION', '3'), ('COLORTERM', 'truecolor'), ('SUDO_UID', '1000'), ('ROS_DISTRO', 'humble'), ('COLCON_PREFIX_PATH', '/opt/ros/humble'), ('LOGNAME', 'root'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('PATH', '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'), ('DISPLAY', ':0'), ('LANG', 'en_GB.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SUDO_COMMAND', '/usr/bin/colcon build --executor sequential'), ('DEBIAN_FRONTEND', ''), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('OPENCV_VERSION', '4.7.0'), ('SUDO_USER', 'ros'), ('LC_ALL', 'en_GB.UTF-8'), ('PWD', '/home/ros/ros_ws/build/mecanumbot_controller'), ('PYTHONPATH', ':/usr/lib/python3/dist-packages/cv2/python-3.10/:/opt/bgslibrary/build/lib.linux-x86_64-cpython-310:/opt/bgslibrary/build/lib.linux-aarch64-cpython-310:/opt/sky360lib/build/lib:/opt/ros/humble/lib/python3.10/site-packages'), ('TZ', 'Europe/London'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[34.774236] (-) TimerEvent: {}
+[34.874987] (-) TimerEvent: {}
+[34.957540] (mecanumbot_controller) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.3.0\n'}
+[34.975173] (-) TimerEvent: {}
+[35.075825] (-) TimerEvent: {}
+[35.172088] (mecanumbot_controller) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.3.0\n'}
+[35.176033] (-) TimerEvent: {}
+[35.197607] (mecanumbot_controller) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[35.276286] (-) TimerEvent: {}
+[35.376947] (-) TimerEvent: {}
+[35.444011] (mecanumbot_controller) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[35.476353] (mecanumbot_controller) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[35.476938] (-) TimerEvent: {}
+[35.477662] (mecanumbot_controller) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[35.478882] (mecanumbot_controller) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[35.491397] (mecanumbot_controller) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[35.577212] (-) TimerEvent: {}
+[35.677917] (-) TimerEvent: {}
+[35.768068] (mecanumbot_controller) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[35.778056] (-) TimerEvent: {}
+[35.802459] (mecanumbot_controller) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[35.803515] (mecanumbot_controller) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[35.805734] (mecanumbot_controller) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[35.825114] (mecanumbot_controller) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.4 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[35.878279] (-) TimerEvent: {}
+[35.978967] (-) TimerEvent: {}
+[36.079624] (-) TimerEvent: {}
+[36.180332] (-) TimerEvent: {}
+[36.281007] (-) TimerEvent: {}
+[36.381738] (-) TimerEvent: {}
+[36.482404] (-) TimerEvent: {}
+[36.583067] (-) TimerEvent: {}
+[36.683713] (-) TimerEvent: {}
+[36.784293] (-) TimerEvent: {}
+[36.884939] (-) TimerEvent: {}
+[36.985654] (-) TimerEvent: {}
+[37.086402] (-) TimerEvent: {}
+[37.187092] (-) TimerEvent: {}
+[37.287691] (-) TimerEvent: {}
+[37.388357] (-) TimerEvent: {}
+[37.489198] (-) TimerEvent: {}
+[37.589956] (-) TimerEvent: {}
+[37.662325] (mecanumbot_controller) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter \n'}
+[37.690156] (-) TimerEvent: {}
+[37.790827] (-) TimerEvent: {}
+[37.891773] (-) TimerEvent: {}
+[37.992431] (-) TimerEvent: {}
+[38.093471] (-) TimerEvent: {}
+[38.166764] (mecanumbot_controller) StdoutLine: {'line': b'-- Found controller_interface: 2.26.0 (/opt/ros/humble/share/controller_interface/cmake)\n'}
+[38.193683] (-) TimerEvent: {}
+[38.295071] (-) TimerEvent: {}
+[38.396325] (-) TimerEvent: {}
+[38.444800] (mecanumbot_controller) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[38.476686] (mecanumbot_controller) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[38.496530] (-) TimerEvent: {}
+[38.527476] (mecanumbot_controller) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[38.596764] (-) TimerEvent: {}
+[38.600620] (mecanumbot_controller) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[38.696927] (-) TimerEvent: {}
+[38.710952] (mecanumbot_controller) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[38.797145] (-) TimerEvent: {}
+[38.897871] (-) TimerEvent: {}
+[38.998509] (-) TimerEvent: {}
+[39.100121] (-) TimerEvent: {}
+[39.201809] (-) TimerEvent: {}
+[39.302442] (-) TimerEvent: {}
+[39.403117] (-) TimerEvent: {}
+[39.503799] (-) TimerEvent: {}
+[39.604483] (-) TimerEvent: {}
+[39.705156] (-) TimerEvent: {}
+[39.805829] (-) TimerEvent: {}
+[39.906454] (-) TimerEvent: {}
+[40.007149] (-) TimerEvent: {}
+[40.107827] (-) TimerEvent: {}
+[40.208750] (-) TimerEvent: {}
+[40.309491] (-) TimerEvent: {}
+[40.410178] (-) TimerEvent: {}
+[40.510857] (-) TimerEvent: {}
+[40.611539] (-) TimerEvent: {}
+[40.712217] (-) TimerEvent: {}
+[40.812907] (-) TimerEvent: {}
+[40.913636] (-) TimerEvent: {}
+[41.014317] (-) TimerEvent: {}
+[41.114959] (-) TimerEvent: {}
+[41.215678] (-) TimerEvent: {}
+[41.316359] (-) TimerEvent: {}
+[41.417081] (-) TimerEvent: {}
+[41.517894] (-) TimerEvent: {}
+[41.618579] (-) TimerEvent: {}
+[41.719221] (-) TimerEvent: {}
+[41.819855] (-) TimerEvent: {}
+[41.920494] (-) TimerEvent: {}
+[42.021420] (-) TimerEvent: {}
+[42.095578] (mecanumbot_controller) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[42.112231] (mecanumbot_controller) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[42.121561] (-) TimerEvent: {}
+[42.222456] (-) TimerEvent: {}
+[42.323138] (-) TimerEvent: {}
+[42.423822] (-) TimerEvent: {}
+[42.524476] (-) TimerEvent: {}
+[42.564163] (mecanumbot_controller) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[42.624709] (-) TimerEvent: {}
+[42.725494] (-) TimerEvent: {}
+[42.727474] (mecanumbot_controller) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[42.825657] (-) TimerEvent: {}
+[42.926323] (-) TimerEvent: {}
+[43.020579] (mecanumbot_controller) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[43.026458] (-) TimerEvent: {}
+[43.084502] (mecanumbot_controller) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[43.126680] (-) TimerEvent: {}
+[43.227471] (-) TimerEvent: {}
+[43.328131] (-) TimerEvent: {}
+[43.343345] (mecanumbot_controller) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[43.347958] (mecanumbot_controller) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[43.428311] (-) TimerEvent: {}
+[43.529808] (-) TimerEvent: {}
+[43.611493] (mecanumbot_controller) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[43.616772] (mecanumbot_controller) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[43.629977] (-) TimerEvent: {}
+[43.730704] (-) TimerEvent: {}
+[43.831466] (-) TimerEvent: {}
+[43.932122] (-) TimerEvent: {}
+[44.032764] (-) TimerEvent: {}
+[44.133548] (-) TimerEvent: {}
+[44.234231] (-) TimerEvent: {}
+[44.334907] (-) TimerEvent: {}
+[44.435604] (-) TimerEvent: {}
+[44.536237] (-) TimerEvent: {}
+[44.636874] (-) TimerEvent: {}
+[44.737607] (-) TimerEvent: {}
+[44.838287] (-) TimerEvent: {}
+[44.905205] (mecanumbot_controller) StdoutLine: {'line': b'-- Found realtime_tools: 2.5.0 (/opt/ros/humble/share/realtime_tools/cmake)\n'}
+[44.938460] (-) TimerEvent: {}
+[45.039362] (-) TimerEvent: {}
+[45.140896] (-) TimerEvent: {}
+[45.241644] (-) TimerEvent: {}
+[45.342362] (-) TimerEvent: {}
+[45.443117] (-) TimerEvent: {}
+[45.543822] (-) TimerEvent: {}
+[45.644514] (-) TimerEvent: {}
+[45.745202] (-) TimerEvent: {}
+[45.845888] (-) TimerEvent: {}
+[45.946575] (-) TimerEvent: {}
+[46.047209] (-) TimerEvent: {}
+[46.147936] (-) TimerEvent: {}
+[46.249371] (-) TimerEvent: {}
+[46.350053] (-) TimerEvent: {}
+[46.450678] (-) TimerEvent: {}
+[46.457619] (mecanumbot_controller) StdoutLine: {'line': b'-- Configuring done\n'}
+[46.550842] (-) TimerEvent: {}
+[46.596213] (mecanumbot_controller) StdoutLine: {'line': b'-- Generating done\n'}
+[46.603812] (mecanumbot_controller) StdoutLine: {'line': b'-- Build files have been written to: /home/ros/ros_ws/build/mecanumbot_controller\n'}
+[46.644841] (mecanumbot_controller) CommandEnded: {'returncode': 0}
+[46.646998] (mecanumbot_controller) JobProgress: {'identifier': 'mecanumbot_controller', 'progress': 'build'}
+[46.648209] (mecanumbot_controller) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ros/ros_ws/build/mecanumbot_controller', '--', '-j4', '-l4'], 'cwd': '/home/ros/ros_ws/build/mecanumbot_controller', 'env': OrderedDict([('SUDO_GID', '1000'), ('MAIL', '/var/mail/root'), ('USER', 'root'), ('HOSTNAME', 'szeyuan-desktop'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib'), ('HOME', '/root'), ('AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS', '1'), ('ROS_PYTHON_VERSION', '3'), ('COLORTERM', 'truecolor'), ('SUDO_UID', '1000'), ('ROS_DISTRO', 'humble'), ('COLCON_PREFIX_PATH', '/opt/ros/humble'), ('LOGNAME', 'root'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('PATH', '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'), ('DISPLAY', ':0'), ('LANG', 'en_GB.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SUDO_COMMAND', '/usr/bin/colcon build --executor sequential'), ('DEBIAN_FRONTEND', ''), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('OPENCV_VERSION', '4.7.0'), ('SUDO_USER', 'ros'), ('LC_ALL', 'en_GB.UTF-8'), ('PWD', '/home/ros/ros_ws/build/mecanumbot_controller'), ('PYTHONPATH', ':/usr/lib/python3/dist-packages/cv2/python-3.10/:/opt/bgslibrary/build/lib.linux-x86_64-cpython-310:/opt/bgslibrary/build/lib.linux-aarch64-cpython-310:/opt/sky360lib/build/lib:/opt/ros/humble/lib/python3.10/site-packages'), ('TZ', 'Europe/London'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[46.651807] (-) TimerEvent: {}
+[46.752408] (-) TimerEvent: {}
+[46.823500] (mecanumbot_controller) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/mecanumbot_controller.dir/src/mecanumbot_drive_controller.cpp.o\x1b[0m\n'}
+[46.824141] (mecanumbot_controller) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/mecanumbot_controller.dir/src/mecanumbot_wheel.cpp.o\x1b[0m\n'}
+[46.852579] (-) TimerEvent: {}
+[46.954066] (-) TimerEvent: {}
+[47.054768] (-) TimerEvent: {}
+[47.155476] (-) TimerEvent: {}
+[47.256708] (-) TimerEvent: {}
+[47.357651] (-) TimerEvent: {}
+[47.458294] (-) TimerEvent: {}
+[47.559021] (-) TimerEvent: {}
+[47.659739] (-) TimerEvent: {}
+[47.760453] (-) TimerEvent: {}
+[47.861143] (-) TimerEvent: {}
+[47.962652] (-) TimerEvent: {}
+[48.064154] (-) TimerEvent: {}
+[48.164927] (-) TimerEvent: {}
+[48.265687] (-) TimerEvent: {}
+[48.366428] (-) TimerEvent: {}
+[48.467131] (-) TimerEvent: {}
+[48.567819] (-) TimerEvent: {}
+[48.668569] (-) TimerEvent: {}
+[48.769346] (-) TimerEvent: {}
+[48.870018] (-) TimerEvent: {}
+[48.970984] (-) TimerEvent: {}
+[49.071781] (-) TimerEvent: {}
+[49.172586] (-) TimerEvent: {}
+[49.273795] (-) TimerEvent: {}
+[49.374538] (-) TimerEvent: {}
+[49.475276] (-) TimerEvent: {}
+[49.576027] (-) TimerEvent: {}
+[49.676785] (-) TimerEvent: {}
+[49.777511] (-) TimerEvent: {}
+[49.878228] (-) TimerEvent: {}
+[49.978891] (-) TimerEvent: {}
+[50.079607] (-) TimerEvent: {}
+[50.185251] (-) TimerEvent: {}
+[50.289201] (-) TimerEvent: {}
+[50.389981] (-) TimerEvent: {}
+[50.490696] (-) TimerEvent: {}
+[50.591427] (-) TimerEvent: {}
+[50.692145] (-) TimerEvent: {}
+[50.792861] (-) TimerEvent: {}
+[50.893563] (-) TimerEvent: {}
+[50.994276] (-) TimerEvent: {}
+[51.095014] (-) TimerEvent: {}
+[51.195806] (-) TimerEvent: {}
+[51.296563] (-) TimerEvent: {}
+[51.397297] (-) TimerEvent: {}
+[51.497953] (-) TimerEvent: {}
+[51.598666] (-) TimerEvent: {}
+[51.699383] (-) TimerEvent: {}
+[51.800158] (-) TimerEvent: {}
+[51.900848] (-) TimerEvent: {}
+[52.001629] (-) TimerEvent: {}
+[52.102524] (-) TimerEvent: {}
+[52.203582] (-) TimerEvent: {}
+[52.304980] (-) TimerEvent: {}
+[52.406098] (-) TimerEvent: {}
+[52.506974] (-) TimerEvent: {}
+[52.607749] (-) TimerEvent: {}
+[52.708472] (-) TimerEvent: {}
+[52.809238] (-) TimerEvent: {}
+[52.909996] (-) TimerEvent: {}
+[53.010707] (-) TimerEvent: {}
+[53.111437] (-) TimerEvent: {}
+[53.212158] (-) TimerEvent: {}
+[53.312905] (-) TimerEvent: {}
+[53.413667] (-) TimerEvent: {}
+[53.514505] (-) TimerEvent: {}
+[53.615247] (-) TimerEvent: {}
+[53.715968] (-) TimerEvent: {}
+[53.816677] (-) TimerEvent: {}
+[53.917434] (-) TimerEvent: {}
+[54.018164] (-) TimerEvent: {}
+[54.119483] (-) TimerEvent: {}
+[54.220281] (-) TimerEvent: {}
+[54.320977] (-) TimerEvent: {}
+[54.422015] (-) TimerEvent: {}
+[54.522767] (-) TimerEvent: {}
+[54.623429] (-) TimerEvent: {}
+[54.724145] (-) TimerEvent: {}
+[54.824888] (-) TimerEvent: {}
+[54.925684] (-) TimerEvent: {}
+[55.026421] (-) TimerEvent: {}
+[55.127082] (-) TimerEvent: {}
+[55.227787] (-) TimerEvent: {}
+[55.328512] (-) TimerEvent: {}
+[55.429258] (-) TimerEvent: {}
+[55.529935] (-) TimerEvent: {}
+[55.630688] (-) TimerEvent: {}
+[55.731404] (-) TimerEvent: {}
+[55.832359] (-) TimerEvent: {}
+[55.933102] (-) TimerEvent: {}
+[56.033826] (-) TimerEvent: {}
+[56.134542] (-) TimerEvent: {}
+[56.235252] (-) TimerEvent: {}
+[56.335946] (-) TimerEvent: {}
+[56.436642] (-) TimerEvent: {}
+[56.537377] (-) TimerEvent: {}
+[56.638290] (-) TimerEvent: {}
+[56.738948] (-) TimerEvent: {}
+[56.839621] (-) TimerEvent: {}
+[56.940389] (-) TimerEvent: {}
+[57.041177] (-) TimerEvent: {}
+[57.141903] (-) TimerEvent: {}
+[57.242631] (-) TimerEvent: {}
+[57.343296] (-) TimerEvent: {}
+[57.444019] (-) TimerEvent: {}
+[57.544753] (-) TimerEvent: {}
+[57.645732] (-) TimerEvent: {}
+[57.746453] (-) TimerEvent: {}
+[57.847194] (-) TimerEvent: {}
+[57.947904] (-) TimerEvent: {}
+[58.048630] (-) TimerEvent: {}
+[58.149420] (-) TimerEvent: {}
+[58.250142] (-) TimerEvent: {}
+[58.350915] (-) TimerEvent: {}
+[58.451704] (-) TimerEvent: {}
+[58.552447] (-) TimerEvent: {}
+[58.653491] (-) TimerEvent: {}
+[58.754247] (-) TimerEvent: {}
+[58.850932] (mecanumbot_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros/ros_ws/src/ros2-mecanum-bot/mecanumbot_controller/src/mecanumbot_drive_controller.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual controller_interface::return_type debict::mecanumbot::controller::MecanumbotDriveController::update(const rclcpp::Time&, const rclcpp::Duration&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[58.851592] (mecanumbot_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros/ros_ws/src/ros2-mecanum-bot/mecanumbot_controller/src/mecanumbot_drive_controller.cpp:60:90:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ktime\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[58.851984] (mecanumbot_controller) StderrLine: {'line': b'   60 | controller_interface::return_type MecanumbotDriveController::update(\x1b[01;35m\x1b[Kconst rclcpp::Time & time\x1b[m\x1b[K, const rclcpp::Duration & period)\n'}
+[58.852350] (mecanumbot_controller) StderrLine: {'line': b'      |                                                                     \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[58.852740] (mecanumbot_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros/ros_ws/src/ros2-mecanum-bot/mecanumbot_controller/src/mecanumbot_drive_controller.cpp:60:121:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kperiod\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[58.853249] (mecanumbot_controller) StderrLine: {'line': b'   60 | controller_interface::return_type MecanumbotDriveController::update(const rclcpp::Time & time, \x1b[01;35m\x1b[Kconst rclcpp::Duration & period\x1b[m\x1b[K)\n'}
+[58.853669] (mecanumbot_controller) StderrLine: {'line': b'      |                                                                                                \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~\x1b[m\x1b[K\n'}
+[58.854336] (-) TimerEvent: {}
+[58.954887] (-) TimerEvent: {}
+[59.055591] (-) TimerEvent: {}
+[59.156328] (-) TimerEvent: {}
+[59.257085] (-) TimerEvent: {}
+[59.357800] (-) TimerEvent: {}
+[59.458572] (-) TimerEvent: {}
+[59.559246] (-) TimerEvent: {}
+[59.659993] (-) TimerEvent: {}
+[59.760687] (-) TimerEvent: {}
+[59.861476] (-) TimerEvent: {}
+[59.962251] (-) TimerEvent: {}
+[60.063721] (-) TimerEvent: {}
+[60.164458] (-) TimerEvent: {}
+[60.265176] (-) TimerEvent: {}
+[60.365897] (-) TimerEvent: {}
+[60.466565] (-) TimerEvent: {}
+[60.567434] (-) TimerEvent: {}
+[60.668979] (-) TimerEvent: {}
+[60.769762] (-) TimerEvent: {}
+[60.870475] (-) TimerEvent: {}
+[60.971221] (-) TimerEvent: {}
+[61.071885] (-) TimerEvent: {}
+[61.172611] (-) TimerEvent: {}
+[61.273407] (-) TimerEvent: {}
+[61.374122] (-) TimerEvent: {}
+[61.474846] (-) TimerEvent: {}
+[61.575607] (-) TimerEvent: {}
+[61.676333] (-) TimerEvent: {}
+[61.776992] (-) TimerEvent: {}
+[61.877807] (-) TimerEvent: {}
+[61.978532] (-) TimerEvent: {}
+[62.079255] (-) TimerEvent: {}
+[62.179987] (-) TimerEvent: {}
+[62.280745] (-) TimerEvent: {}
+[62.381467] (-) TimerEvent: {}
+[62.482175] (-) TimerEvent: {}
+[62.583083] (-) TimerEvent: {}
+[62.683781] (-) TimerEvent: {}
+[62.784530] (-) TimerEvent: {}
+[62.885375] (-) TimerEvent: {}
+[62.986047] (-) TimerEvent: {}
+[63.086747] (-) TimerEvent: {}
+[63.187473] (-) TimerEvent: {}
+[63.288144] (-) TimerEvent: {}
+[63.388802] (-) TimerEvent: {}
+[63.489504] (-) TimerEvent: {}
+[63.590189] (-) TimerEvent: {}
+[63.690929] (-) TimerEvent: {}
+[63.791659] (-) TimerEvent: {}
+[63.892352] (-) TimerEvent: {}
+[63.995762] (-) TimerEvent: {}
+[64.096487] (-) TimerEvent: {}
+[64.197589] (-) TimerEvent: {}
+[64.298308] (-) TimerEvent: {}
+[64.399026] (-) TimerEvent: {}
+[64.499867] (-) TimerEvent: {}
+[64.600678] (-) TimerEvent: {}
+[64.701467] (-) TimerEvent: {}
+[64.802184] (-) TimerEvent: {}
+[64.902905] (-) TimerEvent: {}
+[65.003911] (-) TimerEvent: {}
+[65.105376] (-) TimerEvent: {}
+[65.206874] (-) TimerEvent: {}
+[65.307546] (-) TimerEvent: {}
+[65.408271] (-) TimerEvent: {}
+[65.509005] (-) TimerEvent: {}
+[65.609771] (-) TimerEvent: {}
+[65.710548] (-) TimerEvent: {}
+[65.811276] (-) TimerEvent: {}
+[65.912052] (-) TimerEvent: {}
+[66.012771] (-) TimerEvent: {}
+[66.113561] (-) TimerEvent: {}
+[66.214290] (-) TimerEvent: {}
+[66.315026] (-) TimerEvent: {}
+[66.415765] (-) TimerEvent: {}
+[66.516491] (-) TimerEvent: {}
+[66.617230] (-) TimerEvent: {}
+[66.717945] (-) TimerEvent: {}
+[66.818671] (-) TimerEvent: {}
+[66.919405] (-) TimerEvent: {}
+[67.020160] (-) TimerEvent: {}
+[67.120878] (-) TimerEvent: {}
+[67.221667] (-) TimerEvent: {}
+[67.322394] (-) TimerEvent: {}
+[67.423061] (-) TimerEvent: {}
+[67.523834] (-) TimerEvent: {}
+[67.624698] (-) TimerEvent: {}
+[67.725490] (-) TimerEvent: {}
+[67.826208] (-) TimerEvent: {}
+[67.926874] (-) TimerEvent: {}
+[68.027670] (-) TimerEvent: {}
+[68.128437] (-) TimerEvent: {}
+[68.229162] (-) TimerEvent: {}
+[68.329877] (-) TimerEvent: {}
+[68.430602] (-) TimerEvent: {}
+[68.531324] (-) TimerEvent: {}
+[68.632196] (-) TimerEvent: {}
+[68.733052] (-) TimerEvent: {}
+[68.833797] (-) TimerEvent: {}
+[68.934507] (-) TimerEvent: {}
+[69.035191] (-) TimerEvent: {}
+[69.136057] (-) TimerEvent: {}
+[69.236819] (-) TimerEvent: {}
+[69.337757] (-) TimerEvent: {}
+[69.438415] (-) TimerEvent: {}
+[69.539146] (-) TimerEvent: {}
+[69.639968] (-) TimerEvent: {}
+[69.740737] (-) TimerEvent: {}
+[69.841612] (-) TimerEvent: {}
+[69.942332] (-) TimerEvent: {}
+[70.043089] (-) TimerEvent: {}
+[70.143822] (-) TimerEvent: {}
+[70.244618] (-) TimerEvent: {}
+[70.346024] (-) TimerEvent: {}
+[70.446732] (-) TimerEvent: {}
+[70.547464] (-) TimerEvent: {}
+[70.648200] (-) TimerEvent: {}
+[70.748931] (-) TimerEvent: {}
+[70.849716] (-) TimerEvent: {}
+[70.950427] (-) TimerEvent: {}
+[71.051189] (-) TimerEvent: {}
+[71.152092] (-) TimerEvent: {}
+[71.252779] (-) TimerEvent: {}
+[71.353647] (-) TimerEvent: {}
+[71.454432] (-) TimerEvent: {}
+[71.555159] (-) TimerEvent: {}
+[71.655821] (-) TimerEvent: {}
+[71.756535] (-) TimerEvent: {}
+[71.857231] (-) TimerEvent: {}
+[71.957944] (-) TimerEvent: {}
+[72.058646] (-) TimerEvent: {}
+[72.159263] (-) TimerEvent: {}
+[72.260190] (-) TimerEvent: {}
+[72.360947] (-) TimerEvent: {}
+[72.461650] (-) TimerEvent: {}
+[72.562363] (-) TimerEvent: {}
+[72.663079] (-) TimerEvent: {}
+[72.763788] (-) TimerEvent: {}
+[72.864499] (-) TimerEvent: {}
+[72.965199] (-) TimerEvent: {}
+[73.065912] (-) TimerEvent: {}
+[73.166640] (-) TimerEvent: {}
+[73.267335] (-) TimerEvent: {}
+[73.368091] (-) TimerEvent: {}
+[73.468908] (-) TimerEvent: {}
+[73.569766] (-) TimerEvent: {}
+[73.670589] (-) TimerEvent: {}
+[73.771347] (-) TimerEvent: {}
+[73.872010] (-) TimerEvent: {}
+[73.972663] (-) TimerEvent: {}
+[74.073410] (-) TimerEvent: {}
+[74.174050] (-) TimerEvent: {}
+[74.274742] (-) TimerEvent: {}
+[74.375533] (-) TimerEvent: {}
+[74.476297] (-) TimerEvent: {}
+[74.577001] (-) TimerEvent: {}
+[74.677739] (-) TimerEvent: {}
+[74.778449] (-) TimerEvent: {}
+[74.879158] (-) TimerEvent: {}
+[74.979858] (-) TimerEvent: {}
+[75.080498] (-) TimerEvent: {}
+[75.182620] (-) TimerEvent: {}
+[75.283365] (-) TimerEvent: {}
+[75.384000] (-) TimerEvent: {}
+[75.485142] (-) TimerEvent: {}
+[75.585891] (-) TimerEvent: {}
+[75.686708] (-) TimerEvent: {}
+[75.788155] (-) TimerEvent: {}
+[75.888860] (-) TimerEvent: {}
+[75.989648] (-) TimerEvent: {}
+[76.090318] (-) TimerEvent: {}
+[76.191039] (-) TimerEvent: {}
+[76.291761] (-) TimerEvent: {}
+[76.392574] (-) TimerEvent: {}
+[76.493300] (-) TimerEvent: {}
+[76.593994] (-) TimerEvent: {}
+[76.694889] (-) TimerEvent: {}
+[76.796677] (-) TimerEvent: {}
+[76.897489] (-) TimerEvent: {}
+[76.998240] (-) TimerEvent: {}
+[77.098951] (-) TimerEvent: {}
+[77.199740] (-) TimerEvent: {}
+[77.300443] (-) TimerEvent: {}
+[77.401146] (-) TimerEvent: {}
+[77.501913] (-) TimerEvent: {}
+[77.602613] (-) TimerEvent: {}
+[77.703320] (-) TimerEvent: {}
+[77.804053] (-) TimerEvent: {}
+[77.904736] (-) TimerEvent: {}
+[78.005507] (-) TimerEvent: {}
+[78.106217] (-) TimerEvent: {}
+[78.206917] (-) TimerEvent: {}
+[78.307622] (-) TimerEvent: {}
+[78.408272] (-) TimerEvent: {}
+[78.509111] (-) TimerEvent: {}
+[78.609740] (-) TimerEvent: {}
+[78.710481] (-) TimerEvent: {}
+[78.811272] (-) TimerEvent: {}
+[78.911996] (-) TimerEvent: {}
+[79.012641] (-) TimerEvent: {}
+[79.113333] (-) TimerEvent: {}
+[79.213974] (-) TimerEvent: {}
+[79.314615] (-) TimerEvent: {}
+[79.415307] (-) TimerEvent: {}
+[79.516011] (-) TimerEvent: {}
+[79.616719] (-) TimerEvent: {}
+[79.717472] (-) TimerEvent: {}
+[79.818171] (-) TimerEvent: {}
+[79.918876] (-) TimerEvent: {}
+[80.019573] (-) TimerEvent: {}
+[80.120413] (-) TimerEvent: {}
+[80.221138] (-) TimerEvent: {}
+[80.321790] (-) TimerEvent: {}
+[80.422445] (-) TimerEvent: {}
+[80.523125] (-) TimerEvent: {}
+[80.624122] (-) TimerEvent: {}
+[80.725152] (-) TimerEvent: {}
+[80.825900] (-) TimerEvent: {}
+[80.926542] (-) TimerEvent: {}
+[81.027249] (-) TimerEvent: {}
+[81.127950] (-) TimerEvent: {}
+[81.228662] (-) TimerEvent: {}
+[81.329377] (-) TimerEvent: {}
+[81.430082] (-) TimerEvent: {}
+[81.530787] (-) TimerEvent: {}
+[81.631533] (-) TimerEvent: {}
+[81.732319] (-) TimerEvent: {}
+[81.833071] (-) TimerEvent: {}
+[81.933719] (-) TimerEvent: {}
+[82.034356] (-) TimerEvent: {}
+[82.134997] (-) TimerEvent: {}
+[82.235632] (-) TimerEvent: {}
+[82.336327] (-) TimerEvent: {}
+[82.436973] (-) TimerEvent: {}
+[82.537809] (-) TimerEvent: {}
+[82.638549] (-) TimerEvent: {}
+[82.739245] (-) TimerEvent: {}
+[82.839978] (-) TimerEvent: {}
+[82.940619] (-) TimerEvent: {}
+[83.041327] (-) TimerEvent: {}
+[83.141975] (-) TimerEvent: {}
+[83.242676] (-) TimerEvent: {}
+[83.343316] (-) TimerEvent: {}
+[83.443957] (-) TimerEvent: {}
+[83.544681] (-) TimerEvent: {}
+[83.645488] (-) TimerEvent: {}
+[83.746258] (-) TimerEvent: {}
+[83.847003] (-) TimerEvent: {}
+[83.947703] (-) TimerEvent: {}
+[84.048350] (-) TimerEvent: {}
+[84.149174] (-) TimerEvent: {}
+[84.249872] (-) TimerEvent: {}
+[84.350577] (-) TimerEvent: {}
+[84.451284] (-) TimerEvent: {}
+[84.551991] (-) TimerEvent: {}
+[84.652690] (-) TimerEvent: {}
+[84.753407] (-) TimerEvent: {}
+[84.854102] (-) TimerEvent: {}
+[84.954798] (-) TimerEvent: {}
+[85.055518] (-) TimerEvent: {}
+[85.156210] (-) TimerEvent: {}
+[85.257149] (-) TimerEvent: {}
+[85.358090] (-) TimerEvent: {}
+[85.458792] (-) TimerEvent: {}
+[85.559505] (-) TimerEvent: {}
+[85.660656] (-) TimerEvent: {}
+[85.762075] (-) TimerEvent: {}
+[85.862783] (-) TimerEvent: {}
+[85.963434] (-) TimerEvent: {}
+[86.064169] (-) TimerEvent: {}
+[86.164950] (-) TimerEvent: {}
+[86.265793] (-) TimerEvent: {}
+[86.366515] (-) TimerEvent: {}
+[86.467233] (-) TimerEvent: {}
+[86.567902] (-) TimerEvent: {}
+[86.668610] (-) TimerEvent: {}
+[86.769378] (-) TimerEvent: {}
+[86.870984] (-) TimerEvent: {}
+[86.971730] (-) TimerEvent: {}
+[86.982593] (mecanumbot_controller) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libmecanumbot_controller.so\x1b[0m\n'}
+[87.071908] (-) TimerEvent: {}
+[87.172610] (-) TimerEvent: {}
+[87.273394] (-) TimerEvent: {}
+[87.374252] (-) TimerEvent: {}
+[87.475011] (-) TimerEvent: {}
+[87.575805] (-) TimerEvent: {}
+[87.676619] (-) TimerEvent: {}
+[87.777517] (-) TimerEvent: {}
+[87.878207] (-) TimerEvent: {}
+[87.978893] (-) TimerEvent: {}
+[88.079680] (-) TimerEvent: {}
+[88.180549] (-) TimerEvent: {}
+[88.281295] (-) TimerEvent: {}
+[88.381988] (-) TimerEvent: {}
+[88.482735] (-) TimerEvent: {}
+[88.583512] (-) TimerEvent: {}
+[88.684260] (-) TimerEvent: {}
+[88.784990] (-) TimerEvent: {}
+[88.885726] (-) TimerEvent: {}
+[88.986440] (-) TimerEvent: {}
+[89.087199] (-) TimerEvent: {}
+[89.188154] (-) TimerEvent: {}
+[89.288911] (-) TimerEvent: {}
+[89.389991] (-) TimerEvent: {}
+[89.490661] (-) TimerEvent: {}
+[89.591365] (-) TimerEvent: {}
+[89.692038] (-) TimerEvent: {}
+[89.792733] (-) TimerEvent: {}
+[89.893506] (-) TimerEvent: {}
+[89.906577] (mecanumbot_controller) StdoutLine: {'line': b'[100%] Built target mecanumbot_controller\n'}
+[89.943733] (mecanumbot_controller) CommandEnded: {'returncode': 0}
+[89.993800] (-) TimerEvent: {}
+[90.024452] (mecanumbot_controller) JobProgress: {'identifier': 'mecanumbot_controller', 'progress': 'install'}
+[90.025961] (mecanumbot_controller) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ros/ros_ws/build/mecanumbot_controller'], 'cwd': '/home/ros/ros_ws/build/mecanumbot_controller', 'env': OrderedDict([('SUDO_GID', '1000'), ('MAIL', '/var/mail/root'), ('USER', 'root'), ('HOSTNAME', 'szeyuan-desktop'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib'), ('HOME', '/root'), ('AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS', '1'), ('ROS_PYTHON_VERSION', '3'), ('COLORTERM', 'truecolor'), ('SUDO_UID', '1000'), ('ROS_DISTRO', 'humble'), ('COLCON_PREFIX_PATH', '/opt/ros/humble'), ('LOGNAME', 'root'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('PATH', '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'), ('DISPLAY', ':0'), ('LANG', 'en_GB.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SUDO_COMMAND', '/usr/bin/colcon build --executor sequential'), ('DEBIAN_FRONTEND', ''), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('OPENCV_VERSION', '4.7.0'), ('SUDO_USER', 'ros'), ('LC_ALL', 'en_GB.UTF-8'), ('PWD', '/home/ros/ros_ws/build/mecanumbot_controller'), ('PYTHONPATH', ':/usr/lib/python3/dist-packages/cv2/python-3.10/:/opt/bgslibrary/build/lib.linux-x86_64-cpython-310:/opt/bgslibrary/build/lib.linux-aarch64-cpython-310:/opt/sky360lib/build/lib:/opt/ros/humble/lib/python3.10/site-packages'), ('TZ', 'Europe/London'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[90.051983] (mecanumbot_controller) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[90.052756] (mecanumbot_controller) StdoutLine: {'line': b'-- Installing: /home/ros/ros_ws/install/mecanumbot_controller/share/mecanumbot_controller/mecanumbot_controller.xml\n'}
+[90.060401] (mecanumbot_controller) StdoutLine: {'line': b'-- Installing: /home/ros/ros_ws/install/mecanumbot_controller/lib/libmecanumbot_controller.so\n'}
+[90.090382] (mecanumbot_controller) StdoutLine: {'line': b'-- Set runtime path of "/home/ros/ros_ws/install/mecanumbot_controller/lib/libmecanumbot_controller.so" to ""\n'}
+[90.091526] (mecanumbot_controller) StdoutLine: {'line': b'-- Installing: /home/ros/ros_ws/install/mecanumbot_controller/include/include\n'}
+[90.092115] (mecanumbot_controller) StdoutLine: {'line': b'-- Installing: /home/ros/ros_ws/install/mecanumbot_controller/include/include/mecanumbot_controller\n'}
+[90.092552] (mecanumbot_controller) StdoutLine: {'line': b'-- Installing: /home/ros/ros_ws/install/mecanumbot_controller/include/include/mecanumbot_controller/mecanumbot_controller_compiler.h\n'}
+[90.093189] (mecanumbot_controller) StdoutLine: {'line': b'-- Installing: /home/ros/ros_ws/install/mecanumbot_controller/include/include/mecanumbot_controller/mecanumbot_wheel.hpp\n'}
+[90.093679] (mecanumbot_controller) StdoutLine: {'line': b'-- Installing: /home/ros/ros_ws/install/mecanumbot_controller/include/include/mecanumbot_controller/mecanumbot_drive_controller.hpp\n'}
+[90.094111] (-) TimerEvent: {}
+[90.094633] (mecanumbot_controller) StdoutLine: {'line': b'-- Installing: /home/ros/ros_ws/install/mecanumbot_controller/share/mecanumbot_controller/environment/library_path.sh\n'}
+[90.095667] (mecanumbot_controller) StdoutLine: {'line': b'-- Installing: /home/ros/ros_ws/install/mecanumbot_controller/share/mecanumbot_controller/environment/library_path.dsv\n'}
+[90.096489] (mecanumbot_controller) StdoutLine: {'line': b'-- Installing: /home/ros/ros_ws/install/mecanumbot_controller/share/ament_index/resource_index/package_run_dependencies/mecanumbot_controller\n'}
+[90.097644] (mecanumbot_controller) StdoutLine: {'line': b'-- Installing: /home/ros/ros_ws/install/mecanumbot_controller/share/ament_index/resource_index/parent_prefix_path/mecanumbot_controller\n'}
+[90.098523] (mecanumbot_controller) StdoutLine: {'line': b'-- Installing: /home/ros/ros_ws/install/mecanumbot_controller/share/mecanumbot_controller/environment/ament_prefix_path.sh\n'}
+[90.099250] (mecanumbot_controller) StdoutLine: {'line': b'-- Installing: /home/ros/ros_ws/install/mecanumbot_controller/share/mecanumbot_controller/environment/ament_prefix_path.dsv\n'}
+[90.100345] (mecanumbot_controller) StdoutLine: {'line': b'-- Installing: /home/ros/ros_ws/install/mecanumbot_controller/share/mecanumbot_controller/environment/path.sh\n'}
+[90.103784] (mecanumbot_controller) StdoutLine: {'line': b'-- Installing: /home/ros/ros_ws/install/mecanumbot_controller/share/mecanumbot_controller/environment/path.dsv\n'}
+[90.104621] (mecanumbot_controller) StdoutLine: {'line': b'-- Installing: /home/ros/ros_ws/install/mecanumbot_controller/share/mecanumbot_controller/local_setup.bash\n'}
+[90.105198] (mecanumbot_controller) StdoutLine: {'line': b'-- Installing: /home/ros/ros_ws/install/mecanumbot_controller/share/mecanumbot_controller/local_setup.sh\n'}
+[90.106452] (mecanumbot_controller) StdoutLine: {'line': b'-- Installing: /home/ros/ros_ws/install/mecanumbot_controller/share/mecanumbot_controller/local_setup.zsh\n'}
+[90.107091] (mecanumbot_controller) StdoutLine: {'line': b'-- Installing: /home/ros/ros_ws/install/mecanumbot_controller/share/mecanumbot_controller/local_setup.dsv\n'}
+[90.107822] (mecanumbot_controller) StdoutLine: {'line': b'-- Installing: /home/ros/ros_ws/install/mecanumbot_controller/share/mecanumbot_controller/package.dsv\n'}
+[90.111256] (mecanumbot_controller) StdoutLine: {'line': b'-- Installing: /home/ros/ros_ws/install/mecanumbot_controller/share/ament_index/resource_index/packages/mecanumbot_controller\n'}
+[90.113413] (mecanumbot_controller) StdoutLine: {'line': b'-- Installing: /home/ros/ros_ws/install/mecanumbot_controller/share/ament_index/resource_index/controller_interface__pluginlib__plugin/mecanumbot_controller\n'}
+[90.114066] (mecanumbot_controller) StdoutLine: {'line': b'-- Installing: /home/ros/ros_ws/install/mecanumbot_controller/share/mecanumbot_controller/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[90.115116] (mecanumbot_controller) StdoutLine: {'line': b'-- Installing: /home/ros/ros_ws/install/mecanumbot_controller/share/mecanumbot_controller/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[90.115679] (mecanumbot_controller) StdoutLine: {'line': b'-- Installing: /home/ros/ros_ws/install/mecanumbot_controller/share/mecanumbot_controller/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[90.116177] (mecanumbot_controller) StdoutLine: {'line': b'-- Installing: /home/ros/ros_ws/install/mecanumbot_controller/share/mecanumbot_controller/cmake/mecanumbot_controllerConfig.cmake\n'}
+[90.116782] (mecanumbot_controller) StdoutLine: {'line': b'-- Installing: /home/ros/ros_ws/install/mecanumbot_controller/share/mecanumbot_controller/cmake/mecanumbot_controllerConfig-version.cmake\n'}
+[90.117515] (mecanumbot_controller) StdoutLine: {'line': b'-- Installing: /home/ros/ros_ws/install/mecanumbot_controller/share/mecanumbot_controller/package.xml\n'}
+[90.127717] (mecanumbot_controller) CommandEnded: {'returncode': 0}
+[90.194371] (-) TimerEvent: {}
+[90.295045] (-) TimerEvent: {}
+[90.333481] (mecanumbot_controller) JobEnded: {'identifier': 'mecanumbot_controller', 'rc': 0}
+[90.349958] (mecanumbot_description) JobStarted: {'identifier': 'mecanumbot_description'}
+[90.375748] (mecanumbot_description) JobProgress: {'identifier': 'mecanumbot_description', 'progress': 'cmake'}
+[90.376807] (mecanumbot_description) Command: {'cmd': ['/usr/bin/cmake', '/home/ros/ros_ws/src/ros2-mecanum-bot/mecanumbot_description', '-DCMAKE_INSTALL_PREFIX=/home/ros/ros_ws/install/mecanumbot_description'], 'cwd': '/home/ros/ros_ws/build/mecanumbot_description', 'env': OrderedDict([('SUDO_GID', '1000'), ('MAIL', '/var/mail/root'), ('USER', 'root'), ('HOSTNAME', 'szeyuan-desktop'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib'), ('HOME', '/root'), ('AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS', '1'), ('ROS_PYTHON_VERSION', '3'), ('COLORTERM', 'truecolor'), ('SUDO_UID', '1000'), ('ROS_DISTRO', 'humble'), ('COLCON_PREFIX_PATH', '/opt/ros/humble'), ('LOGNAME', 'root'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('PATH', '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'), ('DISPLAY', ':0'), ('LANG', 'en_GB.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SUDO_COMMAND', '/usr/bin/colcon build --executor sequential'), ('DEBIAN_FRONTEND', ''), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('OPENCV_VERSION', '4.7.0'), ('SUDO_USER', 'ros'), ('LC_ALL', 'en_GB.UTF-8'), ('PWD', '/home/ros/ros_ws/build/mecanumbot_description'), ('PYTHONPATH', ':/usr/lib/python3/dist-packages/cv2/python-3.10/:/opt/bgslibrary/build/lib.linux-x86_64-cpython-310:/opt/bgslibrary/build/lib.linux-aarch64-cpython-310:/opt/sky360lib/build/lib:/opt/ros/humble/lib/python3.10/site-packages'), ('TZ', 'Europe/London'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[90.395256] (-) TimerEvent: {}
+[90.496182] (-) TimerEvent: {}
+[90.597200] (-) TimerEvent: {}
+[90.629075] (mecanumbot_description) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.3.0\n'}
+[90.697665] (-) TimerEvent: {}
+[90.799385] (-) TimerEvent: {}
+[90.900104] (-) TimerEvent: {}
+[90.920707] (mecanumbot_description) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.3.0\n'}
+[90.948397] (mecanumbot_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[91.000433] (-) TimerEvent: {}
+[91.101133] (-) TimerEvent: {}
+[91.191926] (mecanumbot_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[91.201314] (-) TimerEvent: {}
+[91.226288] (mecanumbot_description) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[91.227469] (mecanumbot_description) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[91.229674] (mecanumbot_description) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[91.241878] (mecanumbot_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[91.301493] (-) TimerEvent: {}
+[91.402131] (-) TimerEvent: {}
+[91.502820] (-) TimerEvent: {}
+[91.518883] (mecanumbot_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[91.555408] (mecanumbot_description) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[91.556556] (mecanumbot_description) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[91.558499] (mecanumbot_description) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[91.575676] (mecanumbot_description) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.4 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[91.603028] (-) TimerEvent: {}
+[91.703665] (-) TimerEvent: {}
+[91.804476] (-) TimerEvent: {}
+[91.905253] (-) TimerEvent: {}
+[92.005954] (-) TimerEvent: {}
+[92.106559] (-) TimerEvent: {}
+[92.207152] (-) TimerEvent: {}
+[92.307757] (-) TimerEvent: {}
+[92.408401] (-) TimerEvent: {}
+[92.509124] (-) TimerEvent: {}
+[92.609759] (-) TimerEvent: {}
+[92.710433] (-) TimerEvent: {}
+[92.811127] (-) TimerEvent: {}
+[92.911802] (-) TimerEvent: {}
+[93.012433] (-) TimerEvent: {}
+[93.113161] (-) TimerEvent: {}
+[93.213840] (-) TimerEvent: {}
+[93.314535] (-) TimerEvent: {}
+[93.376407] (mecanumbot_description) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter \n'}
+[93.414687] (-) TimerEvent: {}
+[93.515336] (-) TimerEvent: {}
+[93.615929] (-) TimerEvent: {}
+[93.716572] (-) TimerEvent: {}
+[93.817232] (-) TimerEvent: {}
+[93.869909] (mecanumbot_description) StdoutLine: {'line': b'-- Found urdf: 2.6.0 (/opt/ros/humble/share/urdf/cmake)\n'}
+[93.917453] (-) TimerEvent: {}
+[94.018107] (-) TimerEvent: {}
+[94.118741] (-) TimerEvent: {}
+[94.219408] (-) TimerEvent: {}
+[94.238403] (mecanumbot_description) StdoutLine: {'line': b'-- Found xacro: 2.0.8 (/opt/ros/humble/share/xacro/cmake)\n'}
+[94.319629] (-) TimerEvent: {}
+[94.420343] (-) TimerEvent: {}
+[94.521098] (-) TimerEvent: {}
+[94.565386] (mecanumbot_description) StdoutLine: {'line': b'-- Configuring done\n'}
+[94.581344] (mecanumbot_description) StdoutLine: {'line': b'-- Generating done\n'}
+[94.585170] (mecanumbot_description) StdoutLine: {'line': b'-- Build files have been written to: /home/ros/ros_ws/build/mecanumbot_description\n'}
+[94.607591] (mecanumbot_description) CommandEnded: {'returncode': 0}
+[94.611841] (mecanumbot_description) JobProgress: {'identifier': 'mecanumbot_description', 'progress': 'build'}
+[94.612034] (mecanumbot_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ros/ros_ws/build/mecanumbot_description', '--', '-j4', '-l4'], 'cwd': '/home/ros/ros_ws/build/mecanumbot_description', 'env': OrderedDict([('SUDO_GID', '1000'), ('MAIL', '/var/mail/root'), ('USER', 'root'), ('HOSTNAME', 'szeyuan-desktop'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib'), ('HOME', '/root'), ('AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS', '1'), ('ROS_PYTHON_VERSION', '3'), ('COLORTERM', 'truecolor'), ('SUDO_UID', '1000'), ('ROS_DISTRO', 'humble'), ('COLCON_PREFIX_PATH', '/opt/ros/humble'), ('LOGNAME', 'root'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('PATH', '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'), ('DISPLAY', ':0'), ('LANG', 'en_GB.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SUDO_COMMAND', '/usr/bin/colcon build --executor sequential'), ('DEBIAN_FRONTEND', ''), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('OPENCV_VERSION', '4.7.0'), ('SUDO_USER', 'ros'), ('LC_ALL', 'en_GB.UTF-8'), ('PWD', '/home/ros/ros_ws/build/mecanumbot_description'), ('PYTHONPATH', ':/usr/lib/python3/dist-packages/cv2/python-3.10/:/opt/bgslibrary/build/lib.linux-x86_64-cpython-310:/opt/bgslibrary/build/lib.linux-aarch64-cpython-310:/opt/sky360lib/build/lib:/opt/ros/humble/lib/python3.10/site-packages'), ('TZ', 'Europe/London'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[94.621215] (-) TimerEvent: {}
+[94.722094] (-) TimerEvent: {}
+[94.729839] (mecanumbot_description) CommandEnded: {'returncode': 0}
+[94.797921] (mecanumbot_description) JobProgress: {'identifier': 'mecanumbot_description', 'progress': 'install'}
+[94.800584] (mecanumbot_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ros/ros_ws/build/mecanumbot_description'], 'cwd': '/home/ros/ros_ws/build/mecanumbot_description', 'env': OrderedDict([('SUDO_GID', '1000'), ('MAIL', '/var/mail/root'), ('USER', 'root'), ('HOSTNAME', 'szeyuan-desktop'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib'), ('HOME', '/root'), ('AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS', '1'), ('ROS_PYTHON_VERSION', '3'), ('COLORTERM', 'truecolor'), ('SUDO_UID', '1000'), ('ROS_DISTRO', 'humble'), ('COLCON_PREFIX_PATH', '/opt/ros/humble'), ('LOGNAME', 'root'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('PATH', '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'), ('DISPLAY', ':0'), ('LANG', 'en_GB.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SUDO_COMMAND', '/usr/bin/colcon build --executor sequential'), ('DEBIAN_FRONTEND', ''), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('OPENCV_VERSION', '4.7.0'), ('SUDO_USER', 'ros'), ('LC_ALL', 'en_GB.UTF-8'), ('PWD', '/home/ros/ros_ws/build/mecanumbot_description'), ('PYTHONPATH', ':/usr/lib/python3/dist-packages/cv2/python-3.10/:/opt/bgslibrary/build/lib.linux-x86_64-cpython-310:/opt/bgslibrary/build/lib.linux-aarch64-cpython-310:/opt/sky360lib/build/lib:/opt/ros/humble/lib/python3.10/site-packages'), ('TZ', 'Europe/London'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[94.822315] (-) TimerEvent: {}
+[94.823595] (mecanumbot_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[94.824587] (mecanumbot_description) StdoutLine: {'line': b'-- Installing: /home/ros/ros_ws/install/mecanumbot_description/share/mecanumbot_description/urdf\n'}
+[94.825210] (mecanumbot_description) StdoutLine: {'line': b'-- Installing: /home/ros/ros_ws/install/mecanumbot_description/share/mecanumbot_description/urdf/mecanumbot.urdf\n'}
+[94.825812] (mecanumbot_description) StdoutLine: {'line': b'-- Installing: /home/ros/ros_ws/install/mecanumbot_description/share/mecanumbot_description/rviz\n'}
+[94.826298] (mecanumbot_description) StdoutLine: {'line': b'-- Installing: /home/ros/ros_ws/install/mecanumbot_description/share/mecanumbot_description/rviz/model.rviz\n'}
+[94.826903] (mecanumbot_description) StdoutLine: {'line': b'-- Installing: /home/ros/ros_ws/install/mecanumbot_description/share/mecanumbot_description/meshes\n'}
+[94.827409] (mecanumbot_description) StdoutLine: {'line': b'-- Installing: /home/ros/ros_ws/install/mecanumbot_description/share/mecanumbot_description/meshes/fr_wheel_link.STL\n'}
+[94.833600] (mecanumbot_description) StdoutLine: {'line': b'-- Installing: /home/ros/ros_ws/install/mecanumbot_description/share/mecanumbot_description/meshes/fl_wheel_link.STL\n'}
+[94.840525] (mecanumbot_description) StdoutLine: {'line': b'-- Installing: /home/ros/ros_ws/install/mecanumbot_description/share/mecanumbot_description/meshes/rl_wheel_link.STL\n'}
+[94.847361] (mecanumbot_description) StdoutLine: {'line': b'-- Installing: /home/ros/ros_ws/install/mecanumbot_description/share/mecanumbot_description/meshes/rr_wheel_link.STL\n'}
+[94.853454] (mecanumbot_description) StdoutLine: {'line': b'-- Installing: /home/ros/ros_ws/install/mecanumbot_description/share/mecanumbot_description/config\n'}
+[94.854160] (mecanumbot_description) StdoutLine: {'line': b'-- Installing: /home/ros/ros_ws/install/mecanumbot_description/share/mecanumbot_description/config/robot_controller_config.yaml\n'}
+[94.856165] (mecanumbot_description) StdoutLine: {'line': b'-- Installing: /home/ros/ros_ws/install/mecanumbot_description/share/ament_index/resource_index/package_run_dependencies/mecanumbot_description\n'}
+[94.856815] (mecanumbot_description) StdoutLine: {'line': b'-- Installing: /home/ros/ros_ws/install/mecanumbot_description/share/ament_index/resource_index/parent_prefix_path/mecanumbot_description\n'}
+[94.858005] (mecanumbot_description) StdoutLine: {'line': b'-- Installing: /home/ros/ros_ws/install/mecanumbot_description/share/mecanumbot_description/environment/ament_prefix_path.sh\n'}
+[94.858774] (mecanumbot_description) StdoutLine: {'line': b'-- Installing: /home/ros/ros_ws/install/mecanumbot_description/share/mecanumbot_description/environment/ament_prefix_path.dsv\n'}
+[94.859455] (mecanumbot_description) StdoutLine: {'line': b'-- Installing: /home/ros/ros_ws/install/mecanumbot_description/share/mecanumbot_description/environment/path.sh\n'}
+[94.860143] (mecanumbot_description) StdoutLine: {'line': b'-- Installing: /home/ros/ros_ws/install/mecanumbot_description/share/mecanumbot_description/environment/path.dsv\n'}
+[94.860781] (mecanumbot_description) StdoutLine: {'line': b'-- Installing: /home/ros/ros_ws/install/mecanumbot_description/share/mecanumbot_description/local_setup.bash\n'}
+[94.861663] (mecanumbot_description) StdoutLine: {'line': b'-- Installing: /home/ros/ros_ws/install/mecanumbot_description/share/mecanumbot_description/local_setup.sh\n'}
+[94.862604] (mecanumbot_description) StdoutLine: {'line': b'-- Installing: /home/ros/ros_ws/install/mecanumbot_description/share/mecanumbot_description/local_setup.zsh\n'}
+[94.863464] (mecanumbot_description) StdoutLine: {'line': b'-- Installing: /home/ros/ros_ws/install/mecanumbot_description/share/mecanumbot_description/local_setup.dsv\n'}
+[94.864204] (mecanumbot_description) StdoutLine: {'line': b'-- Installing: /home/ros/ros_ws/install/mecanumbot_description/share/mecanumbot_description/package.dsv\n'}
+[94.865461] (mecanumbot_description) StdoutLine: {'line': b'-- Installing: /home/ros/ros_ws/install/mecanumbot_description/share/ament_index/resource_index/packages/mecanumbot_description\n'}
+[94.866339] (mecanumbot_description) StdoutLine: {'line': b'-- Installing: /home/ros/ros_ws/install/mecanumbot_description/share/mecanumbot_description/cmake/mecanumbot_descriptionConfig.cmake\n'}
+[94.866912] (mecanumbot_description) StdoutLine: {'line': b'-- Installing: /home/ros/ros_ws/install/mecanumbot_description/share/mecanumbot_description/cmake/mecanumbot_descriptionConfig-version.cmake\n'}
+[94.867576] (mecanumbot_description) StdoutLine: {'line': b'-- Installing: /home/ros/ros_ws/install/mecanumbot_description/share/mecanumbot_description/package.xml\n'}
+[94.873551] (mecanumbot_description) CommandEnded: {'returncode': 0}
+[94.923421] (-) TimerEvent: {}
+[95.027960] (-) TimerEvent: {}
+[95.048237] (mecanumbot_description) JobEnded: {'identifier': 'mecanumbot_description', 'rc': 0}
+[95.058865] (mecanumbot_hardware) JobStarted: {'identifier': 'mecanumbot_hardware'}
+[95.082984] (mecanumbot_hardware) JobProgress: {'identifier': 'mecanumbot_hardware', 'progress': 'cmake'}
+[95.084239] (mecanumbot_hardware) Command: {'cmd': ['/usr/bin/cmake', '/home/ros/ros_ws/src/ros2-mecanum-bot/mecanumbot_hardware', '-DCMAKE_INSTALL_PREFIX=/home/ros/ros_ws/install/mecanumbot_hardware'], 'cwd': '/home/ros/ros_ws/build/mecanumbot_hardware', 'env': OrderedDict([('SUDO_GID', '1000'), ('MAIL', '/var/mail/root'), ('USER', 'root'), ('HOSTNAME', 'szeyuan-desktop'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib'), ('HOME', '/root'), ('AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS', '1'), ('ROS_PYTHON_VERSION', '3'), ('COLORTERM', 'truecolor'), ('SUDO_UID', '1000'), ('ROS_DISTRO', 'humble'), ('COLCON_PREFIX_PATH', '/opt/ros/humble'), ('LOGNAME', 'root'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('PATH', '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'), ('DISPLAY', ':0'), ('LANG', 'en_GB.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SUDO_COMMAND', '/usr/bin/colcon build --executor sequential'), ('DEBIAN_FRONTEND', ''), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('OPENCV_VERSION', '4.7.0'), ('SUDO_USER', 'ros'), ('LC_ALL', 'en_GB.UTF-8'), ('PWD', '/home/ros/ros_ws/build/mecanumbot_hardware'), ('PYTHONPATH', ':/usr/lib/python3/dist-packages/cv2/python-3.10/:/opt/bgslibrary/build/lib.linux-x86_64-cpython-310:/opt/bgslibrary/build/lib.linux-aarch64-cpython-310:/opt/sky360lib/build/lib:/opt/ros/humble/lib/python3.10/site-packages'), ('TZ', 'Europe/London'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[95.128173] (-) TimerEvent: {}
+[95.228974] (-) TimerEvent: {}
+[95.306253] (mecanumbot_hardware) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.3.0\n'}
+[95.329253] (-) TimerEvent: {}
+[95.429929] (-) TimerEvent: {}
+[95.517525] (mecanumbot_hardware) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.3.0\n'}
+[95.530086] (-) TimerEvent: {}
+[95.541638] (mecanumbot_hardware) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[95.630325] (-) TimerEvent: {}
+[95.731021] (-) TimerEvent: {}
+[95.790006] (mecanumbot_hardware) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[95.827285] (mecanumbot_hardware) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[95.828128] (mecanumbot_hardware) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[95.829707] (mecanumbot_hardware) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[95.831148] (-) TimerEvent: {}
+[95.842611] (mecanumbot_hardware) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[95.931415] (-) TimerEvent: {}
+[96.032133] (-) TimerEvent: {}
+[96.128012] (mecanumbot_hardware) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[96.132313] (-) TimerEvent: {}
+[96.163733] (mecanumbot_hardware) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[96.164692] (mecanumbot_hardware) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[96.166663] (mecanumbot_hardware) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[96.182662] (mecanumbot_hardware) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.4 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[96.232550] (-) TimerEvent: {}
+[96.333368] (-) TimerEvent: {}
+[96.434085] (-) TimerEvent: {}
+[96.534710] (-) TimerEvent: {}
+[96.635387] (-) TimerEvent: {}
+[96.736008] (-) TimerEvent: {}
+[96.836611] (-) TimerEvent: {}
+[96.937285] (-) TimerEvent: {}
+[97.037858] (-) TimerEvent: {}
+[97.138528] (-) TimerEvent: {}
+[97.239221] (-) TimerEvent: {}
+[97.339849] (-) TimerEvent: {}
+[97.440513] (-) TimerEvent: {}
+[97.541154] (-) TimerEvent: {}
+[97.641742] (-) TimerEvent: {}
+[97.742567] (-) TimerEvent: {}
+[97.843656] (-) TimerEvent: {}
+[97.926751] (mecanumbot_hardware) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter \n'}
+[97.943873] (-) TimerEvent: {}
+[98.044538] (-) TimerEvent: {}
+[98.145240] (-) TimerEvent: {}
+[98.245974] (-) TimerEvent: {}
+[98.346776] (-) TimerEvent: {}
+[98.412237] (mecanumbot_hardware) StdoutLine: {'line': b'-- Found hardware_interface: 2.26.0 (/opt/ros/humble/share/hardware_interface/cmake)\n'}
+[98.447000] (-) TimerEvent: {}
+[98.547671] (-) TimerEvent: {}
+[98.648341] (-) TimerEvent: {}
+[98.657740] (mecanumbot_hardware) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[98.694051] (mecanumbot_hardware) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[98.742881] (mecanumbot_hardware) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[98.748526] (-) TimerEvent: {}
+[98.820346] (mecanumbot_hardware) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[98.848792] (-) TimerEvent: {}
+[98.930314] (mecanumbot_hardware) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[98.948978] (-) TimerEvent: {}
+[99.049692] (-) TimerEvent: {}
+[99.150443] (-) TimerEvent: {}
+[99.251115] (-) TimerEvent: {}
+[99.351781] (-) TimerEvent: {}
+[99.452437] (-) TimerEvent: {}
+[99.553158] (-) TimerEvent: {}
+[99.653769] (-) TimerEvent: {}
+[99.754425] (-) TimerEvent: {}
+[99.855695] (-) TimerEvent: {}
+[99.956531] (-) TimerEvent: {}
+[100.057518] (-) TimerEvent: {}
+[100.158953] (-) TimerEvent: {}
+[100.259614] (-) TimerEvent: {}
+[100.360274] (-) TimerEvent: {}
+[100.460930] (-) TimerEvent: {}
+[100.561613] (-) TimerEvent: {}
+[100.662239] (-) TimerEvent: {}
+[100.762852] (-) TimerEvent: {}
+[100.863464] (-) TimerEvent: {}
+[100.964173] (-) TimerEvent: {}
+[101.064882] (-) TimerEvent: {}
+[101.165811] (-) TimerEvent: {}
+[101.266474] (-) TimerEvent: {}
+[101.367143] (-) TimerEvent: {}
+[101.467807] (-) TimerEvent: {}
+[101.568475] (-) TimerEvent: {}
+[101.669147] (-) TimerEvent: {}
+[101.769754] (-) TimerEvent: {}
+[101.870500] (-) TimerEvent: {}
+[101.971157] (-) TimerEvent: {}
+[102.071805] (-) TimerEvent: {}
+[102.172455] (-) TimerEvent: {}
+[102.273097] (-) TimerEvent: {}
+[102.346631] (mecanumbot_hardware) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[102.362671] (mecanumbot_hardware) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[102.373276] (-) TimerEvent: {}
+[102.473841] (-) TimerEvent: {}
+[102.574494] (-) TimerEvent: {}
+[102.675205] (-) TimerEvent: {}
+[102.775862] (-) TimerEvent: {}
+[102.812608] (mecanumbot_hardware) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[102.876135] (-) TimerEvent: {}
+[102.976408] (mecanumbot_hardware) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[102.976975] (-) TimerEvent: {}
+[103.077592] (-) TimerEvent: {}
+[103.178222] (-) TimerEvent: {}
+[103.275886] (mecanumbot_hardware) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[103.278332] (-) TimerEvent: {}
+[103.341378] (mecanumbot_hardware) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[103.378584] (-) TimerEvent: {}
+[103.479325] (-) TimerEvent: {}
+[103.580108] (-) TimerEvent: {}
+[103.595245] (mecanumbot_hardware) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[103.596284] (mecanumbot_hardware) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[103.680342] (-) TimerEvent: {}
+[103.781321] (-) TimerEvent: {}
+[103.860579] (mecanumbot_hardware) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[103.864268] (mecanumbot_hardware) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[103.881532] (-) TimerEvent: {}
+[103.982214] (-) TimerEvent: {}
+[104.082971] (-) TimerEvent: {}
+[104.183658] (-) TimerEvent: {}
+[104.284326] (-) TimerEvent: {}
+[104.385001] (-) TimerEvent: {}
+[104.485732] (-) TimerEvent: {}
+[104.586392] (-) TimerEvent: {}
+[104.687117] (-) TimerEvent: {}
+[104.787841] (-) TimerEvent: {}
+[104.889009] (-) TimerEvent: {}
+[104.989681] (-) TimerEvent: {}
+[105.090349] (-) TimerEvent: {}
+[105.191516] (-) TimerEvent: {}
+[105.292223] (-) TimerEvent: {}
+[105.327013] (mecanumbot_hardware) StdoutLine: {'line': b'-- Configuring done\n'}
+[105.393168] (-) TimerEvent: {}
+[105.491099] (mecanumbot_hardware) StdoutLine: {'line': b'-- Generating done\n'}
+[105.497171] (-) TimerEvent: {}
+[105.499080] (mecanumbot_hardware) StdoutLine: {'line': b'-- Build files have been written to: /home/ros/ros_ws/build/mecanumbot_hardware\n'}
+[105.553902] (mecanumbot_hardware) CommandEnded: {'returncode': 0}
+[105.555469] (mecanumbot_hardware) JobProgress: {'identifier': 'mecanumbot_hardware', 'progress': 'build'}
+[105.555645] (mecanumbot_hardware) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ros/ros_ws/build/mecanumbot_hardware', '--', '-j4', '-l4'], 'cwd': '/home/ros/ros_ws/build/mecanumbot_hardware', 'env': OrderedDict([('SUDO_GID', '1000'), ('MAIL', '/var/mail/root'), ('USER', 'root'), ('HOSTNAME', 'szeyuan-desktop'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib'), ('HOME', '/root'), ('AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS', '1'), ('ROS_PYTHON_VERSION', '3'), ('COLORTERM', 'truecolor'), ('SUDO_UID', '1000'), ('ROS_DISTRO', 'humble'), ('COLCON_PREFIX_PATH', '/opt/ros/humble'), ('LOGNAME', 'root'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('PATH', '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'), ('DISPLAY', ':0'), ('LANG', 'en_GB.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SUDO_COMMAND', '/usr/bin/colcon build --executor sequential'), ('DEBIAN_FRONTEND', ''), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('OPENCV_VERSION', '4.7.0'), ('SUDO_USER', 'ros'), ('LC_ALL', 'en_GB.UTF-8'), ('PWD', '/home/ros/ros_ws/build/mecanumbot_hardware'), ('PYTHONPATH', ':/usr/lib/python3/dist-packages/cv2/python-3.10/:/opt/bgslibrary/build/lib.linux-x86_64-cpython-310:/opt/bgslibrary/build/lib.linux-aarch64-cpython-310:/opt/sky360lib/build/lib:/opt/ros/humble/lib/python3.10/site-packages'), ('TZ', 'Europe/London'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[105.597409] (-) TimerEvent: {}
+[105.698124] (-) TimerEvent: {}
+[105.738580] (mecanumbot_hardware) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/mecanumbot_hardware.dir/src/mecanumbot_serial_port.cpp.o\x1b[0m\n'}
+[105.739658] (mecanumbot_hardware) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/mecanumbot_hardware.dir/src/mecanumbot_hardware.cpp.o\x1b[0m\n'}
+[105.798520] (-) TimerEvent: {}
+[105.899876] (-) TimerEvent: {}
+[106.001423] (-) TimerEvent: {}
+[106.102041] (-) TimerEvent: {}
+[106.202765] (-) TimerEvent: {}
+[106.303453] (-) TimerEvent: {}
+[106.404147] (-) TimerEvent: {}
+[106.504788] (-) TimerEvent: {}
+[106.605480] (-) TimerEvent: {}
+[106.706107] (-) TimerEvent: {}
+[106.806911] (-) TimerEvent: {}
+[106.907548] (-) TimerEvent: {}
+[107.008274] (-) TimerEvent: {}
+[107.109001] (-) TimerEvent: {}
+[107.210017] (-) TimerEvent: {}
+[107.310681] (-) TimerEvent: {}
+[107.411449] (-) TimerEvent: {}
+[107.512199] (-) TimerEvent: {}
+[107.612922] (-) TimerEvent: {}
+[107.713919] (-) TimerEvent: {}
+[107.814636] (-) TimerEvent: {}
+[107.915545] (-) TimerEvent: {}
+[108.016990] (-) TimerEvent: {}
+[108.117720] (-) TimerEvent: {}
+[108.218405] (-) TimerEvent: {}
+[108.319126] (-) TimerEvent: {}
+[108.419949] (-) TimerEvent: {}
+[108.520702] (-) TimerEvent: {}
+[108.621475] (-) TimerEvent: {}
+[108.722116] (-) TimerEvent: {}
+[108.822777] (-) TimerEvent: {}
+[108.923483] (-) TimerEvent: {}
+[109.024478] (-) TimerEvent: {}
+[109.126207] (-) TimerEvent: {}
+[109.227704] (-) TimerEvent: {}
+[109.328481] (-) TimerEvent: {}
+[109.429182] (-) TimerEvent: {}
+[109.529952] (-) TimerEvent: {}
+[109.630906] (-) TimerEvent: {}
+[109.731642] (-) TimerEvent: {}
+[109.832371] (-) TimerEvent: {}
+[109.933918] (-) TimerEvent: {}
+[110.035610] (-) TimerEvent: {}
+[110.136505] (-) TimerEvent: {}
+[110.238082] (-) TimerEvent: {}
+[110.339758] (-) TimerEvent: {}
+[110.440433] (-) TimerEvent: {}
+[110.541179] (-) TimerEvent: {}
+[110.641838] (-) TimerEvent: {}
+[110.742495] (-) TimerEvent: {}
+[110.849244] (-) TimerEvent: {}
+[110.953981] (-) TimerEvent: {}
+[111.054676] (-) TimerEvent: {}
+[111.155471] (-) TimerEvent: {}
+[111.256302] (-) TimerEvent: {}
+[111.356955] (-) TimerEvent: {}
+[111.457719] (-) TimerEvent: {}
+[111.558400] (-) TimerEvent: {}
+[111.659105] (-) TimerEvent: {}
+[111.759832] (-) TimerEvent: {}
+[111.860691] (-) TimerEvent: {}
+[111.962414] (-) TimerEvent: {}
+[112.064029] (-) TimerEvent: {}
+[112.164771] (-) TimerEvent: {}
+[112.265640] (-) TimerEvent: {}
+[112.368400] (-) TimerEvent: {}
+[112.469428] (-) TimerEvent: {}
+[112.570119] (-) TimerEvent: {}
+[112.670770] (-) TimerEvent: {}
+[112.771481] (-) TimerEvent: {}
+[112.872116] (-) TimerEvent: {}
+[112.972822] (-) TimerEvent: {}
+[113.073564] (-) TimerEvent: {}
+[113.174218] (-) TimerEvent: {}
+[113.274943] (-) TimerEvent: {}
+[113.375879] (-) TimerEvent: {}
+[113.476613] (-) TimerEvent: {}
+[113.578854] (-) TimerEvent: {}
+[113.679603] (-) TimerEvent: {}
+[113.780660] (-) TimerEvent: {}
+[113.881615] (-) TimerEvent: {}
+[113.982271] (-) TimerEvent: {}
+[114.083371] (-) TimerEvent: {}
+[114.184997] (-) TimerEvent: {}
+[114.285748] (-) TimerEvent: {}
+[114.386480] (-) TimerEvent: {}
+[114.487147] (-) TimerEvent: {}
+[114.587929] (-) TimerEvent: {}
+[114.688708] (-) TimerEvent: {}
+[114.789539] (-) TimerEvent: {}
+[114.890184] (-) TimerEvent: {}
+[114.990904] (-) TimerEvent: {}
+[115.091575] (-) TimerEvent: {}
+[115.192334] (-) TimerEvent: {}
+[115.293354] (-) TimerEvent: {}
+[115.394077] (-) TimerEvent: {}
+[115.494768] (-) TimerEvent: {}
+[115.595447] (-) TimerEvent: {}
+[115.696149] (-) TimerEvent: {}
+[115.796810] (-) TimerEvent: {}
+[115.898263] (-) TimerEvent: {}
+[115.999784] (-) TimerEvent: {}
+[116.100507] (-) TimerEvent: {}
+[116.201275] (-) TimerEvent: {}
+[116.301962] (-) TimerEvent: {}
+[116.402641] (-) TimerEvent: {}
+[116.503317] (-) TimerEvent: {}
+[116.604100] (-) TimerEvent: {}
+[116.704834] (-) TimerEvent: {}
+[116.805755] (-) TimerEvent: {}
+[116.906415] (-) TimerEvent: {}
+[117.007087] (-) TimerEvent: {}
+[117.107767] (-) TimerEvent: {}
+[117.208499] (-) TimerEvent: {}
+[117.309332] (-) TimerEvent: {}
+[117.410000] (-) TimerEvent: {}
+[117.510672] (-) TimerEvent: {}
+[117.611371] (-) TimerEvent: {}
+[117.713181] (-) TimerEvent: {}
+[117.813856] (-) TimerEvent: {}
+[117.914825] (-) TimerEvent: {}
+[118.015556] (-) TimerEvent: {}
+[118.088222] (mecanumbot_hardware) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros/ros_ws/src/ros2-mecanum-bot/mecanumbot_hardware/src/mecanumbot_hardware.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual hardware_interface::CallbackReturn debict::mecanumbot::hardware::MecanumbotHardware::on_activate(const rclcpp_lifecycle::State&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[118.089226] (mecanumbot_hardware) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros/ros_ws/src/ros2-mecanum-bot/mecanumbot_hardware/src/mecanumbot_hardware.cpp:109:100:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kprevious_state\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[118.089752] (mecanumbot_hardware) StderrLine: {'line': b'  109 | hardware_interface::CallbackReturn MecanumbotHardware::on_activate(\x1b[01;35m\x1b[Kconst rclcpp_lifecycle::State & previous_state\x1b[m\x1b[K)\n'}
+[118.090170] (mecanumbot_hardware) StderrLine: {'line': b'      |                                                                    \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[118.093576] (mecanumbot_hardware) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros/ros_ws/src/ros2-mecanum-bot/mecanumbot_hardware/src/mecanumbot_hardware.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual hardware_interface::CallbackReturn debict::mecanumbot::hardware::MecanumbotHardware::on_deactivate(const rclcpp_lifecycle::State&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[118.094196] (mecanumbot_hardware) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros/ros_ws/src/ros2-mecanum-bot/mecanumbot_hardware/src/mecanumbot_hardware.cpp:136:102:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kprevious_state\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[118.094639] (mecanumbot_hardware) StderrLine: {'line': b'  136 | hardware_interface::CallbackReturn MecanumbotHardware::on_deactivate(\x1b[01;35m\x1b[Kconst rclcpp_lifecycle::State & previous_state\x1b[m\x1b[K)\n'}
+[118.095032] (mecanumbot_hardware) StderrLine: {'line': b'      |                                                                      \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[118.108278] (mecanumbot_hardware) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros/ros_ws/src/ros2-mecanum-bot/mecanumbot_hardware/src/mecanumbot_hardware.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual hardware_interface::return_type debict::mecanumbot::hardware::MecanumbotHardware::read(const rclcpp::Time&, const rclcpp::Duration&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[118.108937] (mecanumbot_hardware) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros/ros_ws/src/ros2-mecanum-bot/mecanumbot_hardware/src/mecanumbot_hardware.cpp:149:79:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ktime\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[118.109514] (mecanumbot_hardware) StderrLine: {'line': b'  149 | hardware_interface::return_type MecanumbotHardware::read(\x1b[01;35m\x1b[Kconst rclcpp::Time & time\x1b[m\x1b[K, const rclcpp::Duration & period)\n'}
+[118.109932] (mecanumbot_hardware) StderrLine: {'line': b'      |                                                          \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[118.110371] (mecanumbot_hardware) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros/ros_ws/src/ros2-mecanum-bot/mecanumbot_hardware/src/mecanumbot_hardware.cpp:149:110:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kperiod\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[118.110788] (mecanumbot_hardware) StderrLine: {'line': b'  149 | hardware_interface::return_type MecanumbotHardware::read(const rclcpp::Time & time, \x1b[01;35m\x1b[Kconst rclcpp::Duration & period\x1b[m\x1b[K)\n'}
+[118.111201] (mecanumbot_hardware) StderrLine: {'line': b'      |                                                                                     \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~\x1b[m\x1b[K\n'}
+[118.113071] (mecanumbot_hardware) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros/ros_ws/src/ros2-mecanum-bot/mecanumbot_hardware/src/mecanumbot_hardware.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual hardware_interface::return_type debict::mecanumbot::hardware::MecanumbotHardware::write(const rclcpp::Time&, const rclcpp::Duration&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[118.113681] (mecanumbot_hardware) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros/ros_ws/src/ros2-mecanum-bot/mecanumbot_hardware/src/mecanumbot_hardware.cpp:180:80:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ktime\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[118.114162] (mecanumbot_hardware) StderrLine: {'line': b'  180 | hardware_interface::return_type MecanumbotHardware::write(\x1b[01;35m\x1b[Kconst rclcpp::Time & time\x1b[m\x1b[K, const rclcpp::Duration & period)\n'}
+[118.114595] (mecanumbot_hardware) StderrLine: {'line': b'      |                                                           \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[118.115006] (mecanumbot_hardware) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros/ros_ws/src/ros2-mecanum-bot/mecanumbot_hardware/src/mecanumbot_hardware.cpp:180:111:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kperiod\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[118.115456] (mecanumbot_hardware) StderrLine: {'line': b'  180 | hardware_interface::return_type MecanumbotHardware::write(const rclcpp::Time & time, \x1b[01;35m\x1b[Kconst rclcpp::Duration & period\x1b[m\x1b[K)\n'}
+[118.115832] (-) TimerEvent: {}
+[118.116221] (mecanumbot_hardware) StderrLine: {'line': b'      |                                                                                      \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~\x1b[m\x1b[K\n'}
+[118.216111] (-) TimerEvent: {}
+[118.316883] (-) TimerEvent: {}
+[118.417635] (-) TimerEvent: {}
+[118.518366] (-) TimerEvent: {}
+[118.619104] (-) TimerEvent: {}
+[118.719857] (-) TimerEvent: {}
+[118.820600] (-) TimerEvent: {}
+[118.921324] (-) TimerEvent: {}
+[119.021983] (-) TimerEvent: {}
+[119.122687] (-) TimerEvent: {}
+[119.223409] (-) TimerEvent: {}
+[119.324126] (-) TimerEvent: {}
+[119.424853] (-) TimerEvent: {}
+[119.525663] (-) TimerEvent: {}
+[119.626402] (-) TimerEvent: {}
+[119.727118] (-) TimerEvent: {}
+[119.805542] (mecanumbot_hardware) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros/ros_ws/src/ros2-mecanum-bot/mecanumbot_hardware/src/mecanumbot_serial_port.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kdebict::mecanumbot::hardware::return_type debict::mecanumbot::hardware::MecanumbotSerialPort::read_frames(std::vector<debict::mecanumbot::hardware::SerialHdlcFrame>&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[119.806340] (mecanumbot_hardware) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros/ros_ws/src/ros2-mecanum-bot/mecanumbot_hardware/src/mecanumbot_serial_port.cpp:93:37:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kssize_t read(int, void*, size_t)\x1b[m\x1b[K\xe2\x80\x99 writing 256 bytes into a region of size 200 overflows the destination [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wstringop-overflow=\x07-Wstringop-overflow=\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[119.806908] (mecanumbot_hardware) StderrLine: {'line': b'   93 |     const ssize_t num_bytes = \x1b[01;35m\x1b[K::read(serial_port_, rx_buffer_, 256)\x1b[m\x1b[K;\n'}
+[119.807416] (mecanumbot_hardware) StderrLine: {'line': b'      |                               \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[119.807888] (mecanumbot_hardware) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ros/ros_ws/src/ros2-mecanum-bot/mecanumbot_hardware/src/mecanumbot_serial_port.cpp:10\x1b[m\x1b[K:\n'}
+[119.808380] (mecanumbot_hardware) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros/ros_ws/src/ros2-mecanum-bot/mecanumbot_hardware/include/mecanumbot_hardware/mecanumbot_serial_port.hpp:48:25:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdestination object \xe2\x80\x98\x1b[01m\x1b[Kdebict::mecanumbot::hardware::MecanumbotSerialPort::rx_buffer_\x1b[m\x1b[K\xe2\x80\x99 of size 200\n'}
+[119.808878] (mecanumbot_hardware) StderrLine: {'line': b'   48 |                 uint8_t \x1b[01;36m\x1b[Krx_buffer_\x1b[m\x1b[K[MECANUMBOT_SERIAL_BUFFER_MAX_SIZE];\n'}
+[119.809692] (mecanumbot_hardware) StderrLine: {'line': b'      |                         \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[119.810207] (mecanumbot_hardware) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ros/ros_ws/src/ros2-mecanum-bot/mecanumbot_hardware/src/mecanumbot_serial_port.cpp:7\x1b[m\x1b[K:\n'}
+[119.810739] (mecanumbot_hardware) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/unistd.h:371:16:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin a call to function \xe2\x80\x98\x1b[01m\x1b[Kssize_t read(int, void*, size_t)\x1b[m\x1b[K\xe2\x80\x99 declared with attribute \xe2\x80\x98\x1b[01m\x1b[Kaccess (write_only, 2, 3)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[119.811226] (mecanumbot_hardware) StderrLine: {'line': b'  371 | extern ssize_t \x1b[01;36m\x1b[Kread\x1b[m\x1b[K (int __fd, void *__buf, size_t __nbytes) __wur\n'}
+[119.811680] (mecanumbot_hardware) StderrLine: {'line': b'      |                \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[119.827373] (-) TimerEvent: {}
+[119.928097] (-) TimerEvent: {}
+[120.028762] (-) TimerEvent: {}
+[120.129502] (-) TimerEvent: {}
+[120.231337] (-) TimerEvent: {}
+[120.332080] (-) TimerEvent: {}
+[120.432739] (-) TimerEvent: {}
+[120.533510] (-) TimerEvent: {}
+[120.634256] (-) TimerEvent: {}
+[120.734899] (-) TimerEvent: {}
+[120.835691] (-) TimerEvent: {}
+[120.936774] (-) TimerEvent: {}
+[121.037555] (-) TimerEvent: {}
+[121.138241] (-) TimerEvent: {}
+[121.238927] (-) TimerEvent: {}
+[121.339657] (-) TimerEvent: {}
+[121.440281] (-) TimerEvent: {}
+[121.540951] (-) TimerEvent: {}
+[121.641683] (-) TimerEvent: {}
+[121.742370] (-) TimerEvent: {}
+[121.843045] (-) TimerEvent: {}
+[121.943764] (-) TimerEvent: {}
+[122.044453] (-) TimerEvent: {}
+[122.145146] (-) TimerEvent: {}
+[122.245872] (-) TimerEvent: {}
+[122.346536] (-) TimerEvent: {}
+[122.447217] (-) TimerEvent: {}
+[122.547916] (-) TimerEvent: {}
+[122.648600] (-) TimerEvent: {}
+[122.749275] (-) TimerEvent: {}
+[122.849971] (-) TimerEvent: {}
+[122.950719] (-) TimerEvent: {}
+[123.051407] (-) TimerEvent: {}
+[123.152090] (-) TimerEvent: {}
+[123.252825] (-) TimerEvent: {}
+[123.353649] (-) TimerEvent: {}
+[123.454295] (-) TimerEvent: {}
+[123.555005] (-) TimerEvent: {}
+[123.586708] (mecanumbot_hardware) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libmecanumbot_hardware.so\x1b[0m\n'}
+[123.655254] (-) TimerEvent: {}
+[123.756068] (-) TimerEvent: {}
+[123.856814] (-) TimerEvent: {}
+[123.957540] (-) TimerEvent: {}
+[124.058240] (-) TimerEvent: {}
+[124.159003] (-) TimerEvent: {}
+[124.259753] (-) TimerEvent: {}
+[124.360446] (-) TimerEvent: {}
+[124.446319] (mecanumbot_hardware) StdoutLine: {'line': b'[100%] Built target mecanumbot_hardware\n'}
+[124.460685] (-) TimerEvent: {}
+[124.480932] (mecanumbot_hardware) CommandEnded: {'returncode': 0}
+[124.556230] (mecanumbot_hardware) JobProgress: {'identifier': 'mecanumbot_hardware', 'progress': 'install'}
+[124.559018] (mecanumbot_hardware) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ros/ros_ws/build/mecanumbot_hardware'], 'cwd': '/home/ros/ros_ws/build/mecanumbot_hardware', 'env': OrderedDict([('SUDO_GID', '1000'), ('MAIL', '/var/mail/root'), ('USER', 'root'), ('HOSTNAME', 'szeyuan-desktop'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib'), ('HOME', '/root'), ('AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS', '1'), ('ROS_PYTHON_VERSION', '3'), ('COLORTERM', 'truecolor'), ('SUDO_UID', '1000'), ('ROS_DISTRO', 'humble'), ('COLCON_PREFIX_PATH', '/opt/ros/humble'), ('LOGNAME', 'root'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('PATH', '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'), ('DISPLAY', ':0'), ('LANG', 'en_GB.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SUDO_COMMAND', '/usr/bin/colcon build --executor sequential'), ('DEBIAN_FRONTEND', ''), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('OPENCV_VERSION', '4.7.0'), ('SUDO_USER', 'ros'), ('LC_ALL', 'en_GB.UTF-8'), ('PWD', '/home/ros/ros_ws/build/mecanumbot_hardware'), ('PYTHONPATH', ':/usr/lib/python3/dist-packages/cv2/python-3.10/:/opt/bgslibrary/build/lib.linux-x86_64-cpython-310:/opt/bgslibrary/build/lib.linux-aarch64-cpython-310:/opt/sky360lib/build/lib:/opt/ros/humble/lib/python3.10/site-packages'), ('TZ', 'Europe/London'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[124.561528] (-) TimerEvent: {}
+[124.583644] (mecanumbot_hardware) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[124.584462] (mecanumbot_hardware) StdoutLine: {'line': b'-- Installing: /home/ros/ros_ws/install/mecanumbot_hardware/share/mecanumbot_hardware/mecanumbot_hardware.xml\n'}
+[124.594474] (mecanumbot_hardware) StdoutLine: {'line': b'-- Installing: /home/ros/ros_ws/install/mecanumbot_hardware/lib/libmecanumbot_hardware.so\n'}
+[124.595157] (mecanumbot_hardware) StdoutLine: {'line': b'-- Set runtime path of "/home/ros/ros_ws/install/mecanumbot_hardware/lib/libmecanumbot_hardware.so" to ""\n'}
+[124.595699] (mecanumbot_hardware) StdoutLine: {'line': b'-- Installing: /home/ros/ros_ws/install/mecanumbot_hardware/include/include\n'}
+[124.596242] (mecanumbot_hardware) StdoutLine: {'line': b'-- Installing: /home/ros/ros_ws/install/mecanumbot_hardware/include/include/mecanumbot_hardware\n'}
+[124.596853] (mecanumbot_hardware) StdoutLine: {'line': b'-- Installing: /home/ros/ros_ws/install/mecanumbot_hardware/include/include/mecanumbot_hardware/mecanumbot_serial_port.hpp\n'}
+[124.597318] (mecanumbot_hardware) StdoutLine: {'line': b'-- Installing: /home/ros/ros_ws/install/mecanumbot_hardware/include/include/mecanumbot_hardware/mecanumbot_hardware.hpp\n'}
+[124.597701] (mecanumbot_hardware) StdoutLine: {'line': b'-- Installing: /home/ros/ros_ws/install/mecanumbot_hardware/include/include/mecanumbot_hardware/mecanumbot_hardware_compiler.h\n'}
+[124.598174] (mecanumbot_hardware) StdoutLine: {'line': b'-- Installing: /home/ros/ros_ws/install/mecanumbot_hardware/share/mecanumbot_hardware/environment/library_path.sh\n'}
+[124.598629] (mecanumbot_hardware) StdoutLine: {'line': b'-- Installing: /home/ros/ros_ws/install/mecanumbot_hardware/share/mecanumbot_hardware/environment/library_path.dsv\n'}
+[124.599343] (mecanumbot_hardware) StdoutLine: {'line': b'-- Installing: /home/ros/ros_ws/install/mecanumbot_hardware/share/ament_index/resource_index/package_run_dependencies/mecanumbot_hardware\n'}
+[124.599942] (mecanumbot_hardware) StdoutLine: {'line': b'-- Installing: /home/ros/ros_ws/install/mecanumbot_hardware/share/ament_index/resource_index/parent_prefix_path/mecanumbot_hardware\n'}
+[124.600610] (mecanumbot_hardware) StdoutLine: {'line': b'-- Installing: /home/ros/ros_ws/install/mecanumbot_hardware/share/mecanumbot_hardware/environment/ament_prefix_path.sh\n'}
+[124.601455] (mecanumbot_hardware) StdoutLine: {'line': b'-- Installing: /home/ros/ros_ws/install/mecanumbot_hardware/share/mecanumbot_hardware/environment/ament_prefix_path.dsv\n'}
+[124.602574] (mecanumbot_hardware) StdoutLine: {'line': b'-- Installing: /home/ros/ros_ws/install/mecanumbot_hardware/share/mecanumbot_hardware/environment/path.sh\n'}
+[124.603266] (mecanumbot_hardware) StdoutLine: {'line': b'-- Installing: /home/ros/ros_ws/install/mecanumbot_hardware/share/mecanumbot_hardware/environment/path.dsv\n'}
+[124.603763] (mecanumbot_hardware) StdoutLine: {'line': b'-- Installing: /home/ros/ros_ws/install/mecanumbot_hardware/share/mecanumbot_hardware/local_setup.bash\n'}
+[124.606270] (mecanumbot_hardware) StdoutLine: {'line': b'-- Installing: /home/ros/ros_ws/install/mecanumbot_hardware/share/mecanumbot_hardware/local_setup.sh\n'}
+[124.606916] (mecanumbot_hardware) StdoutLine: {'line': b'-- Installing: /home/ros/ros_ws/install/mecanumbot_hardware/share/mecanumbot_hardware/local_setup.zsh\n'}
+[124.607554] (mecanumbot_hardware) StdoutLine: {'line': b'-- Installing: /home/ros/ros_ws/install/mecanumbot_hardware/share/mecanumbot_hardware/local_setup.dsv\n'}
+[124.608268] (mecanumbot_hardware) StdoutLine: {'line': b'-- Installing: /home/ros/ros_ws/install/mecanumbot_hardware/share/mecanumbot_hardware/package.dsv\n'}
+[124.608717] (mecanumbot_hardware) StdoutLine: {'line': b'-- Installing: /home/ros/ros_ws/install/mecanumbot_hardware/share/ament_index/resource_index/packages/mecanumbot_hardware\n'}
+[124.609440] (mecanumbot_hardware) StdoutLine: {'line': b'-- Installing: /home/ros/ros_ws/install/mecanumbot_hardware/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/mecanumbot_hardware\n'}
+[124.610276] (mecanumbot_hardware) StdoutLine: {'line': b'-- Installing: /home/ros/ros_ws/install/mecanumbot_hardware/share/mecanumbot_hardware/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[124.610967] (mecanumbot_hardware) StdoutLine: {'line': b'-- Installing: /home/ros/ros_ws/install/mecanumbot_hardware/share/mecanumbot_hardware/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[124.611673] (mecanumbot_hardware) StdoutLine: {'line': b'-- Installing: /home/ros/ros_ws/install/mecanumbot_hardware/share/mecanumbot_hardware/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[124.612366] (mecanumbot_hardware) StdoutLine: {'line': b'-- Installing: /home/ros/ros_ws/install/mecanumbot_hardware/share/mecanumbot_hardware/cmake/mecanumbot_hardwareConfig.cmake\n'}
+[124.612941] (mecanumbot_hardware) StdoutLine: {'line': b'-- Installing: /home/ros/ros_ws/install/mecanumbot_hardware/share/mecanumbot_hardware/cmake/mecanumbot_hardwareConfig-version.cmake\n'}
+[124.613678] (mecanumbot_hardware) StdoutLine: {'line': b'-- Installing: /home/ros/ros_ws/install/mecanumbot_hardware/share/mecanumbot_hardware/package.xml\n'}
+[124.619666] (mecanumbot_hardware) CommandEnded: {'returncode': 0}
+[124.665089] (-) TimerEvent: {}
+[124.767035] (-) TimerEvent: {}
+[124.821001] (mecanumbot_hardware) JobEnded: {'identifier': 'mecanumbot_hardware', 'rc': 0}
+[124.835868] (mecanumbot_teleop) JobStarted: {'identifier': 'mecanumbot_teleop'}
+[124.867209] (-) TimerEvent: {}
+[124.868432] (mecanumbot_teleop) JobProgress: {'identifier': 'mecanumbot_teleop', 'progress': 'cmake'}
+[124.869940] (mecanumbot_teleop) Command: {'cmd': ['/usr/bin/cmake', '/home/ros/ros_ws/src/ros2-mecanum-bot/mecanumbot_teleop', '-DCMAKE_INSTALL_PREFIX=/home/ros/ros_ws/install/mecanumbot_teleop'], 'cwd': '/home/ros/ros_ws/build/mecanumbot_teleop', 'env': OrderedDict([('SUDO_GID', '1000'), ('MAIL', '/var/mail/root'), ('USER', 'root'), ('HOSTNAME', 'szeyuan-desktop'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib'), ('HOME', '/root'), ('AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS', '1'), ('ROS_PYTHON_VERSION', '3'), ('COLORTERM', 'truecolor'), ('SUDO_UID', '1000'), ('ROS_DISTRO', 'humble'), ('COLCON_PREFIX_PATH', '/opt/ros/humble'), ('LOGNAME', 'root'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('PATH', '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'), ('DISPLAY', ':0'), ('LANG', 'en_GB.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SUDO_COMMAND', '/usr/bin/colcon build --executor sequential'), ('DEBIAN_FRONTEND', ''), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('OPENCV_VERSION', '4.7.0'), ('SUDO_USER', 'ros'), ('LC_ALL', 'en_GB.UTF-8'), ('PWD', '/home/ros/ros_ws/build/mecanumbot_teleop'), ('PYTHONPATH', ':/usr/lib/python3/dist-packages/cv2/python-3.10/:/opt/bgslibrary/build/lib.linux-x86_64-cpython-310:/opt/bgslibrary/build/lib.linux-aarch64-cpython-310:/opt/sky360lib/build/lib:/opt/ros/humble/lib/python3.10/site-packages'), ('TZ', 'Europe/London'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[124.967418] (-) TimerEvent: {}
+[125.069195] (-) TimerEvent: {}
+[125.102592] (mecanumbot_teleop) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.3.0\n'}
+[125.169362] (-) TimerEvent: {}
+[125.270001] (-) TimerEvent: {}
+[125.330110] (mecanumbot_teleop) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.3.0\n'}
+[125.358195] (mecanumbot_teleop) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[125.377196] (-) TimerEvent: {}
+[125.477812] (-) TimerEvent: {}
+[125.578517] (-) TimerEvent: {}
+[125.604234] (mecanumbot_teleop) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[125.640373] (mecanumbot_teleop) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[125.641382] (mecanumbot_teleop) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[125.642941] (mecanumbot_teleop) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[125.654887] (mecanumbot_teleop) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[125.678684] (-) TimerEvent: {}
+[125.780016] (-) TimerEvent: {}
+[125.884572] (-) TimerEvent: {}
+[125.992031] (mecanumbot_teleop) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[125.992647] (-) TimerEvent: {}
+[126.042625] (mecanumbot_teleop) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[126.046035] (mecanumbot_teleop) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[126.046747] (mecanumbot_teleop) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[126.065351] (mecanumbot_teleop) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.4 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[126.093175] (-) TimerEvent: {}
+[126.193902] (-) TimerEvent: {}
+[126.294582] (-) TimerEvent: {}
+[126.395335] (-) TimerEvent: {}
+[126.495981] (-) TimerEvent: {}
+[126.596633] (-) TimerEvent: {}
+[126.697339] (-) TimerEvent: {}
+[126.798002] (-) TimerEvent: {}
+[126.898688] (-) TimerEvent: {}
+[126.999286] (-) TimerEvent: {}
+[127.099886] (-) TimerEvent: {}
+[127.200522] (-) TimerEvent: {}
+[127.301238] (-) TimerEvent: {}
+[127.401863] (-) TimerEvent: {}
+[127.502456] (-) TimerEvent: {}
+[127.603104] (-) TimerEvent: {}
+[127.703759] (-) TimerEvent: {}
+[127.804418] (-) TimerEvent: {}
+[127.845795] (mecanumbot_teleop) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter \n'}
+[127.904650] (-) TimerEvent: {}
+[128.005522] (-) TimerEvent: {}
+[128.106143] (-) TimerEvent: {}
+[128.206821] (-) TimerEvent: {}
+[128.307440] (-) TimerEvent: {}
+[128.338928] (mecanumbot_teleop) StdoutLine: {'line': b'-- Found rclcpp: 16.0.4 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[128.407609] (-) TimerEvent: {}
+[128.508221] (-) TimerEvent: {}
+[128.587596] (mecanumbot_teleop) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[128.608424] (-) TimerEvent: {}
+[128.619514] (mecanumbot_teleop) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[128.670131] (mecanumbot_teleop) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[128.708592] (-) TimerEvent: {}
+[128.744167] (mecanumbot_teleop) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[128.808767] (-) TimerEvent: {}
+[128.853213] (mecanumbot_teleop) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[128.908982] (-) TimerEvent: {}
+[129.009827] (-) TimerEvent: {}
+[129.110501] (-) TimerEvent: {}
+[129.211619] (-) TimerEvent: {}
+[129.229540] (mecanumbot_teleop) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[129.247448] (mecanumbot_teleop) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[129.311835] (-) TimerEvent: {}
+[129.412500] (-) TimerEvent: {}
+[129.514126] (-) TimerEvent: {}
+[129.614803] (-) TimerEvent: {}
+[129.680089] (mecanumbot_teleop) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[129.715022] (-) TimerEvent: {}
+[129.815858] (-) TimerEvent: {}
+[129.841228] (mecanumbot_teleop) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[129.916031] (-) TimerEvent: {}
+[130.016702] (-) TimerEvent: {}
+[130.118008] (-) TimerEvent: {}
+[130.132445] (mecanumbot_teleop) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[130.197185] (mecanumbot_teleop) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[130.218179] (-) TimerEvent: {}
+[130.318827] (-) TimerEvent: {}
+[130.419519] (-) TimerEvent: {}
+[130.463845] (mecanumbot_teleop) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[130.464643] (mecanumbot_teleop) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[130.519710] (-) TimerEvent: {}
+[130.620624] (-) TimerEvent: {}
+[130.721841] (-) TimerEvent: {}
+[130.735038] (mecanumbot_teleop) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[130.742847] (mecanumbot_teleop) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[130.822093] (-) TimerEvent: {}
+[130.922875] (-) TimerEvent: {}
+[131.023485] (-) TimerEvent: {}
+[131.124089] (-) TimerEvent: {}
+[131.224751] (-) TimerEvent: {}
+[131.325408] (-) TimerEvent: {}
+[131.426066] (-) TimerEvent: {}
+[131.526728] (-) TimerEvent: {}
+[131.551573] (mecanumbot_teleop) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[131.626946] (-) TimerEvent: {}
+[131.727611] (-) TimerEvent: {}
+[131.828311] (-) TimerEvent: {}
+[131.929523] (-) TimerEvent: {}
+[132.030180] (-) TimerEvent: {}
+[132.130882] (-) TimerEvent: {}
+[132.231541] (-) TimerEvent: {}
+[132.332231] (-) TimerEvent: {}
+[132.432889] (-) TimerEvent: {}
+[132.503595] (mecanumbot_teleop) StdoutLine: {'line': b'-- Configuring done\n'}
+[132.533097] (-) TimerEvent: {}
+[132.552080] (mecanumbot_teleop) StdoutLine: {'line': b'-- Generating done\n'}
+[132.560358] (mecanumbot_teleop) StdoutLine: {'line': b'-- Build files have been written to: /home/ros/ros_ws/build/mecanumbot_teleop\n'}
+[132.595199] (mecanumbot_teleop) CommandEnded: {'returncode': 0}
+[132.597125] (mecanumbot_teleop) JobProgress: {'identifier': 'mecanumbot_teleop', 'progress': 'build'}
+[132.598694] (mecanumbot_teleop) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ros/ros_ws/build/mecanumbot_teleop', '--', '-j4', '-l4'], 'cwd': '/home/ros/ros_ws/build/mecanumbot_teleop', 'env': OrderedDict([('SUDO_GID', '1000'), ('MAIL', '/var/mail/root'), ('USER', 'root'), ('HOSTNAME', 'szeyuan-desktop'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib'), ('HOME', '/root'), ('AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS', '1'), ('ROS_PYTHON_VERSION', '3'), ('COLORTERM', 'truecolor'), ('SUDO_UID', '1000'), ('ROS_DISTRO', 'humble'), ('COLCON_PREFIX_PATH', '/opt/ros/humble'), ('LOGNAME', 'root'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('PATH', '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'), ('DISPLAY', ':0'), ('LANG', 'en_GB.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SUDO_COMMAND', '/usr/bin/colcon build --executor sequential'), ('DEBIAN_FRONTEND', ''), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('OPENCV_VERSION', '4.7.0'), ('SUDO_USER', 'ros'), ('LC_ALL', 'en_GB.UTF-8'), ('PWD', '/home/ros/ros_ws/build/mecanumbot_teleop'), ('PYTHONPATH', ':/usr/lib/python3/dist-packages/cv2/python-3.10/:/opt/bgslibrary/build/lib.linux-x86_64-cpython-310:/opt/bgslibrary/build/lib.linux-aarch64-cpython-310:/opt/sky360lib/build/lib:/opt/ros/humble/lib/python3.10/site-packages'), ('TZ', 'Europe/London'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[132.633314] (-) TimerEvent: {}
+[132.733946] (-) TimerEvent: {}
+[132.759526] (mecanumbot_teleop) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/mecanumbot_teleop.dir/src/mecanumbot_joystick.cpp.o\x1b[0m\n'}
+[132.770227] (mecanumbot_teleop) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/mecanumbot_teleop.dir/src/node_main.cpp.o\x1b[0m\n'}
+[132.788743] (mecanumbot_teleop) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/mecanumbot_teleop.dir/src/mecanumbot_teleop.cpp.o\x1b[0m\n'}
+[132.834154] (-) TimerEvent: {}
+[132.937840] (-) TimerEvent: {}
+[133.039163] (-) TimerEvent: {}
+[133.140590] (-) TimerEvent: {}
+[133.242020] (-) TimerEvent: {}
+[133.342658] (-) TimerEvent: {}
+[133.443354] (-) TimerEvent: {}
+[133.544720] (-) TimerEvent: {}
+[133.645415] (-) TimerEvent: {}
+[133.746772] (-) TimerEvent: {}
+[133.847473] (-) TimerEvent: {}
+[133.948170] (-) TimerEvent: {}
+[134.048827] (-) TimerEvent: {}
+[134.150584] (-) TimerEvent: {}
+[134.252050] (-) TimerEvent: {}
+[134.352756] (-) TimerEvent: {}
+[134.454259] (-) TimerEvent: {}
+[134.555766] (-) TimerEvent: {}
+[134.656482] (-) TimerEvent: {}
+[134.757168] (-) TimerEvent: {}
+[134.857902] (-) TimerEvent: {}
+[134.962938] (-) TimerEvent: {}
+[135.063696] (-) TimerEvent: {}
+[135.164737] (-) TimerEvent: {}
+[135.266573] (-) TimerEvent: {}
+[135.367528] (-) TimerEvent: {}
+[135.469117] (-) TimerEvent: {}
+[135.570817] (-) TimerEvent: {}
+[135.672433] (-) TimerEvent: {}
+[135.774427] (-) TimerEvent: {}
+[135.875114] (-) TimerEvent: {}
+[135.975905] (-) TimerEvent: {}
+[136.077526] (-) TimerEvent: {}
+[136.178203] (-) TimerEvent: {}
+[136.278967] (-) TimerEvent: {}
+[136.385183] (-) TimerEvent: {}
+[136.486680] (-) TimerEvent: {}
+[136.588194] (-) TimerEvent: {}
+[136.688940] (-) TimerEvent: {}
+[136.789687] (-) TimerEvent: {}
+[136.890417] (-) TimerEvent: {}
+[136.991133] (-) TimerEvent: {}
+[137.091907] (-) TimerEvent: {}
+[137.192633] (-) TimerEvent: {}
+[137.293431] (-) TimerEvent: {}
+[137.394212] (-) TimerEvent: {}
+[137.494898] (-) TimerEvent: {}
+[137.596423] (-) TimerEvent: {}
+[137.697169] (-) TimerEvent: {}
+[137.797903] (-) TimerEvent: {}
+[137.898593] (-) TimerEvent: {}
+[137.999365] (-) TimerEvent: {}
+[138.100114] (-) TimerEvent: {}
+[138.200870] (-) TimerEvent: {}
+[138.301670] (-) TimerEvent: {}
+[138.402358] (-) TimerEvent: {}
+[138.503077] (-) TimerEvent: {}
+[138.604641] (-) TimerEvent: {}
+[138.705405] (-) TimerEvent: {}
+[138.806353] (-) TimerEvent: {}
+[138.907089] (-) TimerEvent: {}
+[139.007787] (-) TimerEvent: {}
+[139.109405] (-) TimerEvent: {}
+[139.210228] (-) TimerEvent: {}
+[139.310908] (-) TimerEvent: {}
+[139.411655] (-) TimerEvent: {}
+[139.512408] (-) TimerEvent: {}
+[139.613203] (-) TimerEvent: {}
+[139.714723] (-) TimerEvent: {}
+[139.815479] (-) TimerEvent: {}
+[139.916211] (-) TimerEvent: {}
+[140.016962] (-) TimerEvent: {}
+[140.118550] (-) TimerEvent: {}
+[140.219361] (-) TimerEvent: {}
+[140.320801] (-) TimerEvent: {}
+[140.422326] (-) TimerEvent: {}
+[140.523148] (-) TimerEvent: {}
+[140.624613] (-) TimerEvent: {}
+[140.725450] (-) TimerEvent: {}
+[140.826200] (-) TimerEvent: {}
+[140.927716] (-) TimerEvent: {}
+[141.028466] (-) TimerEvent: {}
+[141.129216] (-) TimerEvent: {}
+[141.229949] (-) TimerEvent: {}
+[141.330630] (-) TimerEvent: {}
+[141.431375] (-) TimerEvent: {}
+[141.532135] (-) TimerEvent: {}
+[141.632876] (-) TimerEvent: {}
+[141.734425] (-) TimerEvent: {}
+[141.835112] (-) TimerEvent: {}
+[141.936628] (-) TimerEvent: {}
+[142.037368] (-) TimerEvent: {}
+[142.141365] (-) TimerEvent: {}
+[142.242055] (-) TimerEvent: {}
+[142.347441] (-) TimerEvent: {}
+[142.449179] (-) TimerEvent: {}
+[142.557172] (-) TimerEvent: {}
+[142.661372] (-) TimerEvent: {}
+[142.765643] (-) TimerEvent: {}
+[142.869240] (-) TimerEvent: {}
+[142.970091] (-) TimerEvent: {}
+[143.072705] (-) TimerEvent: {}
+[143.181186] (-) TimerEvent: {}
+[143.284288] (-) TimerEvent: {}
+[143.389174] (-) TimerEvent: {}
+[143.493232] (-) TimerEvent: {}
+[143.594883] (-) TimerEvent: {}
+[143.695655] (-) TimerEvent: {}
+[143.796425] (-) TimerEvent: {}
+[143.897171] (-) TimerEvent: {}
+[143.998447] (-) TimerEvent: {}
+[144.099379] (-) TimerEvent: {}
+[144.200908] (-) TimerEvent: {}
+[144.302576] (-) TimerEvent: {}
+[144.403345] (-) TimerEvent: {}
+[144.504068] (-) TimerEvent: {}
+[144.604821] (-) TimerEvent: {}
+[144.705679] (-) TimerEvent: {}
+[144.806455] (-) TimerEvent: {}
+[144.907988] (-) TimerEvent: {}
+[145.008740] (-) TimerEvent: {}
+[145.109502] (-) TimerEvent: {}
+[145.210469] (-) TimerEvent: {}
+[145.311948] (-) TimerEvent: {}
+[145.413506] (-) TimerEvent: {}
+[145.514999] (-) TimerEvent: {}
+[145.616226] (-) TimerEvent: {}
+[145.716975] (-) TimerEvent: {}
+[145.817712] (-) TimerEvent: {}
+[145.919227] (-) TimerEvent: {}
+[146.019983] (-) TimerEvent: {}
+[146.121195] (-) TimerEvent: {}
+[146.222595] (-) TimerEvent: {}
+[146.323299] (-) TimerEvent: {}
+[146.425608] (-) TimerEvent: {}
+[146.526304] (-) TimerEvent: {}
+[146.626979] (-) TimerEvent: {}
+[146.728694] (-) TimerEvent: {}
+[146.829416] (-) TimerEvent: {}
+[146.933375] (-) TimerEvent: {}
+[147.034179] (-) TimerEvent: {}
+[147.135582] (-) TimerEvent: {}
+[147.236335] (-) TimerEvent: {}
+[147.337156] (-) TimerEvent: {}
+[147.437830] (-) TimerEvent: {}
+[147.538556] (-) TimerEvent: {}
+[147.641766] (-) TimerEvent: {}
+[147.744812] (-) TimerEvent: {}
+[147.849248] (-) TimerEvent: {}
+[147.950031] (-) TimerEvent: {}
+[148.051109] (-) TimerEvent: {}
+[148.151876] (-) TimerEvent: {}
+[148.252597] (-) TimerEvent: {}
+[148.353502] (-) TimerEvent: {}
+[148.457316] (-) TimerEvent: {}
+[148.558086] (-) TimerEvent: {}
+[148.660851] (-) TimerEvent: {}
+[148.762383] (-) TimerEvent: {}
+[148.863997] (-) TimerEvent: {}
+[148.964783] (-) TimerEvent: {}
+[149.069280] (-) TimerEvent: {}
+[149.169980] (-) TimerEvent: {}
+[149.270740] (-) TimerEvent: {}
+[149.371474] (-) TimerEvent: {}
+[149.472982] (-) TimerEvent: {}
+[149.573683] (-) TimerEvent: {}
+[149.674349] (-) TimerEvent: {}
+[149.775029] (-) TimerEvent: {}
+[149.875708] (-) TimerEvent: {}
+[149.976428] (-) TimerEvent: {}
+[150.077205] (-) TimerEvent: {}
+[150.177925] (-) TimerEvent: {}
+[150.278595] (-) TimerEvent: {}
+[150.379309] (-) TimerEvent: {}
+[150.480369] (-) TimerEvent: {}
+[150.581607] (-) TimerEvent: {}
+[150.682338] (-) TimerEvent: {}
+[150.783083] (-) TimerEvent: {}
+[150.883824] (-) TimerEvent: {}
+[150.984552] (-) TimerEvent: {}
+[151.086003] (-) TimerEvent: {}
+[151.186664] (-) TimerEvent: {}
+[151.287412] (-) TimerEvent: {}
+[151.388151] (-) TimerEvent: {}
+[151.488931] (-) TimerEvent: {}
+[151.589731] (-) TimerEvent: {}
+[151.690397] (-) TimerEvent: {}
+[151.791120] (-) TimerEvent: {}
+[151.892032] (-) TimerEvent: {}
+[151.992771] (-) TimerEvent: {}
+[152.094180] (-) TimerEvent: {}
+[152.194847] (-) TimerEvent: {}
+[152.295526] (-) TimerEvent: {}
+[152.396257] (-) TimerEvent: {}
+[152.496999] (-) TimerEvent: {}
+[152.597684] (-) TimerEvent: {}
+[152.698347] (-) TimerEvent: {}
+[152.799074] (-) TimerEvent: {}
+[152.899842] (-) TimerEvent: {}
+[153.000603] (-) TimerEvent: {}
+[153.101711] (-) TimerEvent: {}
+[153.202411] (-) TimerEvent: {}
+[153.303164] (-) TimerEvent: {}
+[153.403878] (-) TimerEvent: {}
+[153.504602] (-) TimerEvent: {}
+[153.605429] (-) TimerEvent: {}
+[153.706202] (-) TimerEvent: {}
+[153.806863] (-) TimerEvent: {}
+[153.907515] (-) TimerEvent: {}
+[154.008240] (-) TimerEvent: {}
+[154.109653] (-) TimerEvent: {}
+[154.210329] (-) TimerEvent: {}
+[154.310996] (-) TimerEvent: {}
+[154.411720] (-) TimerEvent: {}
+[154.512395] (-) TimerEvent: {}
+[154.613159] (-) TimerEvent: {}
+[154.713801] (-) TimerEvent: {}
+[154.814530] (-) TimerEvent: {}
+[154.915239] (-) TimerEvent: {}
+[155.015962] (-) TimerEvent: {}
+[155.116633] (-) TimerEvent: {}
+[155.217418] (-) TimerEvent: {}
+[155.319012] (-) TimerEvent: {}
+[155.420111] (-) TimerEvent: {}
+[155.520831] (-) TimerEvent: {}
+[155.621500] (-) TimerEvent: {}
+[155.722125] (-) TimerEvent: {}
+[155.822819] (-) TimerEvent: {}
+[155.923464] (-) TimerEvent: {}
+[156.024122] (-) TimerEvent: {}
+[156.125603] (-) TimerEvent: {}
+[156.226316] (-) TimerEvent: {}
+[156.327029] (-) TimerEvent: {}
+[156.427728] (-) TimerEvent: {}
+[156.528425] (-) TimerEvent: {}
+[156.629188] (-) TimerEvent: {}
+[156.729881] (-) TimerEvent: {}
+[156.830549] (-) TimerEvent: {}
+[156.931245] (-) TimerEvent: {}
+[157.031966] (-) TimerEvent: {}
+[157.132646] (-) TimerEvent: {}
+[157.233324] (-) TimerEvent: {}
+[157.334000] (-) TimerEvent: {}
+[157.434629] (-) TimerEvent: {}
+[157.535355] (-) TimerEvent: {}
+[157.636056] (-) TimerEvent: {}
+[157.736754] (-) TimerEvent: {}
+[157.837522] (-) TimerEvent: {}
+[157.938152] (-) TimerEvent: {}
+[158.038863] (-) TimerEvent: {}
+[158.139684] (-) TimerEvent: {}
+[158.240368] (-) TimerEvent: {}
+[158.341091] (-) TimerEvent: {}
+[158.441836] (-) TimerEvent: {}
+[158.542543] (-) TimerEvent: {}
+[158.643238] (-) TimerEvent: {}
+[158.743949] (-) TimerEvent: {}
+[158.844587] (-) TimerEvent: {}
+[158.945603] (-) TimerEvent: {}
+[159.046242] (-) TimerEvent: {}
+[159.147213] (-) TimerEvent: {}
+[159.247912] (-) TimerEvent: {}
+[159.348626] (-) TimerEvent: {}
+[159.449349] (-) TimerEvent: {}
+[159.550093] (-) TimerEvent: {}
+[159.650821] (-) TimerEvent: {}
+[159.751540] (-) TimerEvent: {}
+[159.852221] (-) TimerEvent: {}
+[159.952919] (-) TimerEvent: {}
+[160.053661] (-) TimerEvent: {}
+[160.154301] (-) TimerEvent: {}
+[160.255458] (-) TimerEvent: {}
+[160.356277] (-) TimerEvent: {}
+[160.456916] (-) TimerEvent: {}
+[160.557601] (-) TimerEvent: {}
+[160.658224] (-) TimerEvent: {}
+[160.758865] (-) TimerEvent: {}
+[160.859550] (-) TimerEvent: {}
+[160.960229] (-) TimerEvent: {}
+[161.060906] (-) TimerEvent: {}
+[161.161653] (-) TimerEvent: {}
+[161.262289] (-) TimerEvent: {}
+[161.363008] (-) TimerEvent: {}
+[161.463699] (-) TimerEvent: {}
+[161.564388] (-) TimerEvent: {}
+[161.665126] (-) TimerEvent: {}
+[161.765823] (-) TimerEvent: {}
+[161.866564] (-) TimerEvent: {}
+[161.967351] (-) TimerEvent: {}
+[162.069984] (-) TimerEvent: {}
+[162.171246] (-) TimerEvent: {}
+[162.271953] (-) TimerEvent: {}
+[162.372604] (-) TimerEvent: {}
+[162.473313] (-) TimerEvent: {}
+[162.573946] (-) TimerEvent: {}
+[162.674571] (-) TimerEvent: {}
+[162.775243] (-) TimerEvent: {}
+[162.875940] (-) TimerEvent: {}
+[162.977141] (-) TimerEvent: {}
+[163.077781] (-) TimerEvent: {}
+[163.178669] (-) TimerEvent: {}
+[163.279388] (-) TimerEvent: {}
+[163.380068] (-) TimerEvent: {}
+[163.480756] (-) TimerEvent: {}
+[163.581495] (-) TimerEvent: {}
+[163.682232] (-) TimerEvent: {}
+[163.782851] (-) TimerEvent: {}
+[163.883475] (-) TimerEvent: {}
+[163.984108] (-) TimerEvent: {}
+[164.084798] (-) TimerEvent: {}
+[164.185517] (-) TimerEvent: {}
+[164.286149] (-) TimerEvent: {}
+[164.386839] (-) TimerEvent: {}
+[164.487515] (-) TimerEvent: {}
+[164.588182] (-) TimerEvent: {}
+[164.688887] (-) TimerEvent: {}
+[164.789644] (-) TimerEvent: {}
+[164.890271] (-) TimerEvent: {}
+[164.992729] (-) TimerEvent: {}
+[165.093452] (-) TimerEvent: {}
+[165.194420] (-) TimerEvent: {}
+[165.295099] (-) TimerEvent: {}
+[165.395795] (-) TimerEvent: {}
+[165.496481] (-) TimerEvent: {}
+[165.597154] (-) TimerEvent: {}
+[165.697775] (-) TimerEvent: {}
+[165.798466] (-) TimerEvent: {}
+[165.899141] (-) TimerEvent: {}
+[165.999813] (-) TimerEvent: {}
+[166.100500] (-) TimerEvent: {}
+[166.201183] (-) TimerEvent: {}
+[166.301810] (-) TimerEvent: {}
+[166.402435] (-) TimerEvent: {}
+[166.503059] (-) TimerEvent: {}
+[166.603815] (-) TimerEvent: {}
+[166.704508] (-) TimerEvent: {}
+[166.805175] (-) TimerEvent: {}
+[166.905859] (-) TimerEvent: {}
+[167.006482] (-) TimerEvent: {}
+[167.107157] (-) TimerEvent: {}
+[167.207839] (-) TimerEvent: {}
+[167.308545] (-) TimerEvent: {}
+[167.409224] (-) TimerEvent: {}
+[167.509893] (-) TimerEvent: {}
+[167.610618] (-) TimerEvent: {}
+[167.711312] (-) TimerEvent: {}
+[167.812080] (-) TimerEvent: {}
+[167.912778] (-) TimerEvent: {}
+[168.013468] (-) TimerEvent: {}
+[168.114133] (-) TimerEvent: {}
+[168.214752] (-) TimerEvent: {}
+[168.315384] (-) TimerEvent: {}
+[168.416021] (-) TimerEvent: {}
+[168.516657] (-) TimerEvent: {}
+[168.617344] (-) TimerEvent: {}
+[168.718023] (-) TimerEvent: {}
+[168.818688] (-) TimerEvent: {}
+[168.919370] (-) TimerEvent: {}
+[169.020051] (-) TimerEvent: {}
+[169.121130] (-) TimerEvent: {}
+[169.221963] (-) TimerEvent: {}
+[169.322710] (-) TimerEvent: {}
+[169.423327] (-) TimerEvent: {}
+[169.523952] (-) TimerEvent: {}
+[169.624671] (-) TimerEvent: {}
+[169.725422] (-) TimerEvent: {}
+[169.826087] (-) TimerEvent: {}
+[169.926791] (-) TimerEvent: {}
+[170.027527] (-) TimerEvent: {}
+[170.128372] (-) TimerEvent: {}
+[170.229185] (-) TimerEvent: {}
+[170.329865] (-) TimerEvent: {}
+[170.430537] (-) TimerEvent: {}
+[170.531212] (-) TimerEvent: {}
+[170.631894] (-) TimerEvent: {}
+[170.732543] (-) TimerEvent: {}
+[170.833247] (-) TimerEvent: {}
+[170.933927] (-) TimerEvent: {}
+[171.034616] (-) TimerEvent: {}
+[171.135263] (-) TimerEvent: {}
+[171.237222] (-) TimerEvent: {}
+[171.337936] (-) TimerEvent: {}
+[171.438882] (-) TimerEvent: {}
+[171.539650] (-) TimerEvent: {}
+[171.640296] (-) TimerEvent: {}
+[171.740989] (-) TimerEvent: {}
+[171.841671] (-) TimerEvent: {}
+[171.942584] (-) TimerEvent: {}
+[172.043348] (-) TimerEvent: {}
+[172.145199] (-) TimerEvent: {}
+[172.246348] (-) TimerEvent: {}
+[172.347088] (-) TimerEvent: {}
+[172.448789] (-) TimerEvent: {}
+[172.549725] (-) TimerEvent: {}
+[172.650403] (-) TimerEvent: {}
+[172.751040] (-) TimerEvent: {}
+[172.851732] (-) TimerEvent: {}
+[172.952411] (-) TimerEvent: {}
+[173.053146] (-) TimerEvent: {}
+[173.153832] (-) TimerEvent: {}
+[173.254499] (-) TimerEvent: {}
+[173.355173] (-) TimerEvent: {}
+[173.455820] (-) TimerEvent: {}
+[173.556943] (-) TimerEvent: {}
+[173.657733] (-) TimerEvent: {}
+[173.758352] (-) TimerEvent: {}
+[173.859015] (-) TimerEvent: {}
+[173.959754] (-) TimerEvent: {}
+[174.060432] (-) TimerEvent: {}
+[174.161156] (-) TimerEvent: {}
+[174.261900] (-) TimerEvent: {}
+[174.362629] (-) TimerEvent: {}
+[174.463315] (-) TimerEvent: {}
+[174.564147] (-) TimerEvent: {}
+[174.664869] (-) TimerEvent: {}
+[174.766494] (-) TimerEvent: {}
+[174.867192] (-) TimerEvent: {}
+[174.967820] (-) TimerEvent: {}
+[175.068495] (-) TimerEvent: {}
+[175.113615] (mecanumbot_teleop) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable mecanumbot_teleop\x1b[0m\n'}
+[175.168660] (-) TimerEvent: {}
+[175.270024] (-) TimerEvent: {}
+[175.370695] (-) TimerEvent: {}
+[175.471460] (-) TimerEvent: {}
+[175.572947] (-) TimerEvent: {}
+[175.673690] (-) TimerEvent: {}
+[175.774481] (-) TimerEvent: {}
+[175.875424] (-) TimerEvent: {}
+[175.976611] (-) TimerEvent: {}
+[176.077314] (-) TimerEvent: {}
+[176.178053] (-) TimerEvent: {}
+[176.278970] (-) TimerEvent: {}
+[176.379679] (-) TimerEvent: {}
+[176.480394] (-) TimerEvent: {}
+[176.581743] (-) TimerEvent: {}
+[176.682418] (-) TimerEvent: {}
+[176.783102] (-) TimerEvent: {}
+[176.883771] (-) TimerEvent: {}
+[176.984465] (-) TimerEvent: {}
+[177.085187] (-) TimerEvent: {}
+[177.185944] (-) TimerEvent: {}
+[177.286598] (-) TimerEvent: {}
+[177.387246] (-) TimerEvent: {}
+[177.487902] (-) TimerEvent: {}
+[177.585304] (mecanumbot_teleop) StdoutLine: {'line': b'[100%] Built target mecanumbot_teleop\n'}
+[177.588091] (-) TimerEvent: {}
+[177.628480] (mecanumbot_teleop) CommandEnded: {'returncode': 0}
+[177.688236] (-) TimerEvent: {}
+[177.706646] (mecanumbot_teleop) JobProgress: {'identifier': 'mecanumbot_teleop', 'progress': 'install'}
+[177.708299] (mecanumbot_teleop) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ros/ros_ws/build/mecanumbot_teleop'], 'cwd': '/home/ros/ros_ws/build/mecanumbot_teleop', 'env': OrderedDict([('SUDO_GID', '1000'), ('MAIL', '/var/mail/root'), ('USER', 'root'), ('HOSTNAME', 'szeyuan-desktop'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib'), ('HOME', '/root'), ('AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS', '1'), ('ROS_PYTHON_VERSION', '3'), ('COLORTERM', 'truecolor'), ('SUDO_UID', '1000'), ('ROS_DISTRO', 'humble'), ('COLCON_PREFIX_PATH', '/opt/ros/humble'), ('LOGNAME', 'root'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('PATH', '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'), ('DISPLAY', ':0'), ('LANG', 'en_GB.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SUDO_COMMAND', '/usr/bin/colcon build --executor sequential'), ('DEBIAN_FRONTEND', ''), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('OPENCV_VERSION', '4.7.0'), ('SUDO_USER', 'ros'), ('LC_ALL', 'en_GB.UTF-8'), ('PWD', '/home/ros/ros_ws/build/mecanumbot_teleop'), ('PYTHONPATH', ':/usr/lib/python3/dist-packages/cv2/python-3.10/:/opt/bgslibrary/build/lib.linux-x86_64-cpython-310:/opt/bgslibrary/build/lib.linux-aarch64-cpython-310:/opt/sky360lib/build/lib:/opt/ros/humble/lib/python3.10/site-packages'), ('TZ', 'Europe/London'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[177.736151] (mecanumbot_teleop) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[177.736995] (mecanumbot_teleop) StdoutLine: {'line': b'-- Installing: /home/ros/ros_ws/install/mecanumbot_teleop/share/mecanumbot_teleop/config\n'}
+[177.737948] (mecanumbot_teleop) StdoutLine: {'line': b'-- Installing: /home/ros/ros_ws/install/mecanumbot_teleop/share/mecanumbot_teleop/config/teleop_config.yaml\n'}
+[177.740552] (mecanumbot_teleop) StdoutLine: {'line': b'-- Installing: /home/ros/ros_ws/install/mecanumbot_teleop/lib/mecanumbot_teleop/mecanumbot_teleop\n'}
+[177.760658] (mecanumbot_teleop) StdoutLine: {'line': b'-- Set runtime path of "/home/ros/ros_ws/install/mecanumbot_teleop/lib/mecanumbot_teleop/mecanumbot_teleop" to ""\n'}
+[177.761533] (mecanumbot_teleop) StdoutLine: {'line': b'-- Installing: /home/ros/ros_ws/install/mecanumbot_teleop/share/ament_index/resource_index/package_run_dependencies/mecanumbot_teleop\n'}
+[177.762278] (mecanumbot_teleop) StdoutLine: {'line': b'-- Installing: /home/ros/ros_ws/install/mecanumbot_teleop/share/ament_index/resource_index/parent_prefix_path/mecanumbot_teleop\n'}
+[177.763087] (mecanumbot_teleop) StdoutLine: {'line': b'-- Installing: /home/ros/ros_ws/install/mecanumbot_teleop/share/mecanumbot_teleop/environment/ament_prefix_path.sh\n'}
+[177.763899] (mecanumbot_teleop) StdoutLine: {'line': b'-- Installing: /home/ros/ros_ws/install/mecanumbot_teleop/share/mecanumbot_teleop/environment/ament_prefix_path.dsv\n'}
+[177.764562] (mecanumbot_teleop) StdoutLine: {'line': b'-- Installing: /home/ros/ros_ws/install/mecanumbot_teleop/share/mecanumbot_teleop/environment/path.sh\n'}
+[177.765490] (mecanumbot_teleop) StdoutLine: {'line': b'-- Installing: /home/ros/ros_ws/install/mecanumbot_teleop/share/mecanumbot_teleop/environment/path.dsv\n'}
+[177.766231] (mecanumbot_teleop) StdoutLine: {'line': b'-- Installing: /home/ros/ros_ws/install/mecanumbot_teleop/share/mecanumbot_teleop/local_setup.bash\n'}
+[177.766750] (mecanumbot_teleop) StdoutLine: {'line': b'-- Installing: /home/ros/ros_ws/install/mecanumbot_teleop/share/mecanumbot_teleop/local_setup.sh\n'}
+[177.767432] (mecanumbot_teleop) StdoutLine: {'line': b'-- Installing: /home/ros/ros_ws/install/mecanumbot_teleop/share/mecanumbot_teleop/local_setup.zsh\n'}
+[177.768039] (mecanumbot_teleop) StdoutLine: {'line': b'-- Installing: /home/ros/ros_ws/install/mecanumbot_teleop/share/mecanumbot_teleop/local_setup.dsv\n'}
+[177.768657] (mecanumbot_teleop) StdoutLine: {'line': b'-- Installing: /home/ros/ros_ws/install/mecanumbot_teleop/share/mecanumbot_teleop/package.dsv\n'}
+[177.769651] (mecanumbot_teleop) StdoutLine: {'line': b'-- Installing: /home/ros/ros_ws/install/mecanumbot_teleop/share/ament_index/resource_index/packages/mecanumbot_teleop\n'}
+[177.770400] (mecanumbot_teleop) StdoutLine: {'line': b'-- Installing: /home/ros/ros_ws/install/mecanumbot_teleop/share/mecanumbot_teleop/cmake/mecanumbot_teleopConfig.cmake\n'}
+[177.770924] (mecanumbot_teleop) StdoutLine: {'line': b'-- Installing: /home/ros/ros_ws/install/mecanumbot_teleop/share/mecanumbot_teleop/cmake/mecanumbot_teleopConfig-version.cmake\n'}
+[177.771588] (mecanumbot_teleop) StdoutLine: {'line': b'-- Installing: /home/ros/ros_ws/install/mecanumbot_teleop/share/mecanumbot_teleop/package.xml\n'}
+[177.777389] (mecanumbot_teleop) CommandEnded: {'returncode': 0}
+[177.788805] (-) TimerEvent: {}
+[177.889894] (-) TimerEvent: {}
+[177.960074] (mecanumbot_teleop) JobEnded: {'identifier': 'mecanumbot_teleop', 'rc': 0}
+[177.973074] (mecanumbot_bringup) JobStarted: {'identifier': 'mecanumbot_bringup'}
+[177.990142] (-) TimerEvent: {}
+[178.016221] (mecanumbot_bringup) JobProgress: {'identifier': 'mecanumbot_bringup', 'progress': 'cmake'}
+[178.021818] (mecanumbot_bringup) Command: {'cmd': ['/usr/bin/cmake', '/home/ros/ros_ws/src/ros2-mecanum-bot/mecanumbot_bringup', '-DCMAKE_INSTALL_PREFIX=/home/ros/ros_ws/install/mecanumbot_bringup'], 'cwd': '/home/ros/ros_ws/build/mecanumbot_bringup', 'env': OrderedDict([('SUDO_GID', '1000'), ('MAIL', '/var/mail/root'), ('USER', 'root'), ('HOSTNAME', 'szeyuan-desktop'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib'), ('HOME', '/root'), ('AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS', '1'), ('ROS_PYTHON_VERSION', '3'), ('COLORTERM', 'truecolor'), ('SUDO_UID', '1000'), ('ROS_DISTRO', 'humble'), ('COLCON_PREFIX_PATH', '/opt/ros/humble'), ('LOGNAME', 'root'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('PATH', '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'), ('DISPLAY', ':0'), ('LANG', 'en_GB.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SUDO_COMMAND', '/usr/bin/colcon build --executor sequential'), ('DEBIAN_FRONTEND', ''), ('AMENT_PREFIX_PATH', '/home/ros/ros_ws/install/mecanumbot_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('OPENCV_VERSION', '4.7.0'), ('SUDO_USER', 'ros'), ('LC_ALL', 'en_GB.UTF-8'), ('PWD', '/home/ros/ros_ws/build/mecanumbot_bringup'), ('PYTHONPATH', ':/usr/lib/python3/dist-packages/cv2/python-3.10/:/opt/bgslibrary/build/lib.linux-x86_64-cpython-310:/opt/bgslibrary/build/lib.linux-aarch64-cpython-310:/opt/sky360lib/build/lib:/opt/ros/humble/lib/python3.10/site-packages'), ('TZ', 'Europe/London'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ros/ros_ws/install/mecanumbot_description:/opt/ros/humble')]), 'shell': False}
+[178.090365] (-) TimerEvent: {}
+[178.191393] (-) TimerEvent: {}
+[178.292122] (-) TimerEvent: {}
+[178.313788] (mecanumbot_bringup) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.3.0\n'}
+[178.392402] (-) TimerEvent: {}
+[178.493175] (-) TimerEvent: {}
+[178.530424] (mecanumbot_bringup) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.3.0\n'}
+[178.559035] (mecanumbot_bringup) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[178.593340] (-) TimerEvent: {}
+[178.693965] (-) TimerEvent: {}
+[178.794651] (-) TimerEvent: {}
+[178.807352] (mecanumbot_bringup) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[178.843217] (mecanumbot_bringup) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[178.845424] (mecanumbot_bringup) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[178.848421] (mecanumbot_bringup) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[178.861476] (mecanumbot_bringup) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[178.894878] (-) TimerEvent: {}
+[178.995579] (-) TimerEvent: {}
+[179.096564] (-) TimerEvent: {}
+[179.148100] (mecanumbot_bringup) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[179.181205] (mecanumbot_bringup) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[179.182113] (mecanumbot_bringup) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[179.183885] (mecanumbot_bringup) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[179.196757] (-) TimerEvent: {}
+[179.201074] (mecanumbot_bringup) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.4 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[179.296979] (-) TimerEvent: {}
+[179.397693] (-) TimerEvent: {}
+[179.498333] (-) TimerEvent: {}
+[179.599094] (-) TimerEvent: {}
+[179.700678] (-) TimerEvent: {}
+[179.801350] (-) TimerEvent: {}
+[179.901952] (-) TimerEvent: {}
+[180.002645] (-) TimerEvent: {}
+[180.103267] (-) TimerEvent: {}
+[180.204192] (-) TimerEvent: {}
+[180.304823] (-) TimerEvent: {}
+[180.405555] (-) TimerEvent: {}
+[180.506231] (-) TimerEvent: {}
+[180.606816] (-) TimerEvent: {}
+[180.707465] (-) TimerEvent: {}
+[180.808117] (-) TimerEvent: {}
+[180.908754] (-) TimerEvent: {}
+[181.009484] (-) TimerEvent: {}
+[181.072184] (mecanumbot_bringup) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter \n'}
+[181.109682] (-) TimerEvent: {}
+[181.210334] (-) TimerEvent: {}
+[181.310953] (-) TimerEvent: {}
+[181.411713] (-) TimerEvent: {}
+[181.512328] (-) TimerEvent: {}
+[181.613061] (-) TimerEvent: {}
+[181.713661] (-) TimerEvent: {}
+[181.814447] (-) TimerEvent: {}
+[181.890173] (mecanumbot_bringup) StdoutLine: {'line': b'-- Configuring done\n'}
+[181.902798] (mecanumbot_bringup) StdoutLine: {'line': b'-- Generating done\n'}
+[181.906466] (mecanumbot_bringup) StdoutLine: {'line': b'-- Build files have been written to: /home/ros/ros_ws/build/mecanumbot_bringup\n'}
+[181.914674] (-) TimerEvent: {}
+[181.922086] (mecanumbot_bringup) CommandEnded: {'returncode': 0}
+[181.924944] (mecanumbot_bringup) JobProgress: {'identifier': 'mecanumbot_bringup', 'progress': 'build'}
+[181.926673] (mecanumbot_bringup) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ros/ros_ws/build/mecanumbot_bringup', '--', '-j4', '-l4'], 'cwd': '/home/ros/ros_ws/build/mecanumbot_bringup', 'env': OrderedDict([('SUDO_GID', '1000'), ('MAIL', '/var/mail/root'), ('USER', 'root'), ('HOSTNAME', 'szeyuan-desktop'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib'), ('HOME', '/root'), ('AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS', '1'), ('ROS_PYTHON_VERSION', '3'), ('COLORTERM', 'truecolor'), ('SUDO_UID', '1000'), ('ROS_DISTRO', 'humble'), ('COLCON_PREFIX_PATH', '/opt/ros/humble'), ('LOGNAME', 'root'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('PATH', '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'), ('DISPLAY', ':0'), ('LANG', 'en_GB.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SUDO_COMMAND', '/usr/bin/colcon build --executor sequential'), ('DEBIAN_FRONTEND', ''), ('AMENT_PREFIX_PATH', '/home/ros/ros_ws/install/mecanumbot_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('OPENCV_VERSION', '4.7.0'), ('SUDO_USER', 'ros'), ('LC_ALL', 'en_GB.UTF-8'), ('PWD', '/home/ros/ros_ws/build/mecanumbot_bringup'), ('PYTHONPATH', ':/usr/lib/python3/dist-packages/cv2/python-3.10/:/opt/bgslibrary/build/lib.linux-x86_64-cpython-310:/opt/bgslibrary/build/lib.linux-aarch64-cpython-310:/opt/sky360lib/build/lib:/opt/ros/humble/lib/python3.10/site-packages'), ('TZ', 'Europe/London'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ros/ros_ws/install/mecanumbot_description:/opt/ros/humble')]), 'shell': False}
+[182.014853] (-) TimerEvent: {}
+[182.044401] (mecanumbot_bringup) CommandEnded: {'returncode': 0}
+[182.103292] (mecanumbot_bringup) JobProgress: {'identifier': 'mecanumbot_bringup', 'progress': 'install'}
+[182.104156] (mecanumbot_bringup) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ros/ros_ws/build/mecanumbot_bringup'], 'cwd': '/home/ros/ros_ws/build/mecanumbot_bringup', 'env': OrderedDict([('SUDO_GID', '1000'), ('MAIL', '/var/mail/root'), ('USER', 'root'), ('HOSTNAME', 'szeyuan-desktop'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib'), ('HOME', '/root'), ('AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS', '1'), ('ROS_PYTHON_VERSION', '3'), ('COLORTERM', 'truecolor'), ('SUDO_UID', '1000'), ('ROS_DISTRO', 'humble'), ('COLCON_PREFIX_PATH', '/opt/ros/humble'), ('LOGNAME', 'root'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('PATH', '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'), ('DISPLAY', ':0'), ('LANG', 'en_GB.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SUDO_COMMAND', '/usr/bin/colcon build --executor sequential'), ('DEBIAN_FRONTEND', ''), ('AMENT_PREFIX_PATH', '/home/ros/ros_ws/install/mecanumbot_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('OPENCV_VERSION', '4.7.0'), ('SUDO_USER', 'ros'), ('LC_ALL', 'en_GB.UTF-8'), ('PWD', '/home/ros/ros_ws/build/mecanumbot_bringup'), ('PYTHONPATH', ':/usr/lib/python3/dist-packages/cv2/python-3.10/:/opt/bgslibrary/build/lib.linux-x86_64-cpython-310:/opt/bgslibrary/build/lib.linux-aarch64-cpython-310:/opt/sky360lib/build/lib:/opt/ros/humble/lib/python3.10/site-packages'), ('TZ', 'Europe/London'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ros/ros_ws/install/mecanumbot_description:/opt/ros/humble')]), 'shell': False}
+[182.115105] (-) TimerEvent: {}
+[182.130770] (mecanumbot_bringup) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[182.131709] (mecanumbot_bringup) StdoutLine: {'line': b'-- Installing: /home/ros/ros_ws/install/mecanumbot_bringup/share/mecanumbot_bringup/launch\n'}
+[182.132569] (mecanumbot_bringup) StdoutLine: {'line': b'-- Installing: /home/ros/ros_ws/install/mecanumbot_bringup/share/mecanumbot_bringup/launch/mecanumbot_teleop.py\n'}
+[182.133615] (mecanumbot_bringup) StdoutLine: {'line': b'-- Installing: /home/ros/ros_ws/install/mecanumbot_bringup/share/mecanumbot_bringup/launch/rviz2.py\n'}
+[182.134459] (mecanumbot_bringup) StdoutLine: {'line': b'-- Installing: /home/ros/ros_ws/install/mecanumbot_bringup/share/mecanumbot_bringup/launch/mecanumbot_hardware.py\n'}
+[182.135237] (mecanumbot_bringup) StdoutLine: {'line': b'-- Installing: /home/ros/ros_ws/install/mecanumbot_bringup/share/mecanumbot_bringup/launch/mecanumbot_state_publisher.py\n'}
+[182.136488] (mecanumbot_bringup) StdoutLine: {'line': b'-- Installing: /home/ros/ros_ws/install/mecanumbot_bringup/share/ament_index/resource_index/package_run_dependencies/mecanumbot_bringup\n'}
+[182.137692] (mecanumbot_bringup) StdoutLine: {'line': b'-- Installing: /home/ros/ros_ws/install/mecanumbot_bringup/share/ament_index/resource_index/parent_prefix_path/mecanumbot_bringup\n'}
+[182.138835] (mecanumbot_bringup) StdoutLine: {'line': b'-- Installing: /home/ros/ros_ws/install/mecanumbot_bringup/share/mecanumbot_bringup/environment/ament_prefix_path.sh\n'}
+[182.139773] (mecanumbot_bringup) StdoutLine: {'line': b'-- Installing: /home/ros/ros_ws/install/mecanumbot_bringup/share/mecanumbot_bringup/environment/ament_prefix_path.dsv\n'}
+[182.140611] (mecanumbot_bringup) StdoutLine: {'line': b'-- Installing: /home/ros/ros_ws/install/mecanumbot_bringup/share/mecanumbot_bringup/environment/path.sh\n'}
+[182.141512] (mecanumbot_bringup) StdoutLine: {'line': b'-- Installing: /home/ros/ros_ws/install/mecanumbot_bringup/share/mecanumbot_bringup/environment/path.dsv\n'}
+[182.142518] (mecanumbot_bringup) StdoutLine: {'line': b'-- Installing: /home/ros/ros_ws/install/mecanumbot_bringup/share/mecanumbot_bringup/local_setup.bash\n'}
+[182.143561] (mecanumbot_bringup) StdoutLine: {'line': b'-- Installing: /home/ros/ros_ws/install/mecanumbot_bringup/share/mecanumbot_bringup/local_setup.sh\n'}
+[182.144360] (mecanumbot_bringup) StdoutLine: {'line': b'-- Installing: /home/ros/ros_ws/install/mecanumbot_bringup/share/mecanumbot_bringup/local_setup.zsh\n'}
+[182.145103] (mecanumbot_bringup) StdoutLine: {'line': b'-- Installing: /home/ros/ros_ws/install/mecanumbot_bringup/share/mecanumbot_bringup/local_setup.dsv\n'}
+[182.149246] (mecanumbot_bringup) StdoutLine: {'line': b'-- Installing: /home/ros/ros_ws/install/mecanumbot_bringup/share/mecanumbot_bringup/package.dsv\n'}
+[182.151404] (mecanumbot_bringup) StdoutLine: {'line': b'-- Installing: /home/ros/ros_ws/install/mecanumbot_bringup/share/ament_index/resource_index/packages/mecanumbot_bringup\n'}
+[182.151952] (mecanumbot_bringup) StdoutLine: {'line': b'-- Installing: /home/ros/ros_ws/install/mecanumbot_bringup/share/mecanumbot_bringup/cmake/mecanumbot_bringupConfig.cmake\n'}
+[182.152455] (mecanumbot_bringup) StdoutLine: {'line': b'-- Installing: /home/ros/ros_ws/install/mecanumbot_bringup/share/mecanumbot_bringup/cmake/mecanumbot_bringupConfig-version.cmake\n'}
+[182.152958] (mecanumbot_bringup) StdoutLine: {'line': b'-- Installing: /home/ros/ros_ws/install/mecanumbot_bringup/share/mecanumbot_bringup/package.xml\n'}
+[182.157329] (mecanumbot_bringup) CommandEnded: {'returncode': 0}
+[182.215285] (-) TimerEvent: {}
+[182.315098] (mecanumbot_bringup) JobEnded: {'identifier': 'mecanumbot_bringup', 'rc': 0}
+[182.317653] (-) TimerEvent: {}
+[182.318114] (-) EventReactorShutdown: {}

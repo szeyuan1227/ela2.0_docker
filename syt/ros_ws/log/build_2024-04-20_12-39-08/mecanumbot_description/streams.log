@@ -1,0 +1,31 @@
+[0.234s] Invoking command in '/home/syt/ros_ws/build/mecanumbot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/syt/ros_ws/install/mediapipe_ros2:/opt/ros/humble /usr/bin/cmake --build /home/syt/ros_ws/build/mecanumbot_description -- -j4 -l4
+[0.718s] Invoked command in '/home/syt/ros_ws/build/mecanumbot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/syt/ros_ws/install/mediapipe_ros2:/opt/ros/humble /usr/bin/cmake --build /home/syt/ros_ws/build/mecanumbot_description -- -j4 -l4
+[0.905s] Invoking command in '/home/syt/ros_ws/build/mecanumbot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/syt/ros_ws/install/mediapipe_ros2:/opt/ros/humble /usr/bin/cmake --install /home/syt/ros_ws/build/mecanumbot_description
+[0.945s] -- Install configuration: ""
+[0.949s] -- Up-to-date: /home/syt/ros_ws/install/mecanumbot_description/share/mecanumbot_description/urdf
+[0.952s] -- Up-to-date: /home/syt/ros_ws/install/mecanumbot_description/share/mecanumbot_description/urdf/mecanumbot.urdf.xacro
+[0.955s] -- Up-to-date: /home/syt/ros_ws/install/mecanumbot_description/share/mecanumbot_description/rviz
+[0.958s] -- Up-to-date: /home/syt/ros_ws/install/mecanumbot_description/share/mecanumbot_description/rviz/model.rviz
+[0.960s] -- Up-to-date: /home/syt/ros_ws/install/mecanumbot_description/share/mecanumbot_description/meshes
+[0.963s] -- Up-to-date: /home/syt/ros_ws/install/mecanumbot_description/share/mecanumbot_description/meshes/fr_wheel_link.STL
+[0.964s] -- Up-to-date: /home/syt/ros_ws/install/mecanumbot_description/share/mecanumbot_description/meshes/fl_wheel_link.STL
+[0.966s] -- Up-to-date: /home/syt/ros_ws/install/mecanumbot_description/share/mecanumbot_description/meshes/rl_wheel_link.STL
+[0.967s] -- Up-to-date: /home/syt/ros_ws/install/mecanumbot_description/share/mecanumbot_description/meshes/rr_wheel_link.STL
+[0.972s] -- Up-to-date: /home/syt/ros_ws/install/mecanumbot_description/share/mecanumbot_description/config
+[0.972s] -- Up-to-date: /home/syt/ros_ws/install/mecanumbot_description/share/mecanumbot_description/config/robot_controller_config.yaml
+[0.973s] -- Up-to-date: /home/syt/ros_ws/install/mecanumbot_description/share/ament_index/resource_index/package_run_dependencies/mecanumbot_description
+[0.974s] -- Up-to-date: /home/syt/ros_ws/install/mecanumbot_description/share/ament_index/resource_index/parent_prefix_path/mecanumbot_description
+[0.980s] -- Up-to-date: /home/syt/ros_ws/install/mecanumbot_description/share/mecanumbot_description/environment/ament_prefix_path.sh
+[0.981s] -- Up-to-date: /home/syt/ros_ws/install/mecanumbot_description/share/mecanumbot_description/environment/ament_prefix_path.dsv
+[0.990s] -- Up-to-date: /home/syt/ros_ws/install/mecanumbot_description/share/mecanumbot_description/environment/path.sh
+[0.995s] -- Up-to-date: /home/syt/ros_ws/install/mecanumbot_description/share/mecanumbot_description/environment/path.dsv
+[0.996s] -- Up-to-date: /home/syt/ros_ws/install/mecanumbot_description/share/mecanumbot_description/local_setup.bash
+[0.996s] -- Up-to-date: /home/syt/ros_ws/install/mecanumbot_description/share/mecanumbot_description/local_setup.sh
+[0.997s] -- Up-to-date: /home/syt/ros_ws/install/mecanumbot_description/share/mecanumbot_description/local_setup.zsh
+[0.998s] -- Up-to-date: /home/syt/ros_ws/install/mecanumbot_description/share/mecanumbot_description/local_setup.dsv
+[0.998s] -- Installing: /home/syt/ros_ws/install/mecanumbot_description/share/mecanumbot_description/package.dsv
+[1.036s] -- Up-to-date: /home/syt/ros_ws/install/mecanumbot_description/share/ament_index/resource_index/packages/mecanumbot_description
+[1.037s] -- Up-to-date: /home/syt/ros_ws/install/mecanumbot_description/share/mecanumbot_description/cmake/mecanumbot_descriptionConfig.cmake
+[1.038s] -- Up-to-date: /home/syt/ros_ws/install/mecanumbot_description/share/mecanumbot_description/cmake/mecanumbot_descriptionConfig-version.cmake
+[1.040s] -- Up-to-date: /home/syt/ros_ws/install/mecanumbot_description/share/mecanumbot_description/package.xml
+[1.078s] Invoked command in '/home/syt/ros_ws/build/mecanumbot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/syt/ros_ws/install/mediapipe_ros2:/opt/ros/humble /usr/bin/cmake --install /home/syt/ros_ws/build/mecanumbot_description

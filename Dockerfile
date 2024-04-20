@@ -19,6 +19,9 @@ RUN apt-get update \
     ros-humble-rqt* \
     # pip
     python3-pip \
+    python3-serial \
+    ros-${ROS_DISTRO}-usb-cam \
+    mpv \
     # Clear apt lists
     # Good practice to always clear apt lists after installing
     # packages or run apt-get update (prevent conflicting packages).
@@ -33,6 +36,7 @@ RUN groupadd --gid $USER_GID $USERNAME \
   && useradd -s /bin/bash --uid $USER_UID --gid $USER_GID -m $USERNAME \
   && mkdir /home/$USERNAME/.config && chown $USER_UID:$USER_GID /home/${USERNAME}/.config
 
+RUN usermod -aG dialout ${USERNAME}
 # Set up sudo access for the user
 RUN apt-get update \
   && apt-get install -y sudo \

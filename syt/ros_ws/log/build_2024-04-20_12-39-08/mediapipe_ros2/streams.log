@@ -1,0 +1,53 @@
+[5.731s] Invoking command in '/home/syt/ros_ws/src/mediapipe_ros2': PYTHONPATH=/home/syt/ros_ws/build/mediapipe_ros2/prefix_override:/home/syt/ros_ws/install/mediapipe_ros2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/mediapipe_ros2 build --build-base /home/syt/ros_ws/build/mediapipe_ros2/build install --record /home/syt/ros_ws/build/mediapipe_ros2/install.log --install-scripts $base/lib/mediapipe_ros2 --single-version-externally-managed
+[6.387s] /usr/local/lib/python3.10/dist-packages/setuptools/dist.py:755: SetuptoolsDeprecationWarning: Invalid dash-separated options
+[6.387s] !!
+[6.388s] 
+[6.388s]         ********************************************************************************
+[6.389s]         Usage of dash-separated 'script-dir' will not be supported in future
+[6.389s]         versions. Please use the underscore name 'script_dir' instead.
+[6.389s] 
+[6.390s]         This deprecation is overdue, please update your project and remove deprecated
+[6.390s]         calls to avoid build errors in the future.
+[6.390s] 
+[6.391s]         See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.
+[6.391s]         ********************************************************************************
+[6.392s] 
+[6.392s] !!
+[6.393s]   opt = self.warn_dash_deprecation(opt, section)
+[6.894s] running egg_info
+[6.977s] writing ../../build/mediapipe_ros2/mediapipe_ros2.egg-info/PKG-INFO
+[6.978s] writing dependency_links to ../../build/mediapipe_ros2/mediapipe_ros2.egg-info/dependency_links.txt
+[6.979s] writing entry points to ../../build/mediapipe_ros2/mediapipe_ros2.egg-info/entry_points.txt
+[6.980s] writing requirements to ../../build/mediapipe_ros2/mediapipe_ros2.egg-info/requires.txt
+[6.980s] writing top-level names to ../../build/mediapipe_ros2/mediapipe_ros2.egg-info/top_level.txt
+[7.147s] reading manifest file '../../build/mediapipe_ros2/mediapipe_ros2.egg-info/SOURCES.txt'
+[7.152s] writing manifest file '../../build/mediapipe_ros2/mediapipe_ros2.egg-info/SOURCES.txt'
+[7.152s] running build
+[7.153s] running build_py
+[7.155s] copying mediapipe_ros2/gesture_to_cmdvel.py -> /home/syt/ros_ws/build/mediapipe_ros2/build/lib/mediapipe_ros2
+[7.156s] running install
+[7.158s] /usr/local/lib/python3.10/dist-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[7.158s] !!
+[7.159s] 
+[7.159s]         ********************************************************************************
+[7.159s]         Please avoid running ``setup.py`` directly.
+[7.160s]         Instead, use pypa/build, pypa/installer, pypa/build or
+[7.160s]         other standards-based tools.
+[7.161s] 
+[7.161s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[7.162s]         ********************************************************************************
+[7.162s] 
+[7.162s] !!
+[7.163s]   self.initialize_options()
+[7.186s] running install_lib
+[7.271s] copying /home/syt/ros_ws/build/mediapipe_ros2/build/lib/mediapipe_ros2/gesture_to_cmdvel.py -> /home/syt/ros_ws/install/mediapipe_ros2/lib/python3.10/site-packages/mediapipe_ros2
+[7.274s] byte-compiling /home/syt/ros_ws/install/mediapipe_ros2/lib/python3.10/site-packages/mediapipe_ros2/gesture_to_cmdvel.py to gesture_to_cmdvel.cpython-310.pyc
+[7.277s] running install_data
+[7.361s] running install_egg_info
+[7.448s] removing '/home/syt/ros_ws/install/mediapipe_ros2/lib/python3.10/site-packages/mediapipe_ros2-0.0.0-py3.10.egg-info' (and everything under it)
+[7.450s] Copying ../../build/mediapipe_ros2/mediapipe_ros2.egg-info to /home/syt/ros_ws/install/mediapipe_ros2/lib/python3.10/site-packages/mediapipe_ros2-0.0.0-py3.10.egg-info
+[7.456s] running install_scripts
+[8.394s] Installing gesture_to_cmdvel script to /home/syt/ros_ws/install/mediapipe_ros2/lib/mediapipe_ros2
+[8.395s] Installing hands script to /home/syt/ros_ws/install/mediapipe_ros2/lib/mediapipe_ros2
+[8.397s] writing list of installed files to '/home/syt/ros_ws/build/mediapipe_ros2/install.log'
+[8.579s] Invoked command in '/home/syt/ros_ws/src/mediapipe_ros2' returned '0': PYTHONPATH=/home/syt/ros_ws/build/mediapipe_ros2/prefix_override:/home/syt/ros_ws/install/mediapipe_ros2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/mediapipe_ros2 build --build-base /home/syt/ros_ws/build/mediapipe_ros2/build install --record /home/syt/ros_ws/build/mediapipe_ros2/install.log --install-scripts $base/lib/mediapipe_ros2 --single-version-externally-managed

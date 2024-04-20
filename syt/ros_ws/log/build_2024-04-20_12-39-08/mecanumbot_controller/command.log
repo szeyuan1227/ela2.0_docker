@@ -1,0 +1,4 @@
+Invoking command in '/home/syt/ros_ws/build/mecanumbot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/syt/ros_ws/install/mediapipe_ros2:/opt/ros/humble /usr/bin/cmake --build /home/syt/ros_ws/build/mecanumbot_controller -- -j4 -l4
+Invoked command in '/home/syt/ros_ws/build/mecanumbot_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/syt/ros_ws/install/mediapipe_ros2:/opt/ros/humble /usr/bin/cmake --build /home/syt/ros_ws/build/mecanumbot_controller -- -j4 -l4
+Invoking command in '/home/syt/ros_ws/build/mecanumbot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/syt/ros_ws/install/mediapipe_ros2:/opt/ros/humble /usr/bin/cmake --install /home/syt/ros_ws/build/mecanumbot_controller
+Invoked command in '/home/syt/ros_ws/build/mecanumbot_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/syt/ros_ws/install/mediapipe_ros2:/opt/ros/humble /usr/bin/cmake --install /home/syt/ros_ws/build/mecanumbot_controller

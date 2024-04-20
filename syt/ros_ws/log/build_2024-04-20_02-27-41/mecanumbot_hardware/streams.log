@@ -1,0 +1,113 @@
+[0.042s] Invoking command in '/home/syt/ros_ws/build/mecanumbot_hardware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/syt/ros_ws/src/ros2-mecanum-bot/mecanumbot_hardware -DCMAKE_INSTALL_PREFIX=/home/syt/ros_ws/install/mecanumbot_hardware
+[0.262s] -- The C compiler identification is GNU 11.3.0
+[0.483s] -- The CXX compiler identification is GNU 11.3.0
+[0.509s] -- Detecting C compiler ABI info
+[0.767s] -- Detecting C compiler ABI info - done
+[0.802s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.803s] -- Detecting C compile features
+[0.804s] -- Detecting C compile features - done
+[0.817s] -- Detecting CXX compiler ABI info
+[1.113s] -- Detecting CXX compiler ABI info - done
+[1.148s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.149s] -- Detecting CXX compile features
+[1.151s] -- Detecting CXX compile features - done
+[1.170s] -- Found ament_cmake: 1.3.4 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.094s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[3.649s] -- Found hardware_interface: 2.26.0 (/opt/ros/humble/share/hardware_interface/cmake)
+[3.922s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.960s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[4.017s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[4.099s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.216s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[7.668s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[7.687s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[8.184s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[8.367s] -- Found FastRTPS: /opt/ros/humble/include  
+[8.684s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[8.752s] -- Looking for pthread.h
+[9.046s] -- Looking for pthread.h - found
+[9.047s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[9.323s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[9.327s] -- Found Threads: TRUE  
+[10.762s] -- Configuring done
+[10.882s] -- Generating done
+[10.889s] -- Build files have been written to: /home/syt/ros_ws/build/mecanumbot_hardware
+[10.948s] Invoked command in '/home/syt/ros_ws/build/mecanumbot_hardware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/syt/ros_ws/src/ros2-mecanum-bot/mecanumbot_hardware -DCMAKE_INSTALL_PREFIX=/home/syt/ros_ws/install/mecanumbot_hardware
+[10.949s] Invoking command in '/home/syt/ros_ws/build/mecanumbot_hardware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/syt/ros_ws/build/mecanumbot_hardware -- -j4 -l4
+[11.134s] [ 66%] [32mBuilding CXX object CMakeFiles/mecanumbot_hardware.dir/src/mecanumbot_hardware.cpp.o[0m
+[11.134s] [ 66%] [32mBuilding CXX object CMakeFiles/mecanumbot_hardware.dir/src/mecanumbot_serial_port.cpp.o[0m
+[23.960s] [01m[K/home/syt/ros_ws/src/ros2-mecanum-bot/mecanumbot_hardware/src/mecanumbot_hardware.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::CallbackReturn debict::mecanumbot::hardware::MecanumbotHardware::on_activate(const rclcpp_lifecycle::State&)[m[K’:
+[23.960s] [01m[K/home/syt/ros_ws/src/ros2-mecanum-bot/mecanumbot_hardware/src/mecanumbot_hardware.cpp:110:100:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kprevious_state[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[23.961s]   110 | re::on_activate([01;35m[Kconst rclcpp_lifecycle::State & previous_state[m[K)
+[23.961s]       |                 [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[23.962s] 
+[23.966s] [01m[K/home/syt/ros_ws/src/ros2-mecanum-bot/mecanumbot_hardware/src/mecanumbot_hardware.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::CallbackReturn debict::mecanumbot::hardware::MecanumbotHardware::on_deactivate(const rclcpp_lifecycle::State&)[m[K’:
+[23.967s] [01m[K/home/syt/ros_ws/src/ros2-mecanum-bot/mecanumbot_hardware/src/mecanumbot_hardware.cpp:137:102:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kprevious_state[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[23.967s]   137 | ::on_deactivate([01;35m[Kconst rclcpp_lifecycle::State & previous_state[m[K)
+[23.968s]       |                 [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[23.969s] 
+[23.985s] [01m[K/home/syt/ros_ws/src/ros2-mecanum-bot/mecanumbot_hardware/src/mecanumbot_hardware.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type debict::mecanumbot::hardware::MecanumbotHardware::read(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[23.985s] [01m[K/home/syt/ros_ws/src/ros2-mecanum-bot/mecanumbot_hardware/src/mecanumbot_hardware.cpp:150:79:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktime[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[23.986s]   150 | e MecanumbotHardware::read([01;35m[Kconst rclcpp::Time & time[m[K, const rclcpp::Duration & period)
+[23.986s]       |                            [01;35m[K~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[23.987s] 
+[23.987s] [01m[K/home/syt/ros_ws/src/ros2-mecanum-bot/mecanumbot_hardware/src/mecanumbot_hardware.cpp:150:110:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kperiod[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[23.987s]   150 | const rclcpp::Time & time, [01;35m[Kconst rclcpp::Duration & period[m[K)
+[23.988s]       |                            [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[23.988s] 
+[23.996s] [01m[K/home/syt/ros_ws/src/ros2-mecanum-bot/mecanumbot_hardware/src/mecanumbot_hardware.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type debict::mecanumbot::hardware::MecanumbotHardware::write(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[23.996s] [01m[K/home/syt/ros_ws/src/ros2-mecanum-bot/mecanumbot_hardware/src/mecanumbot_hardware.cpp:181:80:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktime[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[23.997s]   181 |  MecanumbotHardware::write([01;35m[Kconst rclcpp::Time & time[m[K, const rclcpp::Duration & period)
+[23.997s]       |                            [01;35m[K~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[23.998s] 
+[23.998s] [01m[K/home/syt/ros_ws/src/ros2-mecanum-bot/mecanumbot_hardware/src/mecanumbot_hardware.cpp:181:111:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kperiod[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[23.999s]   181 | const rclcpp::Time & time, [01;35m[Kconst rclcpp::Duration & period[m[K)
+[24.000s]       |                            [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[24.000s] 
+[25.940s] [01m[K/home/syt/ros_ws/src/ros2-mecanum-bot/mecanumbot_hardware/src/mecanumbot_serial_port.cpp:[m[K In member function ‘[01m[Kdebict::mecanumbot::hardware::return_type debict::mecanumbot::hardware::MecanumbotSerialPort::read_frames(std::vector<debict::mecanumbot::hardware::SerialHdlcFrame>&)[m[K’:
+[25.941s] [01m[K/home/syt/ros_ws/src/ros2-mecanum-bot/mecanumbot_hardware/src/mecanumbot_serial_port.cpp:94:37:[m[K [01;35m[Kwarning: [m[K‘[01m[Kssize_t read(int, void*, size_t)[m[K’ writing 256 bytes into a region of size 200 overflows the destination [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wstringop-overflow=-Wstringop-overflow=]8;;[m[K]
+[25.942s]    94 |     const ssize_t num_bytes = [01;35m[K::read(serial_port_, rx_buffer_, 256)[m[K;
+[25.943s]       |                               [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[25.944s] In file included from [01m[K/home/syt/ros_ws/src/ros2-mecanum-bot/mecanumbot_hardware/src/mecanumbot_serial_port.cpp:10[m[K:
+[25.945s] [01m[K/home/syt/ros_ws/src/ros2-mecanum-bot/mecanumbot_hardware/include/mecanumbot_hardware/mecanumbot_serial_port.hpp:48:25:[m[K [01;36m[Knote: [m[Kdestination object ‘[01m[Kdebict::mecanumbot::hardware::MecanumbotSerialPort::rx_buffer_[m[K’ of size 200
+[25.945s]    48 |                 uint8_t [01;36m[Krx_buffer_[m[K[MECANUMBOT_SERIAL_BUFFER_MAX_SIZE];
+[25.946s]       |                         [01;36m[K^~~~~~~~~~[m[K
+[25.948s] In file included from [01m[K/home/syt/ros_ws/src/ros2-mecanum-bot/mecanumbot_hardware/src/mecanumbot_serial_port.cpp:7[m[K:
+[25.949s] [01m[K/usr/include/unistd.h:371:16:[m[K [01;36m[Knote: [m[Kin a call to function ‘[01m[Kssize_t read(int, void*, size_t)[m[K’ declared with attribute ‘[01m[Kaccess (write_only, 2, 3)[m[K’
+[25.950s]   371 | extern ssize_t [01;36m[Kread[m[K (int __fd, void *__buf, size_t __nbytes) __wur
+[25.951s]       |                [01;36m[K^~~~[m[K
+[29.814s] [100%] [32m[1mLinking CXX shared library libmecanumbot_hardware.so[0m
+[30.701s] [100%] Built target mecanumbot_hardware
+[30.750s] Invoked command in '/home/syt/ros_ws/build/mecanumbot_hardware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/syt/ros_ws/build/mecanumbot_hardware -- -j4 -l4
+[30.850s] Invoking command in '/home/syt/ros_ws/build/mecanumbot_hardware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/syt/ros_ws/build/mecanumbot_hardware
+[30.877s] -- Install configuration: ""
+[30.878s] -- Installing: /home/syt/ros_ws/install/mecanumbot_hardware/share/mecanumbot_hardware/mecanumbot_hardware.xml
+[30.879s] -- Installing: /home/syt/ros_ws/install/mecanumbot_hardware/lib/libmecanumbot_hardware.so
+[30.884s] -- Set runtime path of "/home/syt/ros_ws/install/mecanumbot_hardware/lib/libmecanumbot_hardware.so" to ""
+[30.884s] -- Installing: /home/syt/ros_ws/install/mecanumbot_hardware/include/include
+[30.885s] -- Installing: /home/syt/ros_ws/install/mecanumbot_hardware/include/include/mecanumbot_hardware
+[30.885s] -- Installing: /home/syt/ros_ws/install/mecanumbot_hardware/include/include/mecanumbot_hardware/mecanumbot_serial_port.hpp
+[30.885s] -- Installing: /home/syt/ros_ws/install/mecanumbot_hardware/include/include/mecanumbot_hardware/mecanumbot_hardware.hpp
+[30.886s] -- Installing: /home/syt/ros_ws/install/mecanumbot_hardware/include/include/mecanumbot_hardware/mecanumbot_hardware_compiler.h
+[30.886s] -- Installing: /home/syt/ros_ws/install/mecanumbot_hardware/share/mecanumbot_hardware/environment/library_path.sh
+[30.887s] -- Installing: /home/syt/ros_ws/install/mecanumbot_hardware/share/mecanumbot_hardware/environment/library_path.dsv
+[30.888s] -- Installing: /home/syt/ros_ws/install/mecanumbot_hardware/share/ament_index/resource_index/package_run_dependencies/mecanumbot_hardware
+[30.889s] -- Installing: /home/syt/ros_ws/install/mecanumbot_hardware/share/ament_index/resource_index/parent_prefix_path/mecanumbot_hardware
+[30.890s] -- Installing: /home/syt/ros_ws/install/mecanumbot_hardware/share/mecanumbot_hardware/environment/ament_prefix_path.sh
+[30.891s] -- Installing: /home/syt/ros_ws/install/mecanumbot_hardware/share/mecanumbot_hardware/environment/ament_prefix_path.dsv
+[30.892s] -- Installing: /home/syt/ros_ws/install/mecanumbot_hardware/share/mecanumbot_hardware/environment/path.sh
+[30.893s] -- Installing: /home/syt/ros_ws/install/mecanumbot_hardware/share/mecanumbot_hardware/environment/path.dsv
+[30.894s] -- Installing: /home/syt/ros_ws/install/mecanumbot_hardware/share/mecanumbot_hardware/local_setup.bash
+[30.895s] -- Installing: /home/syt/ros_ws/install/mecanumbot_hardware/share/mecanumbot_hardware/local_setup.sh
+[30.895s] -- Installing: /home/syt/ros_ws/install/mecanumbot_hardware/share/mecanumbot_hardware/local_setup.zsh
+[30.896s] -- Installing: /home/syt/ros_ws/install/mecanumbot_hardware/share/mecanumbot_hardware/local_setup.dsv
+[30.896s] -- Installing: /home/syt/ros_ws/install/mecanumbot_hardware/share/mecanumbot_hardware/package.dsv
+[30.897s] -- Installing: /home/syt/ros_ws/install/mecanumbot_hardware/share/ament_index/resource_index/packages/mecanumbot_hardware
+[30.898s] -- Installing: /home/syt/ros_ws/install/mecanumbot_hardware/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/mecanumbot_hardware
+[30.898s] -- Installing: /home/syt/ros_ws/install/mecanumbot_hardware/share/mecanumbot_hardware/cmake/ament_cmake_export_include_directories-extras.cmake
+[30.899s] -- Installing: /home/syt/ros_ws/install/mecanumbot_hardware/share/mecanumbot_hardware/cmake/ament_cmake_export_libraries-extras.cmake
+[30.900s] -- Installing: /home/syt/ros_ws/install/mecanumbot_hardware/share/mecanumbot_hardware/cmake/ament_cmake_export_dependencies-extras.cmake
+[30.900s] -- Installing: /home/syt/ros_ws/install/mecanumbot_hardware/share/mecanumbot_hardware/cmake/mecanumbot_hardwareConfig.cmake
+[30.901s] -- Installing: /home/syt/ros_ws/install/mecanumbot_hardware/share/mecanumbot_hardware/cmake/mecanumbot_hardwareConfig-version.cmake
+[30.902s] -- Installing: /home/syt/ros_ws/install/mecanumbot_hardware/share/mecanumbot_hardware/package.xml
+[30.914s] Invoked command in '/home/syt/ros_ws/build/mecanumbot_hardware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/syt/ros_ws/build/mecanumbot_hardware

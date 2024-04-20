@@ -1,0 +1,77 @@
+[5.331s] Invoking command in '/home/syt/ros_ws/src/mediapipe_ros2': PYTHONPATH=/home/syt/ros_ws/build/mediapipe_ros2/prefix_override:/home/syt/ros_ws/install/mediapipe_ros2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/mediapipe_ros2 build --build-base /home/syt/ros_ws/build/mediapipe_ros2/build install --record /home/syt/ros_ws/build/mediapipe_ros2/install.log --install-scripts $base/lib/mediapipe_ros2 --single-version-externally-managed
+[5.984s] /usr/local/lib/python3.10/dist-packages/setuptools/dist.py:755: SetuptoolsDeprecationWarning: Invalid dash-separated options
+[5.984s] !!
+[5.985s] 
+[5.985s]         ********************************************************************************
+[5.985s]         Usage of dash-separated 'script-dir' will not be supported in future
+[5.986s]         versions. Please use the underscore name 'script_dir' instead.
+[5.986s] 
+[5.986s]         This deprecation is overdue, please update your project and remove deprecated
+[5.987s]         calls to avoid build errors in the future.
+[5.987s] 
+[5.987s]         See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.
+[5.988s]         ********************************************************************************
+[5.988s] 
+[5.988s] !!
+[5.989s]   opt = self.warn_dash_deprecation(opt, section)
+[6.497s] running egg_info
+[6.499s] creating ../../build/mediapipe_ros2/mediapipe_ros2.egg-info
+[6.586s] writing ../../build/mediapipe_ros2/mediapipe_ros2.egg-info/PKG-INFO
+[6.587s] writing dependency_links to ../../build/mediapipe_ros2/mediapipe_ros2.egg-info/dependency_links.txt
+[6.588s] writing entry points to ../../build/mediapipe_ros2/mediapipe_ros2.egg-info/entry_points.txt
+[6.588s] writing requirements to ../../build/mediapipe_ros2/mediapipe_ros2.egg-info/requires.txt
+[6.589s] writing top-level names to ../../build/mediapipe_ros2/mediapipe_ros2.egg-info/top_level.txt
+[6.589s] writing manifest file '../../build/mediapipe_ros2/mediapipe_ros2.egg-info/SOURCES.txt'
+[6.750s] reading manifest file '../../build/mediapipe_ros2/mediapipe_ros2.egg-info/SOURCES.txt'
+[6.754s] writing manifest file '../../build/mediapipe_ros2/mediapipe_ros2.egg-info/SOURCES.txt'
+[6.755s] running build
+[6.756s] running build_py
+[6.757s] creating /home/syt/ros_ws/build/mediapipe_ros2/build
+[6.757s] creating /home/syt/ros_ws/build/mediapipe_ros2/build/lib
+[6.757s] creating /home/syt/ros_ws/build/mediapipe_ros2/build/lib/mediapipe_ros2
+[6.758s] copying mediapipe_ros2/__init__.py -> /home/syt/ros_ws/build/mediapipe_ros2/build/lib/mediapipe_ros2
+[6.758s] copying mediapipe_ros2/hands.py -> /home/syt/ros_ws/build/mediapipe_ros2/build/lib/mediapipe_ros2
+[6.759s] copying mediapipe_ros2/gesture_to_cmdvel.py -> /home/syt/ros_ws/build/mediapipe_ros2/build/lib/mediapipe_ros2
+[6.760s] running install
+[6.761s] /usr/local/lib/python3.10/dist-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[6.762s] !!
+[6.762s] 
+[6.763s]         ********************************************************************************
+[6.763s]         Please avoid running ``setup.py`` directly.
+[6.764s]         Instead, use pypa/build, pypa/installer, pypa/build or
+[6.764s]         other standards-based tools.
+[6.765s] 
+[6.765s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[6.766s]         ********************************************************************************
+[6.766s] 
+[6.767s] !!
+[6.767s]   self.initialize_options()
+[6.793s] running install_lib
+[6.879s] creating /home/syt/ros_ws/install/mediapipe_ros2/lib/python3.10/site-packages/mediapipe_ros2
+[6.880s] copying /home/syt/ros_ws/build/mediapipe_ros2/build/lib/mediapipe_ros2/__init__.py -> /home/syt/ros_ws/install/mediapipe_ros2/lib/python3.10/site-packages/mediapipe_ros2
+[6.880s] copying /home/syt/ros_ws/build/mediapipe_ros2/build/lib/mediapipe_ros2/hands.py -> /home/syt/ros_ws/install/mediapipe_ros2/lib/python3.10/site-packages/mediapipe_ros2
+[6.881s] copying /home/syt/ros_ws/build/mediapipe_ros2/build/lib/mediapipe_ros2/gesture_to_cmdvel.py -> /home/syt/ros_ws/install/mediapipe_ros2/lib/python3.10/site-packages/mediapipe_ros2
+[6.886s] byte-compiling /home/syt/ros_ws/install/mediapipe_ros2/lib/python3.10/site-packages/mediapipe_ros2/__init__.py to __init__.cpython-310.pyc
+[6.887s] byte-compiling /home/syt/ros_ws/install/mediapipe_ros2/lib/python3.10/site-packages/mediapipe_ros2/hands.py to hands.cpython-310.pyc
+[6.892s] byte-compiling /home/syt/ros_ws/install/mediapipe_ros2/lib/python3.10/site-packages/mediapipe_ros2/gesture_to_cmdvel.py to gesture_to_cmdvel.cpython-310.pyc
+[6.894s] running install_data
+[6.972s] copying package.xml -> /home/syt/ros_ws/install/mediapipe_ros2/share/mediapipe_ros2
+[6.973s] copying ./launch/hand_gesture.launch.py -> /home/syt/ros_ws/install/mediapipe_ros2/share/mediapipe_ros2
+[6.974s] creating /home/syt/ros_ws/install/mediapipe_ros2/share/mediapipe_ros2/resource
+[6.975s] copying resource/left.png -> /home/syt/ros_ws/install/mediapipe_ros2/share/mediapipe_ros2/resource
+[6.977s] copying resource/right.png -> /home/syt/ros_ws/install/mediapipe_ros2/share/mediapipe_ros2/resource
+[6.978s] copying resource/front.png -> /home/syt/ros_ws/install/mediapipe_ros2/share/mediapipe_ros2/resource
+[6.980s] copying resource/back.png -> /home/syt/ros_ws/install/mediapipe_ros2/share/mediapipe_ros2/resource
+[6.981s] copying resource/mediapipe_ros2 -> /home/syt/ros_ws/install/mediapipe_ros2/share/mediapipe_ros2/resource
+[6.982s] copying resource/stop.png -> /home/syt/ros_ws/install/mediapipe_ros2/share/mediapipe_ros2/resource
+[6.983s] creating /home/syt/ros_ws/install/mediapipe_ros2/share/mediapipe_ros2/keypoint_classifier
+[6.984s] copying keypoint_classifier/keypoint_classifier_label.csv -> /home/syt/ros_ws/install/mediapipe_ros2/share/mediapipe_ros2/keypoint_classifier
+[6.984s] copying keypoint_classifier/keypoint_classifier.tflite -> /home/syt/ros_ws/install/mediapipe_ros2/share/mediapipe_ros2/keypoint_classifier
+[6.985s] copying keypoint_classifier/keypoint_classifier.py -> /home/syt/ros_ws/install/mediapipe_ros2/share/mediapipe_ros2/keypoint_classifier
+[6.986s] running install_egg_info
+[7.072s] Copying ../../build/mediapipe_ros2/mediapipe_ros2.egg-info to /home/syt/ros_ws/install/mediapipe_ros2/lib/python3.10/site-packages/mediapipe_ros2-0.0.0-py3.10.egg-info
+[7.077s] running install_scripts
+[8.065s] Installing gesture_to_cmdvel script to /home/syt/ros_ws/install/mediapipe_ros2/lib/mediapipe_ros2
+[8.066s] Installing hands script to /home/syt/ros_ws/install/mediapipe_ros2/lib/mediapipe_ros2
+[8.068s] writing list of installed files to '/home/syt/ros_ws/build/mediapipe_ros2/install.log'
+[8.235s] Invoked command in '/home/syt/ros_ws/src/mediapipe_ros2' returned '0': PYTHONPATH=/home/syt/ros_ws/build/mediapipe_ros2/prefix_override:/home/syt/ros_ws/install/mediapipe_ros2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/mediapipe_ros2 build --build-base /home/syt/ros_ws/build/mediapipe_ros2/build install --record /home/syt/ros_ws/build/mediapipe_ros2/install.log --install-scripts $base/lib/mediapipe_ros2 --single-version-externally-managed
